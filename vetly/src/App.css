@@ -1,12 +1,79 @@
+body {
+  width:100%; 
+  display:inline-block;
+  margin: 0 auto;
+  padding: 0;
+  font-family: sans-serif;
+}
 .container{
-  
-
+  margin:0 auto;
+  width:100%;
 }
 
 .nav{
-
+  margin: 0% auto;
+  overflow: hidden;
+  background-color: #000;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
+.nav a{
+  float: right;
+  display: block;
+  color: #fff;
+  background-color:#000;
+  text-align: center;
+  padding:2% 2%;
+  text-decoration: none;
+  font-size: 17px;
+}
+a:hover{
+  color:#000;
+  background-color:#fff;
+}
+.start{
+  margin-top:7%;
+  border:2px solid black;
+  width:100%;
+}
+.sign{
+  margin-top:2%;
+border:2px solid black;
+margin-top:5%;
+width:80%;
+}
+.signup{
 
-.firstslide{
-
+  float:left;
+  width:45%;
+}
+.signin{
+  float:left;
+  width:45%;
+}
+.info{
+  margin:0 auto;
+  margin-top:2%;
+  border:2px solid black;
+  float:left;
+  width:100%;
+}
+.vets{
+  margin-top:2%;
+  border:2px solid black;
+  float:left;
+  width:100%;
+}
+.faq{
+  margin-top:2%;
+  border:2px solid black;
+  float:left;
+  width:100%;
+}
+.footer{
+  margin-top:2%;
+  border:2px solid black;
+  float:left;
+  width:100%;
 }
