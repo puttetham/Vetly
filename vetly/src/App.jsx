@@ -65,11 +65,34 @@ class App extends Component {
             </div>
 
             <div className="vets">
-                <style>
-                </style>
                 <center>
                 <h1>Vet doctors</h1>  
-                </center>             
+                </center>  
+
+            <div className="MMMM">
+
+                <div id="malory">
+                <h2>Malory</h2>
+                <img src="glengoolie.png" />
+                </div>
+
+                <div id="sterling">
+                <h2>Sterling</h2>
+                <img src="glengoolie.png" />
+                </div>  
+
+                <div id="lana">
+                <h2>Lana</h2>
+                <img src="glengoolie.png" />
+                </div>
+
+                <div id="krieger">
+                <h2>Krieger</h2>
+                <img src="glengoolie.png" />
+                </div>
+            </div>
+
+
             </div>
             <div className="faq">
             <h1><a href="#faq">test</a></h1>
