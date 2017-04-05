@@ -7,11 +7,11 @@ class App extends Component {
     return (
         <div>
         <div className="nav">
-            <a href="#container">start</a>
-            <a href="#">Registrering</a>
-            <a href="#">Info</a>
-            <a href="#">Vets</a>
             <a href="#faq">F.a.Q</a>
+            <a href="#vets">Registrering</a>
+            <a href="#info">Info</a>
+            <a href="#sign">Vets</a>
+            <a href="#start">Start</a>
         </div>
         <div className="container">
             
@@ -42,7 +42,26 @@ class App extends Component {
             </div>
 
             <div className="info">
-                <h1>How it works </h1>
+                <center><h1>Att boka möte är lika lätt som 1 2 3</h1></center>
+                <div className="stage1">
+                    <h1>Steg 1 </h1>
+                </div>
+                <div className="arrow1">
+                    <h1> -></h1>
+                </div>
+                <div className="stage2">
+                    <h1>Steg 2</h1>
+                </div>
+                <div className="arrow2">
+                    <h1> -></h1>
+                </div>
+                <div className="stage3">
+                    <h1>Steg 3</h1>
+                </div>
+
+
+                
+                
             </div>
 
             <div className="vets">
