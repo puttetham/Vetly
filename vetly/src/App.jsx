@@ -12,7 +12,7 @@ class App extends Component {
             <a href="#">Info</a>
             <a href="#">Vets</a>
             <a href="#faq">F.a.Q</a>
-            </div>
+        </div>
         <div className="container">
             
             <div className="start">
@@ -44,6 +44,7 @@ class App extends Component {
             <div className="info">
                 <h1>How it works </h1>
             </div>
+
             <div className="vets">
                 <h1>Vet doctors</h1>
             </div>
@@ -53,7 +54,7 @@ class App extends Component {
 
             </div>
             <div className="footer">
-                <h1>copyright Etc etc</h1>
+                <h1>Footer</h1>
             </div>
         </div>
         </div>

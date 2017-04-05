@@ -33,15 +33,16 @@ a:hover{
   background-color:#fff;
 }
 .start{
-  margin-top:7%;
+  width:100vw; 
+  height: 100vh;
+  margin-top:1;
   border:2px solid black;
-  width:100%;
+   
 }
 .sign{
-  margin-top:2%;
-border:2px solid black;
-margin-top:5%;
-width:80%;
+  border:2px solid black;
+  width:100vw; 
+  height: 100vh;
 }
 .signup{
 
@@ -54,26 +55,23 @@ width:80%;
 }
 .info{
   margin:0 auto;
-  margin-top:2%;
   border:2px solid black;
   float:left;
-  width:100%;
+  width:100vw; 
+  height: 100vh;
 }
 .vets{
-  margin-top:2%;
   border:2px solid black;
   float:left;
-  width:100%;
-}
+  width:100vw; 
+  height: 100vh;}
 .faq{
-  margin-top:2%;
   border:2px solid black;
   float:left;
-  width:100%;
-}
+  width:100vw; 
+  height: 100vh;}
 .footer{
-  margin-top:2%;
   border:2px solid black;
   float:left;
-  width:100%;
-}
+width:100vw; 
+  height: 50vh;}
