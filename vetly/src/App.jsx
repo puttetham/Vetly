@@ -13,15 +13,18 @@ class App extends Component {
             <a href="#start">Start</a>
         </div>
         <div className="container">
-            
+        {/*All code except the fixed nav goes here!*/}
             <div className="start">
-            <h1>info info info</h1>
-            <h1>info info info</h1>
-            <h1>info info info</h1>
+                <h1>info info info</h1>
+                <h1>info info info</h1>
+                <h1>info info info</h1>
+                
             </div>
+                <hr/>
+            {/*Login / Registration !*/}
             <div className="sign">
                 <div className="signup">
-                <h1>Sign Up</h1>
+                    <h1>Sign Up</h1>
                     <form>
                     <input type="name" placeholder="name"/>
                     <input type="name" placeholder="name"/>
@@ -39,7 +42,8 @@ class App extends Component {
                     </form>
                 </div>
             </div>
-
+            <hr/>
+            {/*General info regarding the process*/}
             <div className="info">
                 <center><h1>Att boka möte är lika lätt som 1 2 3</h1></center>
                 <div className="stage1">
@@ -57,12 +61,9 @@ class App extends Component {
                 <div className="stage3">
                     <h1>Steg 3</h1>
                 </div>
-
-
-                
-                
             </div>
-
+            <hr/>
+            {/*A page about the Vets*/}
             <div className="vets">
                 <center>
                 <h1>Vet doctors</h1>  
@@ -93,11 +94,14 @@ class App extends Component {
 
 
             </div>
+            <hr/>
+            {/*F.a.Q */}
             <div className="faq">
             <h1><a href="#faq">test</a></h1>
 
 
             </div>
+           {/*Footer*/}
             <div className="footer">
                 <h1>Footer</h1>
             </div>
