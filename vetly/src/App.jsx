@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 class App extends Component {
@@ -47,13 +46,13 @@ class App extends Component {
                     <h1>Steg 1 </h1>
                 </div>
                 <div className="arrow1">
-                    <h1> -></h1>
+                    <span className="glyphicon">&#xe080;</span>
                 </div>
                 <div className="stage2">
                     <h1>Steg 2</h1>
                 </div>
                 <div className="arrow2">
-                    <h1> -></h1>
+                    <span className="glyphicon">&#xe080;</span>
                 </div>
                 <div className="stage3">
                     <h1>Steg 3</h1>
