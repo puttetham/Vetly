@@ -69,7 +69,6 @@ class App extends Component {
                 <h1>Vet doctors</h1>  
                 </center>  
 
-            <div className="MMMM">
 
                 <div id="malory">
                 <h2>Malory</h2>
@@ -89,7 +88,6 @@ class App extends Component {
                 <div id="krieger">
                 <h2>Krieger</h2>
                 <img src="glengoolie.png" />
-                </div>
             </div>
 
 
