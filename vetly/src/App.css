@@ -70,17 +70,43 @@ a:hover{
 }
 
 .sign{
-    width:100vw; 
-    height: 100vh;
+  border:2px solid black;
+  width:100vw; 
+  height: 100vh;
+  background-color: #BDDBC7;
 }
 .signup{
-    float:left;
-    width:45%;
+  background-color: #90EE90;
+  float:left;
+  width:30%;
+  text-align: center;
+  border-radius: 15px;
+  margin: 10% 0 0 10%;
 }
 .signin{
-    float:left;
-    width:45%;
+  background-color: #90EE90;
+  float:right;
+  width:30%;
+  text-align: center;
+  border-radius: 15px;
+  margin: 10% 10%;
 }
+
+input {
+  background-color: #D3D3D3;
+  margin: 10px;
+  padding: 10px;
+}
+::-webkit-input-placeholder {
+  color: #000;
+}
+
+form button {
+  padding: 10px;
+  margin: 15px 0 15px 0;
+  background-color: #D3D3D3;
+}
+
 .info{
     float:left;
     width:100vw; 

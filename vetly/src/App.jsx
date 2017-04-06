@@ -42,25 +42,25 @@ class App extends Component {
                 {/*Login / Registration !*/}
                 <hr/>
                 <div className="sign">
-                    <div className="signup">
-                        <h1>Sign Up</h1>
-                        <form>
-                        <input type="name" placeholder="name"/>
-                        <input type="name" placeholder="name"/>
-                        <input type="name" placeholder="name"/>
-                        <input type="name" placeholder="name"/>
-                        </form>
-                    </div>
-                    <div className="signin">
-                        <h1>Sign in </h1>
-                        <form>
-                        <input type="name" placeholder="name"/>
-                        <input type="name" placeholder="name"/>
-                        <input type="name" placeholder="name"/>
-                        <input type="name" placeholder="name"/>
-                        </form>
-                    </div>
+                <div className="signup">
+                <h1>Registrera Dig</h1>
+                    <form>
+                    <input class="left" type="username" placeholder="Användarnamn"/><br></br>
+                    <input class="left" type="password" placeholder="Lösenord"/><br></br>
+                    <input class="left" type="password" placeholder="Bekräfta Lösenord"/><br></br>
+                    <input class="left" type="email" placeholder="E-post"/><br></br>
+                    <button class="left" type="button">Registrera</button>
+                    </form>
                 </div>
+                <div className="signin">
+                    <h1>Logga In </h1>
+                    <form>
+                    <input class="right" type="username" placeholder="Användarnamn"/><br></br>
+                    <input class="right" type="password" placeholder="Lösenord"/><br></br>
+                    <button class="right" type="button">Logga In</button>
+                    </form>
+                </div>
+            </div>
                 <hr/>
                 {/*General info regarding the process*/}
                 <div className="info">
