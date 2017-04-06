@@ -105,7 +105,7 @@ class App extends Component {
 
 
                 
-                
+                <hr/>
                 <div className="faq">
                     <h1>F.a.Q</h1>
                 </div>
