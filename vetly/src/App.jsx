@@ -11,11 +11,12 @@ class App extends Component {
     return (
         <div>
             <div className="nav">
-                <a href="#faq">F.a.Q</a>
-                <a href="#vets">Registrering</a>
-                <a href="#info">Info</a>
-                <a href="#sign">Vets</a>
-                <a href="#start">Start</a>
+                <a href="#">Logga in</a>
+                <a href="#">Registering</a>
+                <a href="#">F.a.Q</a>
+                <a href="#">Process</a>
+                <a href="#">Veterinärer</a>
+                <a href="#">Info</a>
             </div>
             {/*All code except the fixed nav goes here!*/}
                 <div className="start">
