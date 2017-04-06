@@ -162,7 +162,7 @@ form button {
   font-size: 18px;
 }
 /*bild properties för steg för steg sidan*/
-.account, .calendar, .convo{
+.account, .cal, .convo{
     border-radius:50%;
     width:10vw;
 }

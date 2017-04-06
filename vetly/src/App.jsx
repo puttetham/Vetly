@@ -5,7 +5,7 @@ import startimg from './veterinary.png';
 import startimg2 from './horse.png';
 import appstore from './app-store.png';
 import archer from './archer.jpg';
-import calendar from './calendar.jpg';
+import cal from './cal.jpg';
 import convo from './convo.jpg';
 import krieger from './krieger.jpg';
 import lana from './lana.jpg';
@@ -72,21 +72,28 @@ class App extends Component {
                 <hr/>
                 {/*General info regarding the process*/}
                 <div className="info">
-                    <center><h2>Att boka möte är lika lätt som 1 2 3</h2></center>
+                    <center><h3>Så här går processen till</h3></center>
                     <div className="row">  
                         <div className="col-md-4">
                         <img src={account} className="account" alt ="account"/>
                             <h2>Registrera dig</h2>
+                            <p>Ifall du inte redan har ett konto är det bara att registrera sig.</p>
+
                         </div>
                         <div className="col-md-4">
-                        <img src={calendar} className="calendar" alt="calendar"/>
+                        <img src={cal} className="cal" alt="cal"/>
                             <h2>Boka tid</h2>
+                            <p>När du har ett konto är det bara att gå in och hitta en tid</p>
+                            <p>som passar dig och boka.</p>
                         
                         </div>
                         <div className="col-md-4">
                         <img src={convo} className="convo" alt="convo" />
                             <h2>Videosamtal</h2>
-                        }
+                            <p>När dagen har kommit så kommer du delta i ett videosamtal</p>
+                            <p>med en av våra veterinärer. Se till att vara här i tid!</p>
+
+                        
                         </div>
                     </div>
                 
