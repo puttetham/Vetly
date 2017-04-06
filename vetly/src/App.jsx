@@ -1,6 +1,13 @@
 import React, { Component } from 'react';
 import './App.css';
+<<<<<<< HEAD
 import logo from './start_img.jpg';
+=======
+import archer from './archer.jpg';
+import malory from './malory.jpg';
+import lana from './lana.jpg';
+import krieger from './krieger.jpg';
+>>>>>>> 9044dca788fa5b3ad08046fdcc6298a31407e096
 
 class App extends Component {
   render() {
@@ -14,8 +21,9 @@ class App extends Component {
             <a href="#start">Start</a>
         </div>
         <div className="container">
-            
+        {/*All code except the fixed nav goes here!*/}
             <div className="start">
+<<<<<<< HEAD
                 <div className="start-text">
                     <h1 className="heading-start">Träffa veterinär online</h1>
                         <ul className="start-list">
@@ -32,9 +40,18 @@ class App extends Component {
             
             </div>
 
+=======
+                <h1>info info info</h1>
+                <h1>info info info</h1>
+                <h1>info info info</h1>
+                
+            </div>
+                <hr/>
+            {/*Login / Registration !*/}
+>>>>>>> 9044dca788fa5b3ad08046fdcc6298a31407e096
             <div className="sign">
                 <div className="signup">
-                <h1>Sign Up</h1>
+                    <h1>Sign Up</h1>
                     <form>
                     <input type="name" placeholder="name"/>
                     <input type="name" placeholder="name"/>
@@ -52,7 +69,8 @@ class App extends Component {
                     </form>
                 </div>
             </div>
-
+            <hr/>
+            {/*General info regarding the process*/}
             <div className="info">
                 <center><h1>Att boka möte är lika lätt som 1 2 3</h1></center>
                 <div className="stage1">
@@ -70,29 +88,38 @@ class App extends Component {
                 <div className="stage3">
                     <h1>Steg 3</h1>
                 </div>
-
-
-                
-                
             </div>
-
+            <hr/>
+            {/*A page about the Vets*/}
             <div className="vets">
-                <style>
-                </style>
                 <center>
                 <h1>Vet doctors</h1>  
-                </center>             
+                </center> 
+
+                 <img src={malory} className="malory" alt= "malory" />
+                
+                 <img src={archer} className="archer" alt= "archer" />
+
+                 <img src={lana} className="lana" alt= "lana" />
+
+                 <img src={krieger} className="krieger" alt= "krieger" />
             </div>
+
+
+            </div>
+            <hr/>
+            {/*F.a.Q */}
             <div className="faq">
             <h1><a href="#faq">test</a></h1>
 
 
             </div>
+           {/*Footer*/}
             <div className="footer">
                 <h1>Footer</h1>
             </div>
         </div>
-        </div>
+
       
      );
   }

@@ -8,7 +8,7 @@ body {
 .container{
     margin-top:3%;
     margin:0 auto;
-    width:100%;
+    width:100vw;
 }
 
 .nav{
@@ -41,6 +41,7 @@ a:hover{
     border:2px solid black;
     background:#85ccc2;
     padding:10%;
+
 }
 
 .start-text {
@@ -73,7 +74,6 @@ a:hover{
 }
 
 .sign{
-    border:2px solid black;
     width:100vw; 
     height: 100vh;
 }
@@ -87,18 +87,19 @@ a:hover{
 }
 .info{
     margin:0 auto;
-    border:2px solid black;
     float:left;
     width:100vw; 
-    height: 95vh;
+    height:92vh;
 }
 .stage1, .stage2, .stage3{
     border-radius:15px;
     border:3px solid;
+    text-align:center;
+    margin-top:7%;
+
 }
 .stage1{
     float:left;
-    margin-top:4%;
     margin-left:1%;
     border-color:#ff0000;
     width:20vw;
@@ -106,14 +107,13 @@ a:hover{
 }
 .arrow1{
     float:left;
-    margin-top:13%;
+    margin-top:16.5%;
     margin-left:5.5%;
     width:8vw;
     height:10vw;
 }
 .stage2{
     float:left;
-    margin-top:4%;
     border-color:#ffb31a;
     margin-left:6%;
     width:20vw;
@@ -122,7 +122,7 @@ a:hover{
 }
 .arrow2{
     float:left;
-    margin-top:13%;
+    margin-top:16.5%;
     margin-left:5.5%;
     width:8vw;
     height:10vw;
@@ -130,30 +130,74 @@ a:hover{
 }
 .stage3{
     float:right;
-    margin-top:4%;
     margin-right:1%;
     border-color:#00e600;
     width:20vw;
     height:30vw;
 }
 .vets{
-    border:2px solid black;
     float:left;
     width:100vw; 
-    height: 100vh;}
+    height:92vh;
+}
 .faq{
-    border:2px solid black;
     float:left;
     width:100vw; 
-    height: 100vh;
+    height:92vh;
 }
 .footer{
-    border:2px solid black;
     float:left;
     width:100vw; 
     height: 50vh;
+    background-color:#888;
 }
+.malory{
+  height:20vw;
+  width:20vw;
+  border-radius:50%;
+  float: left;
+  margin-left:2%;
+  margin-top: 5%;
+  text-align: center;
+}
+.archer{
+  height: 20vw;
+  width:20vw;
+  margin-left: 6%;
+  margin-top: 5%;
+  float: left;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.lana{
+  height:20vw;
+  width:20vw;
+  border-radius:50%;
+  float: left;
+  margin-left:6%;
+  margin-top: 5%;
+  text-align: center;
+}
+
+
+
+.krieger{
+  height:20vw;
+  width:20vw;
+  border-radius:50%;
+  margin-top:5%;
+  margin-right:1%;
+  float: right;
+  text-align: center;
+}
+
+
 .glyphicon{
     font-size:8em;
     z-index:-1;
+
+}
+hr{
+    border:2px solid black;
 }
