@@ -37,10 +37,41 @@ a:hover{
 .start{
     width:100vw; 
     height: 100vh;
-    margin-top:1%;
+    margin-top:5%;
     border:2px solid black;
-   
+    background:#85ccc2;
+    padding:10%;
 }
+
+.start-text {
+    float:left;
+}
+
+.heading-start {
+    color:#fff;
+}
+
+.start-list {
+    list-style: outside none none;
+    margin: 50px 0;
+    padding: 0;
+}
+.start-list li {
+    font-size: 1.4em;
+    font-weight: 400;
+    margin: 20px 0;
+    color:#fff;
+}
+.start-list li .icon {
+    height: 18px;
+    width: 18px;
+    color:#fff;
+}
+
+.img-start {
+    float:right;
+}
+
 .sign{
     border:2px solid black;
     width:100vw; 

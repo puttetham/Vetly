@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
+import logo from './start_img.jpg';
 
 class App extends Component {
   render() {
@@ -15,10 +16,22 @@ class App extends Component {
         <div className="container">
             
             <div className="start">
-            <h1>info info info</h1>
-            <h1>info info info</h1>
-            <h1>info info info</h1>
+                <div className="start-text">
+                    <h1 className="heading-start">Träffa veterinär online</h1>
+                        <ul className="start-list">
+                            <li>✓   Träffa veterinär via videomöte</li>
+                            <li>✓   Få råd, recept eller remiss</li>
+                            <li>✓   Legitimerade veterinärer & specialister</li>
+                            <li>✓   Hemleverans av läkemedel</li>
+                            <li>✓   Snabb diagnos eller remiss</li>
+                        </ul>
+                </div>
+                
+                <img src={logo} className="img-start" alt= "logo" />
+                
+            
             </div>
+
             <div className="sign">
                 <div className="signup">
                 <h1>Sign Up</h1>
