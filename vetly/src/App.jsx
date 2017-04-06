@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-import logo from './start_img.jpg';
+import startimg from './start_img.png';
 import archer from './archer.jpg';
 import malory from './malory.jpg';
 import lana from './lana.jpg';
@@ -31,7 +31,7 @@ class App extends Component {
                             </ul>
                     </div>
                     
-                    <img src={logo} className="img-start" alt= "logo" />
+                    <img src={startimg} className="img-start" alt= "logo" />
                     
                 
                 </div>
