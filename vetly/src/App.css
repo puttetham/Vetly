@@ -124,11 +124,6 @@ form button {
     width:100vw; 
     height:92vh;
 }
-.col-md-4{
-    margin-top:5%;
-    text-align:center;
-    z-index:-1;
-}
 .vets{
     float:left;
     width:100vw; 
@@ -145,7 +140,11 @@ form button {
     height: 50vh;
     background-color:#888;
 }
-
+.col-md-4{
+    margin-top:7%;
+    text-align:center;
+    z-index:-1;
+}
 .col-md-3{
     margin-top:5%;
     text-align:center;
