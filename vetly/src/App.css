@@ -151,15 +151,13 @@ a:hover{
   width:20vw;
   border-radius:50%;
   float: left;
-  margin-left:2%;
-  margin-top: 14%;
+  
   text-align: center;
 }
 .archer{
   height: 20vw;
   width:20vw;
-  margin-left: 6%;
-  margin-top: 14%;
+  
   float: left;
   border-radius: 50%;
   text-align: center;
@@ -170,8 +168,7 @@ a:hover{
   width:20vw;
   border-radius:50%;
   float: left;
-  margin-left:6%;
-  margin-top: 14%;
+  
   text-align: center;
 }
 
@@ -179,10 +176,12 @@ a:hover{
   height:20vw;
   width:20vw;
   border-radius:50%;
-  margin-top:14%;
-  margin-right:1%;
+  
   float: right;
   text-align: center;
+}
+.mal, .arch, .krieg,.lan{
+    margin-top:5%;
 }
 .mal{
     float:left;
@@ -194,13 +193,13 @@ a:hover{
 .arch{
     float:left;
     width:20vw;
-    margin-left:4%;
+    margin-left:6%;
     text-align:center;
 }
 
 .lan{
     float:left;
-    margin-left:6%;
+    margin-left:5%;
     width:20vw;
     text-align:center;
 }
