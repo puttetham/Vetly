@@ -72,7 +72,7 @@ class App extends Component {
                 
                 {/*General info regarding the process*/}
                 <div className="info">
-                    <center><h3>Så här går processen till</h3></center>
+                    <center><h3>Vetly fungerar på följande sätt</h3></center>
                     <div className="row">  
                         <div className="col-md-4">
                         <img src={account} className="account" alt ="account"/>
