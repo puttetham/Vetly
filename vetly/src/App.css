@@ -152,11 +152,17 @@ a:hover{
     text-align:center;
     border-radius:50%;
     z-index: -1;
+    font-size: 14px;
 }
+
+.col-md-3 h2{
+  font-size: 18px;
+}
+
 .col-md-3 .lana, .krieger, .archer, .malory{
     border-radius:50%;
-    width:20vw;
-    height:20vw;
+    width:12vw;
+    height:12vw;
 }
 .glyphicon{
     font-size:8em;

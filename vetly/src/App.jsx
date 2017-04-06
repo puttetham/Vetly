@@ -85,23 +85,28 @@ class App extends Component {
                 {/*A page about the Vets*/}
                 <div className="vets">
                     <center>
-                    <h1>Veterinärer</h1>  
+                    <h3>Veterinärer</h3> 
+                    <h4> Vetly erbjuder dem bästa veterinärerna.</h4> 
                     </center> 
                     <div className="col-md-3">
                         <img src={malory} className="malory" alt= "malory" />
                         <h2>Malory</h2>
+                        <p>Running the Cyril Agency</p>
                     </div>
                     <div className="col-md-3">
                         <img src={archer} className="archer" alt= "archer" />
                         <h2>Archer</h2>
+                        <p>World best secret agent who is into phrasing</p>
                     </div>
                     <div className="col-md-3">
                         <img src={lana} className="lana" alt= "lana" />
                         <h2>Lana</h2>
+                        <p>Secret agent and a mother with huge hands</p>
                     </div>
                     <div className="col-md-3">
                         <img src={krieger} className="krieger" alt= "krieger" />
                         <h2>Krieger</h2>
+                        <p>Crazy scientist who fancys pigglies</p>
                     </div>
                 </div>
                 <hr/>
