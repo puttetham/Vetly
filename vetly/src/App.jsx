@@ -37,8 +37,9 @@ class App extends Component {
 
                                         
                 
-                    <hr/>
+                    
                 {/*Login / Registration !*/}
+                <hr/>
                 <div className="sign">
                     <div className="signup">
                         <h1>Sign Up</h1>
@@ -102,9 +103,6 @@ class App extends Component {
                         <h2>Krieger</h2>
                     </div>
                 </div>
-
-
-                
                 <hr/>
                 <div className="faq">
                     <h1>F.a.Q</h1>
