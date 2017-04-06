@@ -1,10 +1,14 @@
 import React, { Component } from 'react';
 import './App.css';
-import startimg from './start_img.png';
+import account from './account.png';
 import archer from './archer.jpg';
-import malory from './malory.jpg';
-import lana from './lana.jpg';
+import calendar from './calendar.jpg';
+import convo from './convo.jpg';
 import krieger from './krieger.jpg';
+import lana from './lana.jpg';
+import malory from './malory.jpg';
+import startimg from './start_img.png';
+
 
 class App extends Component {
   render() {
@@ -42,38 +46,43 @@ class App extends Component {
                 {/*Login / Registration !*/}
                 <hr/>
                 <div className="sign">
-                <div className="signup">
-                <h1>Registrera Dig</h1>
-                    <form>
-                    <input class="left" type="username" placeholder="Användarnamn"/><br></br>
-                    <input class="left" type="password" placeholder="Lösenord"/><br></br>
-                    <input class="left" type="password" placeholder="Bekräfta Lösenord"/><br></br>
-                    <input class="left" type="email" placeholder="E-post"/><br></br>
-                    <button class="left" type="button">Registrera</button>
-                    </form>
-                </div>
-                <div className="signin">
+                    <div className="signup">
+                    <h1>Registrera Dig</h1>
+                        <form>
+                        <input class="left" type="username" placeholder="Användarnamn"/><br></br>
+                        <input class="left" type="password" placeholder="Lösenord"/><br></br>
+                        <input class="left" type="password" placeholder="Bekräfta Lösenord"/><br></br>
+                        <input class="left" type="email" placeholder="E-post"/><br></br>
+                        <button class="left" type="button">Registrera</button>
+                        </form>
+                    </div>
+                    <div className="signin">
                     <h1>Logga In </h1>
-                    <form>
-                    <input class="right" type="username" placeholder="Användarnamn"/><br></br>
-                    <input class="right" type="password" placeholder="Lösenord"/><br></br>
-                    <button class="right" type="button">Logga In</button>
-                    </form>
+                        <form>
+                        <input class="right" type="username" placeholder="Användarnamn"/><br></br>
+                        <input class="right" type="password" placeholder="Lösenord"/><br></br>
+                        <button class="right" type="button">Logga In</button>
+                        </form>
+                    </div>
                 </div>
-            </div>
                 <hr/>
                 {/*General info regarding the process*/}
                 <div className="info">
-                    <center><h1>Att boka möte är lika lätt som 1 2 3</h1></center>
+                    <center><h2>Att boka möte är lika lätt som 1 2 3</h2></center>
                     <div className="row">  
                         <div className="col-md-4">
-                            <h1>stage 1</h1>
+                        <img src={account} className="account" alt ="account"/>
+                            <h2>Registrera dig</h2>
                         </div>
                         <div className="col-md-4">
-                            <h1>Stage 2</h1>
+                        <img src={calendar} className="calendar" alt="calendar"/>
+                            <h2>Boka tid</h2>
+                        
                         </div>
                         <div className="col-md-4">
-                            <h1>stage 3</h1>
+                        <img src={convo} className="convo" alt="convo" />
+                            <h2>Videosamtal</h2>
+                        }
                         </div>
                     </div>
                 

@@ -114,7 +114,6 @@ form button {
 }
 .col-md-4{
     margin-top:5%;
-    background-color:#ff9900;
     text-align:center;
     z-index:-1;
 }
@@ -149,7 +148,11 @@ form button {
 .col-md-3 h2{
   font-size: 18px;
 }
-
+/*bild properties för steg för steg sidan*/
+.account, .calendar, .convo{
+    border-radius:50%;
+    width:10vw;
+}
 .col-md-3 .lana, .krieger, .archer, .malory{
     border-radius:50%;
     width:12vw;
