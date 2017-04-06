@@ -146,70 +146,18 @@ a:hover{
     height: 50vh;
     background-color:#888;
 }
-.malory{
-  height:20vw;
-  width:20vw;
-  border-radius:50%;
-  float: left;
-  
-  text-align: center;
-}
-.archer{
-  height: 20vw;
-  width:20vw;
-  
-  float: left;
-  border-radius: 50%;
-  text-align: center;
-}
 
-.lana{
-  height:20vw;
-  width:20vw;
-  border-radius:50%;
-  float: left;
-  
-  text-align: center;
-}
-
-.krieger{
-  height:20vw;
-  width:20vw;
-  border-radius:50%;
-  
-  float: right;
-  text-align: center;
-}
-.mal, .arch, .krieg,.lan{
+.col-md-3{
     margin-top:5%;
-}
-.mal{
-    float:left;
-    margin-left:2%;
     text-align:center;
-    width:20vw;
+    border-radius:50%;
+    z-index: -1;
 }
-
-.arch{
-    float:left;
+.col-md-3 .lana, .krieger, .archer, .malory{
+    border-radius:50%;
     width:20vw;
-    margin-left:6%;
-    text-align:center;
+    height:20vw;
 }
-
-.lan{
-    float:left;
-    margin-left:5%;
-    width:20vw;
-    text-align:center;
-}
-.krieg{
-    float:right;
-    margin-right:2%;
-    width:20vw;
-    text-align:center;
-}
-
 .glyphicon{
     font-size:8em;
     z-index:-1;

@@ -87,19 +87,19 @@ class App extends Component {
                     <center>
                     <h1>Veterinärer</h1>  
                     </center> 
-                    <div className="mal">
+                    <div className="col-md-3">
                         <img src={malory} className="malory" alt= "malory" />
                         <h2>Malory</h2>
                     </div>
-                    <div className="arch">
+                    <div className="col-md-3">
                         <img src={archer} className="archer" alt= "archer" />
                         <h2>Archer</h2>
                     </div>
-                    <div className="lan">
+                    <div className="col-md-3">
                         <img src={lana} className="lana" alt= "lana" />
                         <h2>Lana</h2>
                     </div>
-                    <div className="krieg">
+                    <div className="col-md-3">
                         <img src={krieger} className="krieger" alt= "krieger" />
                         <h2>Krieger</h2>
                     </div>
