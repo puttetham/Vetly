@@ -17,7 +17,6 @@ class App extends Component {
                 <a href="#sign">Vets</a>
                 <a href="#start">Start</a>
             </div>
-            <div className="container">
             {/*All code except the fixed nav goes here!*/}
                 <div className="start">
                     <div className="start-text">
@@ -108,15 +107,16 @@ class App extends Component {
                 
                 
                 <div className="faq">
-                <h1>F.a.Q</h1>
-                    </div>
-            </div>{/*Container ends*/}
-            
-               {/*Footer*/}
+                    <h1>F.a.Q</h1>
+                </div>
                 <div className="footer">
                     <h1>Footer</h1>
                 </div>
-            </div>
+            {/*Container ends*/}
+
+               {/*Footer*/}
+                
+        </div>
 
 
 
