@@ -48,7 +48,7 @@ class App extends Component {
                 
                     
                 {/*Login / Registration !*/}
-                <hr/>
+                
                 <div className="sign">
                     <div className="signup">
                     <h1>Registrera Dig</h1>
@@ -69,7 +69,7 @@ class App extends Component {
                         </form>
                     </div>
                 </div>
-                <hr/>
+                
                 {/*General info regarding the process*/}
                 <div className="info">
                     <center><h3>Så här går processen till</h3></center>
