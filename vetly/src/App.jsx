@@ -93,16 +93,24 @@ class App extends Component {
             {/*A page about the Vets*/}
             <div className="vets">
                 <center>
-                <h1>Vet doctors</h1>  
+                <h1>Veterinärer</h1>  
                 </center> 
-
-                 <img src={malory} className="malory" alt= "malory" />
-                
-                 <img src={archer} className="archer" alt= "archer" />
-
-                 <img src={lana} className="lana" alt= "lana" />
-
-                 <img src={krieger} className="krieger" alt= "krieger" />
+                <div className="mal">
+                    <img src={malory} className="malory" alt= "malory" />
+                    <h2>Malory</h2>
+                </div>
+                <div className="arch">
+                    <img src={archer} className="archer" alt= "archer" />
+                    <h2>Archer</h2>
+                </div>
+                <div className="lan">
+                    <img src={lana} className="lana" alt= "lana" />
+                    <h2>Lana</h2>
+                </div>
+                <div className="krieg">
+                    <img src={krieger} className="krieger" alt= "krieger" />
+                    <h2>Krieger</h2>
+                </div>
             </div>
 
 
