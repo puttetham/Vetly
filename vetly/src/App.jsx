@@ -110,7 +110,7 @@ class App extends Component {
             <hr/>
             {/*F.a.Q */}
             <div className="faq">
-            <h1><a href="#faq">test</a></h1>
+            <h1>F.a.Q</h1>
 
 
             </div>
