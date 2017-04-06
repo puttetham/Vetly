@@ -1,7 +1,0 @@
-README
-
-THIS IS OUR PROJECT
-
-------
-
-VETLY
