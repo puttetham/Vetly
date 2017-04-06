@@ -31,7 +31,7 @@ a:hover{
 }
 .start{
     width:100vw; 
-    height: 100vh;
+    height: 92vh;
     margin-top:5%;
     background:#85ccc2;
     padding:10%;
@@ -85,7 +85,7 @@ a:hover{
 .sign{
   border:2px solid black;
   width:100vw; 
-  height: 100vh;
+  height: 92vh;
   background-color: #BDDBC7;
 }
 .signup{
