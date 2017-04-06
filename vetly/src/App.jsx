@@ -1,5 +1,9 @@
 import React, { Component } from 'react';
 import './App.css';
+import archer from './archer.jpg';
+import malory from './malory.jpg';
+import lana from './lana.jpg';
+import krieger from './krieger.jpg';
 
 class App extends Component {
   render() {
@@ -67,27 +71,15 @@ class App extends Component {
             <div className="vets">
                 <center>
                 <h1>Vet doctors</h1>  
-                </center>  
+                </center> 
 
+                 <img src={malory} className="malory" alt= "malory" />
+                
+                 <img src={archer} className="archer" alt= "archer" />
 
-                <div id="malory">
-                <h2>Malory</h2>
-                <img src="glengoolie.png" />
-                </div>
+                 <img src={lana} className="lana" alt= "lana" />
 
-                <div id="sterling">
-                <h2>Sterling</h2>
-                <img src="glengoolie.png" />
-                </div>  
-
-                <div id="lana">
-                <h2>Lana</h2>
-                <img src="glengoolie.png" />
-                </div>
-
-                <div id="krieger">
-                <h2>Krieger</h2>
-                <img src="glengoolie.png" />
+                 <img src={krieger} className="krieger" alt= "krieger" />
             </div>
 
 
@@ -104,7 +96,7 @@ class App extends Component {
                 <h1>Footer</h1>
             </div>
         </div>
-        </div>
+
       
      );
   }
