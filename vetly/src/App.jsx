@@ -1,13 +1,15 @@
 import React, { Component } from 'react';
 import './App.css';
 import account from './account.png';
+import startimg from './veterinary.png';
+import startimg2 from './horse.png';
+import appstore from './app-store.png';
 import archer from './archer.jpg';
 import calendar from './calendar.jpg';
 import convo from './convo.jpg';
 import krieger from './krieger.jpg';
 import lana from './lana.jpg';
 import malory from './malory.jpg';
-import startimg from './start_img.png';
 
 
 class App extends Component {
@@ -33,9 +35,11 @@ class App extends Component {
                                 <li>✓   Hemleverans av läkemedel</li>
                                 <li>✓   Snabb diagnos eller remiss</li>
                             </ul>
+                            <img src={appstore} className="img-appstore" alt= "ladda ner vetly från appstore" />
                     </div>
                     
-                    <img src={startimg} className="img-start" alt= "logo" />
+                    <img src={startimg} className="img-veterinary" alt= "veterinär" />
+                    <img src={startimg2} className="img-horse" alt= "häst" />
                     
                 
                 </div>

@@ -40,10 +40,13 @@ a:hover{
 
 .start-text {
     float:left;
+    margin-top:-3%;
 }
 
 .heading-start {
     color:#fff;
+    font-size:3.6em;
+    text-shadow: 1px 1px #cccccc;
 }
 
 .start-list {
@@ -65,8 +68,18 @@ a:hover{
 
 }
 
-.img-start {
+.img-appstore {
+
+}
+
+.img-veterinary {
     float:right;
+}
+
+.img-horse {
+    float: right;
+    margin-right: -51%;
+    margin-top: -5%;
 }
 
 .sign{
