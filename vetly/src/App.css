@@ -86,49 +86,11 @@ a:hover{
     width:100vw; 
     height:92vh;
 }
-.stage1, .stage2, .stage3{
-    border-radius:15px;
-    border:3px solid;
+.col-md-4{
+    margin-top:5%;
+    background-color:#ff9900;
     text-align:center;
-    margin-top:7%;
-
-}
-.stage1{
-    float:left;
-    margin-left:1%;
-    border-color:#ff0000;
-    width:20vw;
-    height:30vw;
-}
-.arrow1{
-    float:left;
-    margin-top:16.5%;
-    margin-left:5.5%;
-    width:8vw;
-    height:10vw;
-}
-.stage2{
-    float:left;
-    border-color:#ffb31a;
-    margin-left:6%;
-    width:20vw;
-    height:30vw;
-
-}
-.arrow2{
-    float:left;
-    margin-top:16.5%;
-    margin-left:5.5%;
-    width:8vw;
-    height:10vw;
-
-}
-.stage3{
-    float:right;
-    margin-right:1%;
-    border-color:#00e600;
-    width:20vw;
-    height:30vw;
+    z-index:-1;
 }
 .vets{
     float:left;

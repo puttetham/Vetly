@@ -65,21 +65,18 @@ class App extends Component {
                 {/*General info regarding the process*/}
                 <div className="info">
                     <center><h1>Att boka möte är lika lätt som 1 2 3</h1></center>
-                    <div className="stage1">
-                        <h1>Steg 1 </h1>
+                    <div className="row">  
+                        <div className="col-md-4">
+                            <h1>stage 1</h1>
+                        </div>
+                        <div className="col-md-4">
+                            <h1>Stage 2</h1>
+                        </div>
+                        <div className="col-md-4">
+                            <h1>stage 3</h1>
+                        </div>
                     </div>
-                    <div className="arrow1">
-                        <span className="glyphicon">&#xe080;</span>
-                    </div>
-                    <div className="stage2">
-                        <h1>Steg 2</h1>
-                    </div>
-                    <div className="arrow2">
-                        <span className="glyphicon">&#xe080;</span>
-                    </div>
-                    <div className="stage3">
-                        <h1>Steg 3</h1>
-                    </div>
+                
                 </div>
                 <hr/>
                 {/*A page about the Vets*/}
