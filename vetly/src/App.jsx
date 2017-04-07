@@ -19,32 +19,25 @@ class App extends Component {
   render() {
     return (
         <div>
-          <nav>
-          <h2 className="brand"><span className="v">V</span>ETLY</h2>
-          <input id="nav" type="checkbox" />
-          <label htmlFor="nav">
-            <span />
-            <span />
-            <span />
-          </label>
-          <ul className="menu">
-            <li>Våra tjänster</li>
-            <li>Våra vetrinärer</li>
-            <li>Kontakta oss</li>
-            <li>Skapa konto</li>
-            <li>Logga in</li>
-          </ul>
-        </nav>
+            <nav>
+                <h2 className="brand"><span className="v">V</span>ETLY</h2>
+                <input id="nav" type="checkbox" />
+                <label htmlFor="nav">
+                    <span />
+                    <span />
+                    <span />
+                </label>
+                <ul className="menu">
+                    <li>Våra tjänster</li>
+                    <li>Våra vetrinärer</li>
+                    <li>Kontakta oss</li>
+                    <li>Skapa konto</li>
+                    <li>Logga in</li>
+                </ul>
+            </nav>
 
 
-            <div className="nav">
-                <a href="#">Logga in</a>
-                <a href="#">Registering</a>
-                <a href="#">Kontakt</a>
-                <a href="#">Process</a>
-                <a href="#">Veterinärer</a>
-                <a href="#">Info</a>
-            </div>
+            
 
             {/*All code except the fixed nav goes here!*/}
                 <div className="start">
@@ -60,18 +53,9 @@ class App extends Component {
                             <img src={appstore} className="img-appstore" alt= "ladda ner vetly från appstore" />
                     </div>
 
-
-                    <img src={startimg} className="img-start" alt= "logo" />
-
-
-
-
                     <img src={startimg} className="img-veterinary" alt= "veterinär" />
                     <img src={startimg2} className="img-horse" alt= "häst" />
-
-
-
-                </div>
+                </div>{/*start*/}
 
 
 
@@ -106,33 +90,22 @@ class App extends Component {
                     <div className="row">
 
                     <center><h3>Vetly fungerar på följande sätt</h3></center>
-
-
-                    <div className="row">
-
-
-                    <div className="row">
-
-
-                    <div className="row">
-
                         <div className="col-md-4">
-                        <img src={account} className="account" alt ="account"/>
+                            <img src={account} className="account" alt ="account"/>
                             <h2>Registrera dig</h2>
                             <p>✓ Registrera ett konto (helt gratis)</p>
                             <p>✓ Logga in</p>
                             <p>✓ Fyll in din hästs profil</p>
-
                         </div>
                         <div className="col-md-4">
-                        <img src={cal} className="cal" alt="cal"/>
+                            <img src={cal} className="cal" alt="cal"/>
                             <h2>Boka tid</h2>
                             <p>✓ Hitta en tid som passar dig</p>
                             <p>✓ Skicka in information såsom hästens profil samt ditt ärende</p>
                             <p>✓ </p>
                         </div>
                         <div className="col-md-4">
-                        <img src={convo} className="convo" alt="convo" />
+                            <img src={convo} className="convo" alt="convo" />
                             <h2>Videosamtal</h2>
                             <p>✓ Var inloggad i appen eller i webbläsaren</p>
                             <p>✓ Delta i samtalet när tiden har kommit</p>
@@ -140,7 +113,7 @@ class App extends Component {
                         </div>
                     </div>
 
-                </div>
+                </div>{/*HOW IT WORKS SECTION*/}
                 <hr/>
                 {/*A page about the Vets*/}
                 <div className="vets">
@@ -168,17 +141,15 @@ class App extends Component {
                         <h2>Krieger</h2>
                         <p>Crazy scientist who fancys pigglies</p>
                     </div>
-                </div>
+                </div>{/*VET DOCTORS*/}
                 <hr/>
                 <div className="faq">
-
+                    <div className="row">
                     <div className="col-xs-4 kontakt">
                         <h2>Kontakt</h2>
-                    <p> ✓ Kundtjänst (00:06-20:00) </p>
-                    <p> ✓ Email : Vetly@Vetly.com </p>
-                    <p> ✓ Kontor </p>
-
-
+                        <p>✓ Kundtjänst (00:06-20:00)</p>
+                        <p>✓ Email : Vetly@Vetly.com </p>
+                        <p>✓ Kontor </p>
                     </div>
                     <div className="col-xs-4 form">
                         <h2>Ställ en fråga</h2>
@@ -192,7 +163,9 @@ class App extends Component {
                         <h2>Hitta oss</h2>
                         <img src={map} className="map" alt= "map" />
                     </div>
-                </div>
+                    </div>
+                </div>{/*FAQ SECTION*/}
+
                 <div className="footer">
                     <h1>Footer</h1>
                 </div>
