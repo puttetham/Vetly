@@ -6,18 +6,28 @@ import malory from './malory.jpg';
 import lana from './lana.jpg';
 import krieger from './krieger.jpg';
 
+
 class App extends Component {
   render() {
     return (
         <div>
-            <div className="nav">
-                <a href="#">Logga in</a>
-                <a href="#">Registering</a>
-                <a href="#">F.a.Q</a>
-                <a href="#">Process</a>
-                <a href="#">Veterinärer</a>
-                <a href="#">Info</a>
-            </div>
+          <nav>
+          <h2 className="brand"><span className="v">V</span>ETLY</h2>
+          <input id="nav" type="checkbox" />
+          <label htmlFor="nav">
+            <span />
+            <span />
+            <span />
+          </label>
+          <ul className="menu">
+            <li>Våra tjänster</li>
+            <li>Våra vetrinärer</li>
+            <li>Kontakta oss</li>
+            <li>Skapa konto</li>
+            <li>Logga in</li>
+          </ul>
+        </nav>
+
             {/*All code except the fixed nav goes here!*/}
                 <div className="start">
                     <div className="start-text">
@@ -30,15 +40,15 @@ class App extends Component {
                                 <li>✓   Snabb diagnos eller remiss</li>
                             </ul>
                     </div>
-                    
+
                     <img src={startimg} className="img-start" alt= "logo" />
-                    
-                
+
+
                 </div>
 
-                                        
-                
-                    
+
+
+
                 {/*Login / Registration !*/}
                 <hr/>
                 <div className="sign">
@@ -65,7 +75,7 @@ class App extends Component {
                 {/*General info regarding the process*/}
                 <div className="info">
                     <center><h1>Att boka möte är lika lätt som 1 2 3</h1></center>
-                    <div className="row">  
+                    <div className="row">
                         <div className="col-md-4">
                             <h1>stage 1</h1>
                         </div>
@@ -76,15 +86,15 @@ class App extends Component {
                             <h1>stage 3</h1>
                         </div>
                     </div>
-                
+
                 </div>
                 <hr/>
                 {/*A page about the Vets*/}
                 <div className="vets">
                     <center>
-                    <h3>Veterinärer</h3> 
-                    <h4> Vetly erbjuder dem bästa veterinärerna.</h4> 
-                    </center> 
+                    <h3>Veterinärer</h3>
+                    <h4> Vetly erbjuder dem bästa veterinärerna.</h4>
+                    </center>
                     <div className="col-md-3">
                         <img src={malory} className="malory" alt= "malory" />
                         <h2>Malory</h2>
@@ -116,12 +126,12 @@ class App extends Component {
             {/*Container ends*/}
 
                {/*Footer*/}
-                
+
         </div>
 
 
 
-      
+
      );
   }
 }

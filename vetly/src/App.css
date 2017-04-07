@@ -1,36 +1,160 @@
-body {
+html, body {
     width:100vw;
     display:inline-block;
     margin: 0 auto;
     padding: 0;
+    height: 100%;
     font-family: 'Droid Sans', sans-serif;
 }
 
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 
-.nav{
-    overflow: hidden;
-    background-color: #000;
-    position: fixed;
-    top: 0;
-    width: 100vw;
-    height:5vw;
+/* MENU */
+
+nav {
+  position: fixed;
+  top: 0;
+  padding: 20px;
+  width: 100%;
+  background: #fff;
 }
-.nav a{
-    float: right;
+
+nav h2 {
+  display: inline;
+  font-family: 'Montserrat', sans-serif;
+  color: #85ccc2;
+  margin-left: 40px;
+  font-weight: bold;
+}
+
+.v {
+  color: #c03535;
+}
+
+.menu {
+  position: relative;
+  margin-top: 7px;
+  float: right;
+  list-style-type: none;
+  transition: top 0.5s cubic-bezier(0.3, 0.1, 0.3, 0.85);
+  z-index: 1;
+}
+
+.menu li {
+  display: inline;
+  margin-right: 20px;
+  cursor: pointer;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.1em;
+}
+
+.menu li::before {
+  position: absolute;
+  bottom: -6px;
+  content: "";
+  height: 3px;
+  width: 0;
+  background: #000;
+  transition: 0.5s;
+}
+
+.menu li:hover {
+  border-bottom: 1px solid #85ccc2;
+
+}
+
+input[type=checkbox] {
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
+}
+
+nav label {
+  position: absolute;
+  display: none;
+  top: 0;
+  right: 0;
+  height: 70px;
+  width: 70px;
+  background: #fff;
+  cursor: pointer;
+  z-index: 2;
+}
+
+nav > label > span {
+  display: block;
+  margin: 4px auto;
+  height: 4px;
+  width: 25px;
+  border-radius: 1px;
+  background: #000;
+  transition: 0.5s;
+}
+
+nav > label > span:nth-child(1) {
+  margin-top: 25px;
+}
+
+input[type=checkbox]:checked ~ .menu {
+  top: 0;
+}
+
+input[type=checkbox]:checked ~ label span {
+  background: #000;
+}
+
+input[type=checkbox]:checked ~ label span:nth-child(1) {
+  transform: translateY(8px) rotate(45deg);
+}
+
+input[type=checkbox]:checked ~ label span:nth-child(2) {
+  opacity: 0;
+}
+
+input[type=checkbox]:checked ~ label span:nth-child(3) {
+  transform: translateY(-8px) rotate(-45deg);
+}
+
+@media (max-width: 768px) {
+  .menu {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    top: -100vh;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    background: #fff;
+  }
+
+  .menu li {
+    margin: 20px;
+    font-size: 1.5em;
+    color: #000;
+  }
+
+  nav label {
     display: block;
-    color: #fff;
-    background-color:#000;
-    text-align: center;
-    padding:2% 2%;
-    text-decoration: none;
-    font-size: 17px;
+  }
+
+  nav h2 {
+    margin: 0;
+  }
+
 }
-a:hover{
-    color:#000;
-    background-color:#fff;
-}
+
+
+/****************************/
+
 .start{
-    width:100vw; 
+    width:100vw;
     height: 100vh;
     margin-top:5%;
     background:#85ccc2;
@@ -71,7 +195,7 @@ a:hover{
 
 .sign{
   border:2px solid black;
-  width:100vw; 
+  width:100vw;
   height: 100vh;
   background-color: #BDDBC7;
 }
@@ -109,7 +233,7 @@ form button {
 
 .info{
     float:left;
-    width:100vw; 
+    width:100vw;
     height:92vh;
 }
 .col-md-4{
@@ -120,17 +244,17 @@ form button {
 }
 .vets{
     float:left;
-    width:100vw; 
+    width:100vw;
     height:92vh;
 }
 .faq{
     float:left;
-    width:100vw; 
+    width:100vw;
     height:92vh;
 }
 .footer{
     float:left;
-    width:100vw; 
+    width:100vw;
     height: 50vh;
     background-color:#888;
 }
