@@ -284,8 +284,9 @@ form button {
     text-align:center;
     z-index:-1;
 }
-.col-md-4 h2{
+.col-md-4 p, h2{
     text-align:left;
+    margin-left:25%;
 }
 .row{
     margin-left:auto;
