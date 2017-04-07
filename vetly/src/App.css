@@ -189,7 +189,7 @@ form button {
     border-radius:5px;
 }
 /*bild properties för steg för steg sidan*/
-.account, .cal, .convo{
+.user, .calendar, .convo{
     border-radius:50%;
     width:10vw;
 }

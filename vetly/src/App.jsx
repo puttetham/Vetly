@@ -1,16 +1,17 @@
 import React, { Component } from 'react';
 import './App.css';
-import account from './account.png';
 import startimg from './veterinary.png';
 import startimg2 from './horse.png';
 import appstore from './app-store.png';
 import archer from './archer.jpg';
-import cal from './cal.jpg';
-import convo from './convo.jpg';
+import calendar from './calendar.png';
+import convo from './convo.png';
 import krieger from './krieger.jpg';
 import lana from './lana.jpg';
 import malory from './malory.jpg';
 import map from './map.jpg';
+import user from './user.png';
+
 
 
 class App extends Component {
@@ -76,7 +77,7 @@ class App extends Component {
                     <center><h3>Vetly fungerar på följande sätt</h3></center>
                     <div className="row">  
                         <div className="col-md-4">
-                        <img src={account} className="account" alt ="account"/>
+                        <img src={user} className="user" alt ="user"/>
                             <h2>Registrera dig</h2>
                             <p>Ifall du inte redan har ett konto är det bara att registrera sig.</p>
                             <p>När du väl registretat dig så gäller det att fylla din häst/hästars</p>
@@ -85,7 +86,7 @@ class App extends Component {
 
                         </div>
                         <div className="col-md-4">
-                        <img src={cal} className="cal" alt="cal"/>
+                        <img src={calendar} className="calendar" alt="calendar"/>
                             <h2>Boka tid</h2>
                             <p>När du har ett konto är det bara att gå in och hitta en tid</p>
                             <p>som passar dig och boka. Under bokningsprocessen är det viktigt</p>
