@@ -160,8 +160,8 @@ input[type=checkbox]:checked ~ label span:nth-child(3) {
     width:100vw;
     height: 92vh;
     margin-top:5%;
-    /*background: -webkit-linear-gradient(left, #00ccff, #80e5ff); Gradient Example*/
-    background:#85ccc2;
+    /*background: -webkit-linear-gradient(left, #00ccff, #80e5ff); */
+    background:#0b47a0;
     padding:10%;
 
 }
@@ -174,7 +174,8 @@ input[type=checkbox]:checked ~ label span:nth-child(3) {
 .heading-start {
     color:#fff;
     font-size:3.6em;
-    text-shadow: 1px 1px #cccccc;
+    font-weight:700;
+    
 }
 
 .start-list {
@@ -182,12 +183,14 @@ input[type=checkbox]:checked ~ label span:nth-child(3) {
     margin: 50px 0;
     padding: 0;
 }
+
 .start-list li {
     font-size: 1.4em;
     font-weight: 400;
     margin: 20px 0;
     color:#fff;
 }
+
 .start-list li .icon {
     height: 18px;
     width: 18px;
@@ -197,6 +200,7 @@ input[type=checkbox]:checked ~ label span:nth-child(3) {
 }
 
 .img-appstore {
+    width:30%;
 
 }
 
@@ -206,7 +210,7 @@ input[type=checkbox]:checked ~ label span:nth-child(3) {
 
 .img-horse {
     float: right;
-    margin-right: -51%;
+    margin-right: -49%;
     margin-top: -5%;
 }
 

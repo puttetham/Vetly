@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import './App.css';
 import account from './account.png';
+import startimg from './veterinary.png';
+import startimg2 from './horse_phone.png';
 import appstore from './app-store.png';
 import archer from './archer.jpg';
 import cal from './cal.jpg';
@@ -9,8 +11,7 @@ import krieger from './krieger.jpg';
 import lana from './lana.jpg';
 import malory from './malory.jpg';
 import map from './map.jpg';
-import startimg from './veterinary.png';
-import startimg2 from './horse.png';
+
 
 
 
