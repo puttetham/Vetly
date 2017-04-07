@@ -5,6 +5,7 @@ html, body {
     padding: 0;
     height: 100%;
     font-family: 'Droid Sans', sans-serif;
+    font-family: 'Lato', sans-serif;
 }
 
 * {
@@ -154,9 +155,15 @@ input[type=checkbox]:checked ~ label span:nth-child(3) {
 /****************************/
 
 .start{
+<<<<<<< HEAD
     width:100vw;
     height: 100vh;
+=======
+    width:100vw;
+    height: 92vh;
+>>>>>>> origin/master
     margin-top:5%;
+    /*background: -webkit-linear-gradient(left, #00ccff, #80e5ff); Gradient Example*/
     background:#85ccc2;
     padding:10%;
 
@@ -164,10 +171,13 @@ input[type=checkbox]:checked ~ label span:nth-child(3) {
 
 .start-text {
     float:left;
+    margin-top:-3%;
 }
 
 .heading-start {
     color:#fff;
+    font-size:3.6em;
+    text-shadow: 1px 1px #cccccc;
 }
 
 .start-list {
@@ -189,14 +199,29 @@ input[type=checkbox]:checked ~ label span:nth-child(3) {
 
 }
 
-.img-start {
+.img-appstore {
+
+}
+
+.img-veterinary {
     float:right;
 }
 
+.img-horse {
+    float: right;
+    margin-right: -51%;
+    margin-top: -5%;
+}
+
 .sign{
+<<<<<<< HEAD
   border:2px solid black;
   width:100vw;
   height: 100vh;
+=======
+  width:100vw;
+  height: 92vh;
+>>>>>>> origin/master
   background-color: #BDDBC7;
 }
 .signup{
@@ -236,12 +261,6 @@ form button {
     width:100vw;
     height:92vh;
 }
-.col-md-4{
-    margin-top:5%;
-    background-color:#ff9900;
-    text-align:center;
-    z-index:-1;
-}
 .vets{
     float:left;
     width:100vw;
@@ -249,6 +268,7 @@ form button {
 }
 .faq{
     float:left;
+<<<<<<< HEAD
     width:100vw;
     height:92vh;
 }
@@ -256,24 +276,69 @@ form button {
     float:left;
     width:100vw;
     height: 50vh;
+=======
+    width:100vw;
+    height:50vh;
+}
+.footer{
+    float:left;
+    width:100vw;
+    height: 38vh;
+>>>>>>> origin/master
     background-color:#888;
 }
-
+.col-md-4{
+    margin-top:7%;
+    text-align:center;
+    z-index:-1;
+}
 .col-md-3{
     margin-top:5%;
     text-align:center;
     border-radius:50%;
     z-index: -1;
-    font-size: 14px;
+    font-size: 1.3em;
 }
 .row{
     margin-left:auto;
     margin-right:auto;
 }
 .col-md-3 h2{
-  font-size: 18px;
+  font-size: 1.4em;
 }
-
+.col-xs-4{
+    font-size:1.4em;
+}
+.form h2{
+    text-align:center;
+}
+.kontakt h2, p{
+    margin-left:5%;
+    margin-top:4.5%;
+}
+.findus h2{
+    text-align:right;
+    margin-right:5%;
+}
+.col-xs-4 form{
+    display:inline-block;
+    text-align:center;
+}
+.col-xs-4 img{
+    width:20vw;
+    height:15vw;
+    float:right;
+    margin-right:5%;
+}
+.col-xs-4 input, textarea{
+    width:80%;
+    border-radius:5px;
+}
+/*bild properties för steg för steg sidan*/
+.account, .cal, .convo{
+    border-radius:50%;
+    width:10vw;
+}
 .col-md-3 .lana, .krieger, .archer, .malory{
     border-radius:50%;
     width:12vw;
