@@ -107,6 +107,10 @@ class App extends Component {
 
                     <center><h3>Vetly fungerar på följande sätt</h3></center>
 
+
+                    <div className="row">
+
+
                     <div className="row">
 
 
@@ -126,8 +130,6 @@ class App extends Component {
                             <p>✓ Hitta en tid som passar dig</p>
                             <p>✓ Skicka in information såsom hästens profil samt ditt ärende</p>
                             <p>✓ </p>
-
-
                         </div>
                         <div className="col-md-4">
                         <img src={convo} className="convo" alt="convo" />
@@ -135,9 +137,6 @@ class App extends Component {
                             <p>✓ Var inloggad i appen eller i webbläsaren</p>
                             <p>✓ Delta i samtalet när tiden har kommit</p>
                             <p>✓ Ha ett trevligt möte! </p>
-
-
-
                         </div>
                     </div>
 
