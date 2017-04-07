@@ -215,14 +215,11 @@ input[type=checkbox]:checked ~ label span:nth-child(3) {
 }
 
 .sign{
-<<<<<<< HEAD
   border:2px solid black;
   width:100vw;
   height: 100vh;
-=======
   width:100vw;
   height: 92vh;
->>>>>>> origin/master
   background-color: #BDDBC7;
 }
 .signup{
@@ -269,7 +266,6 @@ form button {
 }
 .faq{
     float:left;
-<<<<<<< HEAD
     width:100vw;
     height:92vh;
 }
@@ -277,7 +273,6 @@ form button {
     float:left;
     width:100vw;
     height: 50vh;
-=======
     width:100vw;
     height:50vh;
 }
@@ -285,13 +280,16 @@ form button {
     float:left;
     width:100vw;
     height: 38vh;
->>>>>>> origin/master
     background-color:#888;
 }
 .col-md-4{
     margin-top:7%;
     text-align:center;
     z-index:-1;
+}
+.col-md-4 p, h2{
+    text-align:left;
+    margin-left:30%;
 }
 .col-md-3{
     margin-top:5%;
@@ -303,7 +301,6 @@ form button {
 .row{
     margin-left:auto;
     margin-right:auto;
-    z-index:-1;
 }
 .col-md-3 h2{
   font-size: 1.4em;
