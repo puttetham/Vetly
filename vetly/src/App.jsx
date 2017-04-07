@@ -19,7 +19,6 @@ class App extends Component {
   render() {
     return (
         <div>
-<<<<<<< HEAD
           <nav>
           <h2 className="brand"><span className="v">V</span>ETLY</h2>
           <input id="nav" type="checkbox" />
@@ -37,7 +36,7 @@ class App extends Component {
           </ul>
         </nav>
 
-=======
+
             <div className="nav">
                 <a href="#">Logga in</a>
                 <a href="#">Registering</a>
@@ -46,7 +45,7 @@ class App extends Component {
                 <a href="#">Veterinärer</a>
                 <a href="#">Info</a>
             </div>
->>>>>>> origin/master
+
             {/*All code except the fixed nav goes here!*/}
                 <div className="start">
                     <div className="start-text">
@@ -60,25 +59,25 @@ class App extends Component {
                             </ul>
                             <img src={appstore} className="img-appstore" alt= "ladda ner vetly från appstore" />
                     </div>
-<<<<<<< HEAD
+
 
                     <img src={startimg} className="img-start" alt= "logo" />
 
 
-=======
-                    
+
+
                     <img src={startimg} className="img-veterinary" alt= "veterinär" />
                     <img src={startimg2} className="img-horse" alt= "häst" />
-                    
-                
->>>>>>> origin/master
+
+
+
                 </div>
 
 
 
 
                 {/*Login / Registration !*/}
-                
+
                 <div className="sign">
                     <div className="signup">
                     <h1>Registrera Dig</h1>
@@ -99,40 +98,46 @@ class App extends Component {
                         </form>
                     </div>
                 </div>
-                
+
                 {/*General info regarding the process*/}
                 <div className="info">
-<<<<<<< HEAD
+
                     <center><h1>Att boka möte är lika lätt som 1 2 3</h1></center>
                     <div className="row">
-=======
+
                     <center><h3>Vetly fungerar på följande sätt</h3></center>
-                    <div className="row">  
->>>>>>> origin/master
+
+                    <div className="row">
+
+
+                    <div className="row">
+
                         <div className="col-md-4">
                         <img src={account} className="account" alt ="account"/>
                             <h2>Registrera dig</h2>
-                            <p>Ifall du inte redan har ett konto är det bara att registrera sig.</p>
-                            <p>När du väl registretat dig så gäller det att fylla din häst/hästars</p>
-                            <p>profil. Detta kommer underlätta för veterinären och dig inför framtida</p>
-                            <p>möten ifall de händer att det behövs</p>
+                            <p>✓ Registrera ett konto (helt gratis)</p>
+                            <p>✓ Logga in</p>
+                            <p>✓ Fyll in din hästs profil</p>
 
                         </div>
                         <div className="col-md-4">
                         <img src={cal} className="cal" alt="cal"/>
                             <h2>Boka tid</h2>
-                            <p>När du har ett konto är det bara att gå in och hitta en tid</p>
-                            <p>som passar dig och boka. Under bokningsprocessen är det viktigt</p>
-                            <p>att skicka in din hästs profil samt vad din fundering gäller.</p>
-                        
+                            <p>✓ Hitta en tid som passar dig</p>
+                            <p>✓ Skicka in information såsom hästens profil samt ditt ärende</p>
+                            <p>✓ </p>
+
+
                         </div>
                         <div className="col-md-4">
                         <img src={convo} className="convo" alt="convo" />
                             <h2>Videosamtal</h2>
-                            <p>När dagen har kommit så kommer du delta i ett videosamtal</p>
-                            <p>med en av våra veterinärer. Se till att vara här i tid!</p>
+                            <p>✓ Var inloggad i appen eller i webbläsaren</p>
+                            <p>✓ Delta i samtalet när tiden har kommit</p>
+                            <p>✓ Ha ett trevligt möte! </p>
 
-                        
+
+
                         </div>
                     </div>
 
@@ -173,8 +178,8 @@ class App extends Component {
                     <p> ✓ Kundtjänst (00:06-20:00) </p>
                     <p> ✓ Email : Vetly@Vetly.com </p>
                     <p> ✓ Kontor </p>
-                        
-                    
+
+
                     </div>
                     <div className="col-xs-4 form">
                         <h2>Ställ en fråga</h2>
