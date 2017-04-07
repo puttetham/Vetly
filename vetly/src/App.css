@@ -155,8 +155,7 @@ input[type=checkbox]:checked ~ label span:nth-child(3) {
 /****************************/
 
 .start{
-    width:100vw;
-    height: 100vh;
+
     width:100vw;
     height: 92vh;
     margin-top:5%;
@@ -217,8 +216,6 @@ input[type=checkbox]:checked ~ label span:nth-child(3) {
 .sign{
   border:2px solid black;
   width:100vw;
-  height: 100vh;
-  width:100vw;
   height: 92vh;
   background-color: #BDDBC7;
 }
@@ -255,29 +252,19 @@ form button {
 }
 
 .info{
-    float:left;
     width:100vw;
     height:92vh;
 }
 .vets{
-    float:left;
     width:100vw;
     height:92vh;
 }
 .faq{
-    float:left;
     width:100vw;
     height:92vh;
 }
+
 .footer{
-    float:left;
-    width:100vw;
-    height: 50vh;
-    width:100vw;
-    height:50vh;
-}
-.footer{
-    float:left;
     width:100vw;
     height: 38vh;
     background-color:#888;
@@ -298,12 +285,13 @@ form button {
     z-index: -1;
     font-size: 1.3em;
 }
+.col-md-3 h2 {
+    text-align:center;
+    font-size: 1.4em;
+}
 .row{
     margin-left:auto;
     margin-right:auto;
-}
-.col-md-3 h2{
-  font-size: 1.4em;
 }
 .col-xs-4{
     font-size:1.4em;
@@ -339,6 +327,7 @@ form button {
     width:10vw;
 }
 .col-md-3 .lana, .krieger, .archer, .malory{
+
     border-radius:50%;
     width:12vw;
     height:12vw;
