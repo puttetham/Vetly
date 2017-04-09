@@ -11,6 +11,7 @@ import krieger from './krieger.jpg';
 import lana from './lana.jpg';
 import malory from './malory.jpg';
 import map from './map.jpg';
+import vetlylogo from './VETLYLOGO.png';
 
 
 
@@ -38,7 +39,7 @@ class App extends Component {
             </nav>
 
 
-            
+
 
             {/*All code except the fixed nav goes here!*/}
                 <div className="start">
@@ -167,15 +168,59 @@ class App extends Component {
                     </div>
                 </div>{/*FAQ SECTION*/}
 
-                <div className="footer">
-                    <h1>Footer</h1>
-                </div>
-            {/*Container ends*/}
+                {/*Container ends*/}
 
                {/*Footer*/}
 
+               <footer className="footer-distributed">
+
+                <div className="footer-left">
+
+                <img src={vetlylogo} alt= "häst" />
+
+                </div>
+
+                <div className="footer-center">
+
+                  <div>
+                    <i className="fa fa-map-marker"></i>
+                    <p><span>21 Odenplan</span> Stockholm , Sweden</p>
+                  </div>
+
+                  <div>
+                    <i className="fa fa-phone"></i>
+                    <p>+0736456</p>
+                  </div>
+
+                  <div>
+                    <i className="fa fa-envelope"></i>
+                    <p><a href="mailto:support@vetly.com">support@vetly.com</a></p>
+                  </div>
+
+                </div>
+
+                <div className="footer-right">
+
+                  <p className="footer-company-about">
+                    <span>About Vetly</span>
+                    Vetly har valt ut legitimerade läkare med gedigen erfarenhet från primärvård som är redo att hjälpa dig med dina besvär eller frågeställningar. Alla läkare har tränats för att på bästa möjliga sätt kunna tillgodose dina behov via videomöte.
+                  </p>
+
+                  <div className="footer-icons">
+
+                    <a href="#"><i className="fa fa-facebook"></i></a>
+                    <a href="#"><i className="fa fa-twitter"></i></a>
+                    <a href="#"><i className="fa fa-linkedin"></i></a>
+                    <a href="#"><i className="fa fa-github"></i></a>
+
+                  </div>
+
+                </div>
+
+               </footer>
+
         </div>
-      
+
 
 
 
