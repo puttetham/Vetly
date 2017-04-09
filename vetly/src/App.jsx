@@ -88,7 +88,6 @@ class App extends Component {
                 {/*General info regarding the process*/}
                 <div className="info">
 
-                    <center><h1>Att boka möte är lika lätt som 1 2 3</h1></center>
                     <div className="row">
 
                     <center><h3>Vetly fungerar på följande sätt</h3></center>
