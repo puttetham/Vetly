@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import account from './account.png';
 import startimg from './veterinary.png';
-import startimg2 from './horse_phone.png';
+import startimg2 from './horse_pic.png';
 import appstore from './app-store.png';
 import archer from './archer.jpg';
 import cal from './cal.jpg';
