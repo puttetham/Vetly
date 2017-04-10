@@ -64,7 +64,7 @@ class App extends Component {
 
                 {/*Login / Registration !*/}
 
-                <div className="sign">
+               {/* <div className="sign">
                     <div className="signup">
                     <h1>Registrera Dig</h1>
                         <form>
@@ -83,7 +83,7 @@ class App extends Component {
                         <button class="right" type="button">Logga In</button>
                         </form>
                     </div>
-                </div>
+                </div>*/}
 
                 {/*General info regarding the process*/}
                 <div className="info">
@@ -102,15 +102,15 @@ class App extends Component {
                             <img src={cal} className="cal" alt="cal"/>
                             <h2>Boka tid</h2>
                             <p>✓ Hitta en tid som passar dig</p>
-                            <p>✓ Skicka in information såsom hästens profil samt ditt ärende</p>
-                            <p>✓ </p>
+                            <p>✓ Skicka hästens profil</p>
+                            <p>✓ Beskriv ärendet</p>
                         </div>
                         <div className="col-md-4">
                             <img src={convo} className="convo" alt="convo" />
                             <h2>Videosamtal</h2>
                             <p>✓ Var inloggad i appen eller i webbläsaren</p>
                             <p>✓ Delta i samtalet när tiden har kommit</p>
-                            <p>✓ Ha ett trevligt möte! </p>
+                            <p>✓ Trevligt möte! </p>
                         </div>
                     </div>
 
@@ -143,29 +143,7 @@ class App extends Component {
                         <p>Crazy scientist who fancys pigglies</p>
                     </div>
                 </div>{/*VET DOCTORS*/}
-                <hr/>
-                <div className="faq">
-                    <div className="row">
-                    <div className="col-xs-4 kontakt">
-                        <h2>Kontakt</h2>
-                        <p>✓ Kundtjänst (00:06-20:00)</p>
-                        <p>✓ Email : Vetly@Vetly.com </p>
-                        <p>✓ Kontor </p>
-                    </div>
-                    <div className="col-xs-4 form">
-                        <h2>Ställ en fråga</h2>
-                        <form>
-                            <input type="text" placeholder="Namn"/>
-                            <input type="text" placeholder="Email"/>
-                            <textarea type="text" placeholder="Din fråga"/>
-                        </form>
-                    </div>
-                    <div className="col-xs-4 findus">
-                        <h2>Hitta oss</h2>
-                        <img src={map} className="map" alt= "map" />
-                    </div>
-                    </div>
-                </div>{/*FAQ SECTION*/}
+                
 
                 {/*Container ends*/}
 
