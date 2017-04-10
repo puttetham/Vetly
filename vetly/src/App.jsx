@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
+import ScrollableAnchor from 'react-scrollable-anchor'
+import { configureAnchors } from 'react-scrollable-anchor'
 import account from './account.png';
 import startimg from './veterinary.png';
 import startimg2 from './horse_pic.png';
@@ -188,10 +190,10 @@ class App extends Component {
 
                   <div className="footer-icons">
 
-                    <a href="#"><i className="fa fa-facebook"></i></a>
-                    <a href="#"><i className="fa fa-twitter"></i></a>
-                    <a href="#"><i className="fa fa-linkedin"></i></a>
-                    <a href="#"><i className="fa fa-github"></i></a>
+                    <a href="https://www.facebook.com/"><i className="fa fa-facebook"></i></a>
+                    <a href="https://twitter.com/"><i className="fa fa-twitter"></i></a>
+                    <a href="https://se.linkedin.com/"><i className="fa fa-linkedin"></i></a>
+                    <a href="https://github.com/"><i className="fa fa-github"></i></a>
 
                   </div>
 
@@ -200,6 +202,20 @@ class App extends Component {
                </footer>
             </div>
 
+        /*<div>
+        <a href='#section1'> Go to section 1 </a>
+        <a href='#section2'> Go to section 2 </a>
+        <ScrollableAnchor id={'section1'}>
+          <div> Hello World </div>
+        </ScrollableAnchor>
+        <ScrollableAnchor id={'section2'}>
+          <div> How are you world? </div>
+        </ScrollableAnchor>
+        </div>
+
+        // Offset all anchors by -60 to account for a fixed header 
+        // and scroll more quickly than the default 400ms 
+        configureAnchors({offset: -60, scrollDuration: 200})*/
 
 
 
