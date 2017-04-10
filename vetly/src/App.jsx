@@ -94,25 +94,19 @@ class App extends Component {
 
                     <center><h3>Vetly fungerar på följande sätt</h3></center>
                         <div className="col-md-4">
-                            <img src={account} className="account" alt ="account"/>
                             <h2>Registrera dig</h2>
-                            <p>✓ Registrera ett konto (helt gratis)</p>
-                            <p>✓ Logga in</p>
-                            <p>✓ Fyll in din hästs profil</p>
+                            <img src={account} className="account" alt ="account"/>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras consequat est leo, nec pharetra erat tristique vitae. Mauris faucibus massa id sapien consequat, sollicitudin tristique felis pulvinar.</p>
                         </div>
                         <div className="col-md-4">
+                            <h2>Bokning</h2>
                             <img src={cal} className="cal" alt="cal"/>
-                            <h2>Boka tid</h2>
-                            <p>✓ Hitta en tid som passar dig</p>
-                            <p>✓ Skicka hästens profil</p>
-                            <p>✓ Beskriv ärendet</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras consequat est leo, nec pharetra erat tristique vitae. Mauris faucibus massa id sapien consequat, sollicitudin tristique felis pulvinar.</p>
                         </div>
                         <div className="col-md-4">
-                            <img src={convo} className="convo" alt="convo" />
                             <h2>Videosamtal</h2>
-                            <p>✓ Var inloggad i appen eller i webbläsaren</p>
-                            <p>✓ Delta i samtalet när tiden har kommit</p>
-                            <p>✓ Trevligt möte! </p>
+                            <img src={convo} className="convo" alt="convo" />
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras consequat est leo, nec pharetra erat tristique vitae. Mauris faucibus massa id sapien consequat, sollicitudin tristique felis pulvinar.</p>
                         </div>
                     </div>
 
