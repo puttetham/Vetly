@@ -27,13 +27,13 @@ nav {
 nav h2 {
   display: inline;
   font-family: 'Fredoka One', sans-serif;
-  color: #85ccc2;
+  color: #6666ff;
   margin-left:8.5%;
   font-weight: bold;
 }
 
 .v {
-  color: #0b47a0;
+  color: #b24747;
 }
 
 .menu {
@@ -161,7 +161,7 @@ input[type=checkbox]:checked ~ label span:nth-child(3) {
     height: 92vh;
     margin-top:5%;
     /*background: -webkit-linear-gradient(left, #00ccff, #80e5ff); */
-    background:#0b47a0;
+    background:#6666ff;
     padding:10%;
 
 }
@@ -173,15 +173,16 @@ input[type=checkbox]:checked ~ label span:nth-child(3) {
 
 .heading-start {
     color:#fff;
-    font-size:3.6em;
-    font-weight:700;
-
+    font-size:3em;
+    /*font-weight:700;*/
+    font-family: 'Raleway', sans-serif;
 }
 
 .start-list {
     list-style: outside none none;
     margin: 50px 0;
     padding: 0;
+    font-family: 'Raleway', sans-serif;
 }
 
 .start-list li {
