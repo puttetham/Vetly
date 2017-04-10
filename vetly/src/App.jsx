@@ -39,8 +39,6 @@ class App extends Component {
             </nav>
 
 
-
-
             {/*All code except the fixed nav goes here!*/}
                 <div className="start">
                     <div className="start-text">
@@ -115,9 +113,10 @@ class App extends Component {
                     </div>
 
                 </div>{/*HOW IT WORKS SECTION*/}
-                <hr/>
+                
                 {/*A page about the Vets*/}
                 <div className="vets">
+                    <div className="row">
                     <center>
                     <h3>Veterinärer</h3>
                     <h4> Vetly erbjuder dem bästa veterinärerna.</h4>
@@ -142,6 +141,7 @@ class App extends Component {
                         <h2>Krieger</h2>
                         <p>Crazy scientist who fancys pigglies</p>
                     </div>
+                    </div>
                 </div>{/*VET DOCTORS*/}
 
 
@@ -150,6 +150,7 @@ class App extends Component {
                {/*Footer*/}
 
                <footer className="footer-distributed">
+               <div className="row">
 
                 <div className="footer-left">
 
@@ -193,10 +194,9 @@ class App extends Component {
                   </div>
 
                 </div>
-
+                </div>
                </footer>
-
-        </div>
+            </div>
 
 
 
