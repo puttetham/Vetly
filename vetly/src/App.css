@@ -255,9 +255,34 @@ form button {
 
 .info{
     width:100vw;
-    height:92vh;
+    height:70vh;
 
 
+}
+.book{
+    height:22vh;
+    width:100vw;
+    background-color:#6666ff;
+}
+.bookbutton{
+    margin-left:40vw;
+    margin-top:3.5%;
+    font-size:2em;
+    color:#fff;
+    display:inline-block;
+    text-align:center;
+    width:20vw;
+    height:5vw;
+    background-color:#6666ff;
+    border:3px solid white;
+    transition-duration:0.4s;
+    font-family:'Fredoka One', sans-serif;
+
+}
+.bookbutton:hover{
+    background-color:#fff;
+    color:#6666ff;
+    transition-duration:0.4s;
 }
 .row{
   margin-left:10%;

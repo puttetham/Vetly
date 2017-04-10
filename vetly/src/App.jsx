@@ -113,7 +113,10 @@ class App extends Component {
                     </div>
 
                 </div>{/*HOW IT WORKS SECTION*/}
-                
+                <div className="book">
+                    <button className="bookbutton" type="button">Boka Nu</button>
+
+                </div>
                 {/*A page about the Vets*/}
                 <div className="vets">
                     <div className="row">
@@ -145,7 +148,6 @@ class App extends Component {
                 </div>{/*VET DOCTORS*/}
 
 
-                {/*Container ends*/}
 
                {/*Footer*/}
 
