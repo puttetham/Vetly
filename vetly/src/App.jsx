@@ -20,7 +20,9 @@ import vetlylogo from './VETLYLOGO.png';
 
 
 class App extends Component {
+    
   render() {
+    configureAnchors({offset: -60, scrollDuration: 400});
     return (
         <div>
             <nav>
@@ -32,9 +34,8 @@ class App extends Component {
                     <span />
                 </label>
                 <ul className="menu">
-                    <li>Våra tjänster</li>
-                    <li>Våra vetrinärer</li>
-                    <li>Kontakta oss</li>
+                    <a href='#info'><li>Våra tjänster</li></a>
+                    <a href='#vets'><li>Våra vetrinärer</li></a>
                     <li>Skapa konto</li>
                     <li>Logga in</li>
                 </ul>
@@ -86,6 +87,7 @@ class App extends Component {
                 </div>*/}
 
                 {/*General info regarding the process*/}
+                <ScrollableAnchor id={'info'}>
                 <div className="info">
 
                     <div className="row">
@@ -115,11 +117,13 @@ class App extends Component {
                     </div>
 
                 </div>{/*HOW IT WORKS SECTION*/}
+                </ScrollableAnchor>
                 <div className="book">
                     <button className="bookbutton" type="button">Boka Nu</button>
 
                 </div>
                 {/*A page about the Vets*/}
+                <ScrollableAnchor id={'vets'}>
                 <div className="vets">
                     <div className="row">
                     <center>
@@ -148,6 +152,7 @@ class App extends Component {
                     </div>
                     </div>
                 </div>{/*VET DOCTORS*/}
+                </ScrollableAnchor>
 
 
 
@@ -202,20 +207,10 @@ class App extends Component {
                </footer>
             </div>
 
-        /*<div>
-        <a href='#section1'> Go to section 1 </a>
-        <a href='#section2'> Go to section 2 </a>
-        <ScrollableAnchor id={'section1'}>
-          <div> Hello World </div>
-        </ScrollableAnchor>
-        <ScrollableAnchor id={'section2'}>
-          <div> How are you world? </div>
-        </ScrollableAnchor>
-        </div>
+        
+    
 
-        // Offset all anchors by -60 to account for a fixed header 
-        // and scroll more quickly than the default 400ms 
-        configureAnchors({offset: -60, scrollDuration: 200})*/
+        
 
 
 
