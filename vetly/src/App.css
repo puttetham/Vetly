@@ -289,11 +289,9 @@ form button {
   background-color: #D3D3D3;
 }
 
-.info{
+.services{
     width:100vw;
     height:70vh;
-
-
 }
 .book{
     height:22vh;
@@ -329,7 +327,11 @@ form button {
     width:100vw;
     height:92vh;
 }
-
+.info{
+    width:100vw;
+    height:42vh;
+    background-color:#6666ff;
+}
 
 
 .col-md-3{
@@ -381,12 +383,11 @@ form button {
         box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
         box-sizing: border-box;
         width: 100vw;
-        height:25vw;
+        height:50vh;
         text-align: left;
         font: bold 16px sans-serif;
 
         padding: 55px 50px;
-        margin-top: 80px;
     }
 
     .footer-distributed .footer-left,

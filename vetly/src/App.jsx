@@ -34,7 +34,7 @@ class App extends Component {
                     <span />
                 </label>
                 <ul className="menu">
-                    <a href='#info'><li>Våra tjänster</li></a>
+                    <a href='#services'><li>Våra tjänster</li></a>
                     <a href='#vets'><li>Våra vetrinärer</li></a>
                     <li>Skapa konto</li>
                     <li>Logga in</li>
@@ -94,8 +94,8 @@ class App extends Component {
                 </div>*/}
 
                 {/*General info regarding the process*/}
-                <ScrollableAnchor id={'info'}>
-                <div className="info">
+                <ScrollableAnchor id={'services'}>
+                <div className="services">
 
                     <div className="row">
 
@@ -154,7 +154,8 @@ class App extends Component {
                     </div>
                 </div>{/*VET DOCTORS*/}
                 </ScrollableAnchor>
-
+                <div className="info">
+                </div>
 
 
                {/*Footer*/}
