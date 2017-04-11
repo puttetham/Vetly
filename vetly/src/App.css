@@ -121,7 +121,7 @@ input[type=checkbox]:checked ~ label span:nth-child(3) {
   transform: translateY(-8px) rotate(-45deg);
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
     .menu {
         position: absolute;
         display: flex;
@@ -157,6 +157,43 @@ input[type=checkbox]:checked ~ label span:nth-child(3) {
         width:25%;
     }
 
+    .col-md-3{
+        float:left;
+        width:100%;
+    }
+    .col-md-3 img{
+        width:30%;
+    }
+    .col-md-6{
+        float:left;
+        width:100%;
+    }    
+    .book{
+        width:100%;
+        float:left;
+    }
+    .book button{
+        display:inline-block;
+        margin-top:12.5%;
+        width:50%;
+    }
+   
+    .vets{
+        float:left;
+        width:100%;
+    }
+    .info{
+        float:left;
+        width:100%;
+    }
+    footer{
+        float:left;
+        width:100%;
+    }
+    footer img{
+        display:none;
+    }
+
     .start{
       padding:2%;
      }
@@ -183,9 +220,6 @@ input[type=checkbox]:checked ~ label span:nth-child(3) {
       display:none;
       
     }
-
-    
-
     
 
   
@@ -197,7 +231,6 @@ input[type=checkbox]:checked ~ label span:nth-child(3) {
 /****************************/
 
 .start{
-
     width:100vw;
     height:92vh;
     margin-top:5%;
@@ -252,6 +285,11 @@ input[type=checkbox]:checked ~ label span:nth-child(3) {
     width:100%;
 }
 
+
+.img-horse {
+    margin-left: 82%;
+    margin-top: -44%;
+}
 /*START SECTION END*/
 .sign{
   border:2px solid black;
@@ -295,11 +333,7 @@ form button {
     width:100vw;
     height:70vh;
 }
-.book{
-    height:22vh;
-    width:100vw;
-    background-color:#6666ff;
-}
+
 .bookbutton{
     margin: 0% auto;
     display:inline-block;
@@ -309,7 +343,7 @@ form button {
     padding:1%;
     font-size:2em;
     color:#fff;
-  
+    
     background-color:#6666ff;
     border:3px solid white;
     transition-duration:0.4s;
@@ -320,6 +354,7 @@ form button {
     background-color:#fff;
     color:#6666ff;
     transition-duration:0.4s;
+    border:3px solid #6666ff;
 }
 .row{
   margin-left:10%;
@@ -332,7 +367,6 @@ form button {
 .info{
     width:100vw;
     height:42vh;
-    background-color:#6666ff;
 }
 
 
@@ -347,7 +381,7 @@ form button {
     margin-left:4%;
     font-size: 1.4em;
 }
-.col-md-3 .lana, .krieger, .archer, .malory{
+.col-md-3 .doc{
     border-radius:50%;
     width:12vw;
     height:12vw;
@@ -368,7 +402,9 @@ form button {
 .col-xs-4{
     font-size:1.4em;
 }
-
+.col-md-6{
+    border:2px solid black;
+}
 /*bild properties för steg för steg sidan*/
 .account, .cal, .convo{
     display:inline-block;
@@ -381,6 +417,7 @@ form button {
 
 
     .footer-distributed{
+        float:left;
         background-color: #292c2f;
         box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
         box-sizing: border-box;

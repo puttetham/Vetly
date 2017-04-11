@@ -4,6 +4,8 @@ import ScrollableAnchor from 'react-scrollable-anchor'
 import { configureAnchors } from 'react-scrollable-anchor'
 import account from './account.jpg';
 import startimg from './start_img.png';
+import doc from './doc.png';
+import startimg2 from './phone1.png';
 import appstore from './app-store.png';
 import archer from './archer.jpg';
 import cal from './cal.jpg';
@@ -21,7 +23,7 @@ import vetlylogo from './VETLYLOGO.png';
 class App extends Component {
     
   render() {
-    configureAnchors({offset: -60, scrollDuration: 400});
+    configureAnchors({offset: -70, scrollDuration: 400});
     return (
         <div>
             <nav>
@@ -62,7 +64,13 @@ class App extends Component {
 
                         <div className="col-md-6">
                         <img src={startimg} className="img-veterinary" alt= "veterinär" />
+<<<<<<< HEAD
                         </div>
+=======
+                        
+                        {/*<img src={startimg} className="img-veterinary" alt= "veterinär" />
+                        <img src={startimg2} className="img-horse" alt= "häst" />*/}
+>>>>>>> origin/master
                         
 
                     
@@ -124,7 +132,7 @@ class App extends Component {
                 </ScrollableAnchor>
                 <div className="book">
                     <center><button className="bookbutton" type="button">Boka Nu</button></center>
-
+                
                 </div>
                 {/*A page about the Vets*/}
                 <ScrollableAnchor id={'vets'}>
@@ -135,29 +143,35 @@ class App extends Component {
                     <h4> Vetly erbjuder dem bästa veterinärerna.</h4>
                     </center>
                     <div className="col-md-3">
-                        <img src={malory} className="malory" alt= "malory" />
+                        <img src={doc} className="doc" alt= "doc" />
                         <h2>Malory</h2>
-                        <p>Running the Cyril Agency</p>
                     </div>
                     <div className="col-md-3">
-                        <img src={archer} className="archer" alt= "archer" />
+                        <img src={doc} className="doc" alt= "doc" />
                         <h2>Archer</h2>
-                        <p>World best secret agent who is into phrasing</p>
                     </div>
                     <div className="col-md-3">
-                        <img src={lana} className="lana" alt= "lana" />
+                        <img src={doc} className="doc" alt= "doc" />
                         <h2>Lana</h2>
-                        <p>Secret agent and a mother with huge hands</p>
                     </div>
                     <div className="col-md-3">
-                        <img src={krieger} className="krieger" alt= "krieger" />
+                        <img src={doc} className="doc" alt= "doc" />
                         <h2>Krieger</h2>
-                        <p>Crazy scientist who fancys pigglies</p>
                     </div>
                     </div>
                 </div>{/*VET DOCTORS*/}
                 </ScrollableAnchor>
                 <div className="info">
+                <div className="row">
+                    <div className="col-md-6">
+                        <h2>Vanliga frågor</h2>
+                        
+                    </div>
+                    <div className="col-md-6">
+                        <h2>99% nöjda ryttare</h2>
+                        <p>Per</p>
+                    </div>
+                </div>
                 </div>
 
 
@@ -167,7 +181,7 @@ class App extends Component {
                <div className="row">
 
                 <div className="footer-left">
-
+                
                 <img src={vetlylogo} alt= "häst" />
 
                 </div>
