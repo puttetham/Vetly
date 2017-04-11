@@ -28,8 +28,8 @@ nav {
 nav h2 {
   display: inline;
   font-family: 'Fredoka One', sans-serif;
-  color: #6666ff;
-  margin-left:8.5%;
+  color: #57c2d4;
+  margin-left:12.5%;
   font-weight: bold;
 }
 
@@ -213,7 +213,7 @@ input[type=checkbox]:checked ~ label span:nth-child(3) {
       list-style: outside none none;
       margin: 16% 0;
       padding: 0;
-      font-family: 'Lato', sans-serif;
+      font-family: 'Roboto', sans-serif;
     }
 
     .img-veterinary {
@@ -234,8 +234,7 @@ input[type=checkbox]:checked ~ label span:nth-child(3) {
     width:100vw;
     height:92vh;
     margin-top:5%;
-    /*background: -webkit-linear-gradient(left, #00ccff, #80e5ff); */
-    background:#6666ff;
+    background: -webkit-linear-gradient(left, #57c2d4, #4674a6); 
     padding:10%;
 
 }
@@ -243,13 +242,14 @@ input[type=checkbox]:checked ~ label span:nth-child(3) {
 .start-text {
     float:left;
     margin-top:-3%;
+    margin-left:6%;
 }
 
 .heading-start {
     color:#fff;
-    font-size:3em;
-    /*font-weight:700;*/
-    font-family: 'Lato', sans-serif;
+    font-size:3.6em;
+    font-family: 'Fjalla One', sans-serif;
+
 }
 
 .start-list {
@@ -276,6 +276,7 @@ input[type=checkbox]:checked ~ label span:nth-child(3) {
 
 .img-appstore {
     width:40%;
+    margin-top: -10%;
 
 }
 
