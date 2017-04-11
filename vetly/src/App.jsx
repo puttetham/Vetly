@@ -138,26 +138,26 @@ class App extends Component {
                 <ScrollableAnchor id={'vets'}>
                 <div className="vets">
                     <div className="row">
-                    <center>
-                    <h3>Veterinärer</h3>
-                    <h4> Vetly erbjuder dem bästa veterinärerna.</h4>
-                    </center>
-                    <div className="col-md-3">
-                        <img src={doc} className="doc" alt= "doc" />
-                        <h2>Malory</h2>
-                    </div>
-                    <div className="col-md-3">
-                        <img src={doc} className="doc" alt= "doc" />
-                        <h2>Archer</h2>
-                    </div>
-                    <div className="col-md-3">
-                        <img src={doc} className="doc" alt= "doc" />
-                        <h2>Lana</h2>
-                    </div>
-                    <div className="col-md-3">
-                        <img src={doc} className="doc" alt= "doc" />
-                        <h2>Krieger</h2>
-                    </div>
+                        <center>
+                        <h3>Veterinärer</h3>
+                        <h4> Vetly erbjuder dem bästa veterinärerna.</h4>
+                        </center>
+                        <div className="col-md-3">
+                            <img src={doc} className="doc" alt= "doc" />
+                            <h2>Malory</h2>
+                        </div>
+                        <div className="col-md-3">
+                            <img src={doc} className="doc" alt= "doc" />
+                            <h2>Archer</h2>
+                        </div>
+                        <div className="col-md-3">
+                            <img src={doc} className="doc" alt= "doc" />
+                            <h2>Lana</h2>
+                        </div>
+                        <div className="col-md-3">
+                            <img src={doc} className="doc" alt= "doc" />
+                            <h2>Krieger</h2>
+                        </div>
                     </div>
                 </div>{/*VET DOCTORS*/}
                 </ScrollableAnchor>
@@ -169,7 +169,6 @@ class App extends Component {
                     </div>
                     <div className="col-md-6">
                         <h2>99% nöjda ryttare</h2>
-                        <p>Per</p>
                     </div>
                 </div>
                 </div>
