@@ -64,13 +64,13 @@ class App extends Component {
 
                         <div className="col-md-6">
                         <img src={startimg} className="img-veterinary" alt= "veterinär" />
-<<<<<<< HEAD
+
                         </div>
-=======
+
                         
                         {/*<img src={startimg} className="img-veterinary" alt= "veterinär" />
                         <img src={startimg2} className="img-horse" alt= "häst" />*/}
->>>>>>> origin/master
+
                         
 
                     
