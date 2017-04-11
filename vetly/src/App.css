@@ -22,7 +22,7 @@ nav {
   z-index:2;
   width: 100vw;
   background: #fff;
-  
+
 }
 
 nav h2 {
@@ -66,7 +66,7 @@ nav h2 {
 }
 
 .menu li:hover {
-  
+
 }
 
 input[type=checkbox] {
@@ -167,7 +167,7 @@ input[type=checkbox]:checked ~ label span:nth-child(3) {
     .col-md-6{
         float:left;
         width:100%;
-    }    
+    }
     .book{
         width:100%;
         float:left;
@@ -177,7 +177,7 @@ input[type=checkbox]:checked ~ label span:nth-child(3) {
         margin-top:12.5%;
         width:50%;
     }
-   
+
     .vets{
         float:left;
         width:100%;
@@ -202,7 +202,7 @@ input[type=checkbox]:checked ~ label span:nth-child(3) {
       width:100%;
       margin-bottom:12%;
     }
-    
+
 
     .start h1 {
       font-size:1.9em;
@@ -218,12 +218,29 @@ input[type=checkbox]:checked ~ label span:nth-child(3) {
 
     .img-veterinary {
       display:none;
-      
-    }
-    
 
-  
-  
+    }
+
+      	.footer-distributed{
+    		font: bold 14px sans-serif;
+    	}
+
+    	.footer-distributed .footer-left,
+    	.footer-distributed .footer-center,
+    	.footer-distributed .footer-right{
+    		display: block;
+    		width: 100%;
+    		margin-bottom: 40px;
+    		text-align: center;
+    	}
+
+    	.footer-distributed .footer-center i{
+    		margin-left: 0;
+    	}
+
+
+
+
 
 }
 
@@ -234,7 +251,7 @@ input[type=checkbox]:checked ~ label span:nth-child(3) {
     width:100vw;
     height:92vh;
     margin-top:5%;
-    background: -webkit-linear-gradient(left, #57c2d4, #4674a6); 
+    background: -webkit-linear-gradient(left, #57c2d4, #4674a6);
     padding:10%;
 
 }
@@ -344,7 +361,7 @@ form button {
     padding:1%;
     font-size:2em;
     color:#fff;
-    
+
     background-color:#6666ff;
     border:3px solid white;
     transition-duration:0.4s;
@@ -567,5 +584,3 @@ form button {
     }
 
 /*------------Footer Part Over here---------*/
-
-
