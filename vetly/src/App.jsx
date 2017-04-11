@@ -54,11 +54,18 @@ class App extends Component {
                                 <li>✓   Snabb diagnos eller remiss</li>
                             </ul>
                             <img src={appstore} className="img-appstore" alt= "ladda ner vetly från appstore" />
+
                     </div>
 
-                    <img src={startimg} className="img-veterinary" alt= "veterinär" />
-                    <img src={startimg2} className="img-horse" alt= "häst" />
+
+                        <img src={startimg} className="img-veterinary" alt= "veterinär" />
+                        <img src={startimg2} className="img-horse" alt= "häst" />
+                        
+
+                    
                 </div>{/*start*/}
+
+
 
 
 
