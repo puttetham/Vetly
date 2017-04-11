@@ -4,7 +4,7 @@ import ScrollableAnchor from 'react-scrollable-anchor'
 import { configureAnchors } from 'react-scrollable-anchor'
 import account from './account.jpg';
 import startimg from './veterinary.png';
-import startimg2 from './horse_pic.png';
+import startimg2 from './phone1.png';
 import appstore from './app-store.png';
 import archer from './archer.jpg';
 import cal from './cal.jpg';
