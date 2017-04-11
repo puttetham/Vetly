@@ -159,33 +159,33 @@ input[type=checkbox]:checked ~ label span:nth-child(3) {
     
 
 
-  .img-veterinary {
-    display:none;
-  }
+    .img-veterinary {
+      display:none;
+    }
 
-  .img-horse {
-    display:none;
+    .img-horse {
+      display:none;
+    }
+
+    .start img {
+      width:56%;
+      margin-left:20%;
     
-  }
+    }
 
-  .heading-start {
-    color:#fff;
-    font-size:2em;
-    /*font-weight:700;*/
+    .start h1 {
+      font-size:1.9em;
+      margin:28% 10% -6%;
+    }
+
+    .start ul  {
+      list-style: outside none none;
+      margin: 16% 7%;
+      padding: 0;
+      font-family: 'Lato', sans-serif;
+    }
+
     
-    
-  }
-
-  .start img {
-    width:70%;
-    margin-left:16.2%;
-
-  }
-
-  .start h1 {
-    font-size:1.9em;
-    margin-top:26%;
-  }
 
   
   
@@ -220,9 +220,9 @@ input[type=checkbox]:checked ~ label span:nth-child(3) {
 
 .start-list {
     list-style: outside none none;
-    margin: 50px 0;
+    margin: 16% 0;
     padding: 0;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Lato', sans-serif;
 }
 
 .start-list li {
