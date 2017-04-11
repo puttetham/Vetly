@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import ScrollableAnchor from 'react-scrollable-anchor'
 import { configureAnchors } from 'react-scrollable-anchor'
-import account from './account.png';
+import account from './account.jpg';
 import startimg from './veterinary.png';
 import startimg2 from './horse_pic.png';
 import appstore from './app-store.png';
@@ -94,7 +94,7 @@ class App extends Component {
 
                     <center><h3>Vetly fungerar på följande sätt</h3></center>
                         <div className="col-md-4">
-                            <h2>Registrera dig</h2>
+                            <h2>Registrering</h2>
                             <img src={account} className="account" alt ="account"/>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras consequat est leo, nec pharetra erat tristique vitae. Mauris faucibus massa id sapien consequat, sollicitudin tristique felis pulvinar.</p>
                         </div>
@@ -113,7 +113,7 @@ class App extends Component {
                 </div>{/*HOW IT WORKS SECTION*/}
                 </ScrollableAnchor>
                 <div className="book">
-                    <button className="bookbutton" type="button">Boka Nu</button>
+                    <center><button className="bookbutton" type="button">Boka Nu</button></center>
 
                 </div>
                 {/*A page about the Vets*/}

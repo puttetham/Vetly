@@ -22,6 +22,7 @@ nav {
   z-index:2;
   width: 100vw;
   background: #fff;
+  
 }
 
 nav h2 {
@@ -66,7 +67,6 @@ nav h2 {
 
 .menu li:hover {
   
-
 }
 
 input[type=checkbox] {
@@ -214,7 +214,7 @@ input[type=checkbox]:checked ~ label span:nth-child(3) {
     margin-right: -49%;
     margin-top: -5%;
 }
-
+/*START SECTION END*/
 .sign{
   border:2px solid black;
   width:100vw;
@@ -265,14 +265,15 @@ form button {
     background-color:#6666ff;
 }
 .bookbutton{
-    margin-left:40vw;
-    margin-top:3.5%;
-    font-size:2em;
-    color:#fff;
+    margin: 0% auto;
     display:inline-block;
     text-align:center;
-    width:20vw;
-    height:5vw;
+    margin-top:3.5%;
+    width:25%;
+    padding:1%;
+    font-size:2em;
+    color:#fff;
+  
     background-color:#6666ff;
     border:3px solid white;
     transition-duration:0.4s;
@@ -306,6 +307,11 @@ form button {
     margin-left:4%;
     font-size: 1.4em;
 }
+.col-md-3 .lana, .krieger, .archer, .malory{
+    border-radius:50%;
+    width:12vw;
+    height:12vw;
+}
 .col-md-4{
     margin-top:5%;
     text-align:center;
@@ -322,48 +328,15 @@ form button {
 .col-xs-4{
     font-size:1.4em;
 }
-.form h2{
-    text-align:center;
-}
-.kontakt h2, p{
-    margin-left:5%;
-    margin-top:4.5%;
-}
-.findus h2{
-    text-align:right;
-    margin-right:5%;
-}
-.col-xs-4 form{
-    display:inline-block;
-    text-align:center;
-}
-.col-xs-4 img{
-    width:20vw;
-    height:15vw;
-    float:right;
-    margin-right:5%;
-}
-.col-xs-4 input, textarea{
-    width:80%;
-    border-radius:5px;
-}
+
 /*bild properties för steg för steg sidan*/
 .account, .cal, .convo{
     display:inline-block;
     width:5vw;
     text-align:center;
 }
-.col-md-3 .lana, .krieger, .archer, .malory{
 
-    border-radius:50%;
-    width:12vw;
-    height:12vw;
-}
-.glyphicon{
-    font-size:8em;
-    z-index:-1;
 
-}
 /*   Footer Starts Here */
 
 
@@ -372,7 +345,7 @@ form button {
         box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
         box-sizing: border-box;
         width: 100vw;
-      height:25vw;
+        height:25vw;
         text-align: left;
         font: bold 16px sans-serif;
 
