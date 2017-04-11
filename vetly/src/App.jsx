@@ -42,7 +42,10 @@ class App extends Component {
 
 
             {/*All code except the fixed nav goes here!*/}
-                <div className="start">
+
+            <div className="start">
+            <div className="col-md-6">
+               
                     <div className="start-text">
                         <h1 className="heading-start">Träffa veterinär online</h1>
                             <ul className="start-list">
@@ -55,10 +58,11 @@ class App extends Component {
                             <img src={appstore} className="img-appstore" alt= "ladda ner vetly från appstore" />
 
                     </div>
+                    </div>
 
-
+                        <div className="col-md-6">
                         <img src={startimg} className="img-veterinary" alt= "veterinär" />
-                        
+                        </div>
                         
 
                     
