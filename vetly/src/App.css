@@ -163,10 +163,6 @@ input[type=checkbox]:checked ~ label span:nth-child(3) {
       display:none;
     }
 
-    .img-horse {
-      display:none;
-    }
-
     .start img {
       width:56%;
       margin-left:20%;
@@ -249,11 +245,6 @@ input[type=checkbox]:checked ~ label span:nth-child(3) {
     float:right;
 }
 
-.img-horse {
-    
-    margin-left: 82%;
-    margin-top: -44%;
-}
 /*START SECTION END*/
 .sign{
   border:2px solid black;
