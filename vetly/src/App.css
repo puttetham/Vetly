@@ -358,7 +358,8 @@ form button {
     width:25%;
     padding:1%;
     font-size:2em;
-    background-color:-webkit-linear-gradient(left, #57c2d4, #4674a6);
+    color:#fff;
+    background-color:#57c2d4;
     border:3px solid white;
     transition-duration:0.4s;
     font-family:'Fredoka One', sans-serif;
@@ -366,10 +367,10 @@ form button {
 }
 .bookbutton:hover{
 
-    color:#6666ff;
-    background-color:-webkit-linear-gradient(left, #57c2d4, #4674a6);
+    color:#57c2d4;
+    background-color:#fff;
+    border:3px solid #57c2d4;
     transition-duration:0.4s;
-    border:3px solid -webkit-linear-gradient(left, #57c2d4, #4674a6);
 }
 .row{
   margin-left:10%;
@@ -397,9 +398,9 @@ form button {
     font-size: 1.4em;
 }
 .col-md-3 .doc{
-    border-radius:50%;
-    width:12vw;
-    height:12vw;
+  
+    width:14vw;
+    height:25vh;
 }
 
 .col-md-4{

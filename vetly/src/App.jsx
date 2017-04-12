@@ -158,19 +158,19 @@ class App extends Component {
                         <h4> Vetly erbjuder dem bästa veterinärerna.</h4>
                         </center>
                         <div className="col-md-3">
-                            <img src={doc} className="doc" alt= "doc" />
+                            <img src={archer} className="doc" alt= "doc" />
                             <h2>Malory</h2>
                         </div>
                         <div className="col-md-3">
-                            <img src={doc} className="doc" alt= "doc" />
+                            <img src={archer} className="doc" alt= "doc" />
                             <h2>Archer</h2>
                         </div>
                         <div className="col-md-3">
-                            <img src={doc} className="doc" alt= "doc" />
+                            <img src={archer} className="doc" alt= "doc" />
                             <h2>Lana</h2>
                         </div>
                         <div className="col-md-3">
-                            <img src={doc} className="doc" alt= "doc" />
+                            <img src={archer} className="doc" alt= "doc" />
                             <h2>Krieger</h2>
                         </div>
                     </div>
