@@ -161,9 +161,9 @@ input[type=checkbox]:checked ~ label span:nth-child(3) {
         float:left;
         width:100%;
     }
-    .col-md-3 img{
-        width:50%;
-    }
+   
+    
+       
     .col-md-6{
         float:left;
         width:100%;
@@ -178,10 +178,7 @@ input[type=checkbox]:checked ~ label span:nth-child(3) {
         width:50%;
     }
 
-    .vets{
-        float:left;
-        width:100%;
-    }
+    
     .info{
         float:left;
         width:100%;
@@ -350,7 +347,10 @@ form button {
   margin: 15px 0 15px 0;
   background-color: #D3D3D3;
 }
-
+.about{
+  width:100vw;
+  height:92vh;
+}
 .services{
     width:100vw;
     height:70vh;
@@ -364,19 +364,18 @@ form button {
     width:25%;
     padding:1%;
     font-size:2em;
-    color:#fff;
-
-    background-color:#6666ff;
+    background-color:-webkit-linear-gradient(left, #57c2d4, #4674a6);
     border:3px solid white;
     transition-duration:0.4s;
     font-family:'Fredoka One', sans-serif;
 
 }
 .bookbutton:hover{
-    background-color:#fff;
+
     color:#6666ff;
+    background-color:-webkit-linear-gradient(left, #57c2d4, #4674a6);
     transition-duration:0.4s;
-    border:3px solid #6666ff;
+    border:3px solid -webkit-linear-gradient(left, #57c2d4, #4674a6);
 }
 .row{
   margin-left:10%;
@@ -408,6 +407,7 @@ form button {
     width:12vw;
     height:12vw;
 }
+
 .col-md-4{
     margin-top:5%;
     text-align:center;

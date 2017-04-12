@@ -105,6 +105,21 @@ class App extends Component {
                 </div>*/}
 
                 {/*General info regarding the process*/}
+                <ScrollableAnchor>
+                <div className="about">
+                <div className="row">
+                    <div className="col-md-6"> 
+                        <h2>Vetly</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sed ipsum metus. Fusce vestibulum lorem ante, sed aliquet dui pharetra ac. Curabitur ut mi odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae scelerisque arcu, nec tristique enim. Integer ornare porta dignissim. Cras feugiat mattis faucibus. Cras ac purus in metus bibendum ullamcorper. Ut at lectus gravida, mattis purus sed, facilisis mauris.
+
+</p>
+                    </div>
+                        <h2>Registrera</h2>
+                    <div className="col-md-6">
+                    </div>
+                </div>
+                </div>
+                </ScrollableAnchor>
                 <ScrollableAnchor id={'services'}>
                 <div className="services">
 
@@ -175,7 +190,7 @@ class App extends Component {
 
 
                {/*Footer*/}
-
+               
                <footer className="footer-distributed">
                <div className="row">
 
