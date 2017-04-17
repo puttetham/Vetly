@@ -194,6 +194,7 @@ class App extends Component {
                <footer className="footer-distributed">
                <div className="row">
 
+
                 <div className="footer-left">
                 
                 <img src={vetlylogo} alt= "häst" />
@@ -209,7 +210,7 @@ class App extends Component {
 
                   <div>
                     <i className="fa fa-phone"></i>
-                    <p>+0736456</p>
+                    <p>073-645689</p>
                   </div>
 
                   <div>
@@ -234,9 +235,9 @@ class App extends Component {
                     <a href="https://github.com/"><i className="fa fa-github"></i></a>
 
                   </div>
-
+                  </div>
                 </div>
-                </div>
+                
                </footer>
             </div>
 
