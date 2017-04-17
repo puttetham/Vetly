@@ -15,6 +15,7 @@ import lana from './lana.jpg';
 import malory from './malory.jpg';
 import map from './map.jpg';
 import vetlylogo from './VETLYLOGO.png';
+import logo from './vetly_logo.png';
 
 
 
@@ -27,7 +28,7 @@ class App extends Component {
     return (
         <div>
             <nav>
-                <h2 className="brand"><span className="v">V</span>ETLY</h2>
+            <img src={logo} className="vetly_logo" alt= "vetly.se" />
                 <input id="nav" type="checkbox" />
                 <label htmlFor="nav">
                     <span />
