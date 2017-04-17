@@ -461,6 +461,10 @@ form button {
 
 /*   Footer Starts Here */
 
+    .vetly_logo_footer {
+        width:140px;
+        
+    }
 
     .footer-distributed{
         float:left;
@@ -484,7 +488,7 @@ form button {
     /* Footer left */
 
     .footer-distributed .footer-left{
-        width: 40%;
+        width: 30%;
     }
 
 
@@ -530,7 +534,7 @@ form button {
     }
 
     .footer-distributed .footer-center i{
-        background-color:  #33383b;
+        background-color: #57c2d4;
         color: #ffffff;
         font-size: 25px;
         width: 38px;
@@ -570,7 +574,7 @@ form button {
     /* Footer Right */
 
     .footer-distributed .footer-right{
-        width: 20%;
+        width: 34%;
     }
 
     .footer-distributed .footer-company-about{
@@ -598,9 +602,8 @@ form button {
         width: 35px;
         height: 35px;
         cursor: pointer;
-        background-color:  #33383b;
+        background-color:  #292c2f;
         border-radius: 2px;
-
         font-size: 20px;
         color: #ffffff;
         text-align: center;

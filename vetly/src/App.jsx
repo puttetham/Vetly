@@ -16,6 +16,7 @@ import malory from './malory.jpg';
 import map from './map.jpg';
 import vetlylogo from './VETLYLOGO.png';
 import logo from './vetly_logo.png';
+import footerlogo from './vetly_logo_white.png';
 
 
 
@@ -198,8 +199,8 @@ class App extends Component {
 
                 <div className="footer-left">
                 
-                <img src={vetlylogo} alt= "häst" />
-
+                {/*<img src={vetlylogo} alt= "häst" />*/}
+                <img src={footerlogo} className="vetly_logo_footer" alt= "veterinär på nätet" />
                 </div>
 
                 <div className="footer-center">
