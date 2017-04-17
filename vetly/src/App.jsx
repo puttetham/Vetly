@@ -29,7 +29,7 @@ class App extends Component {
     return (
         <div>
             <nav>
-            <img src={logo} className="vetly_logo" alt= "vetly.se" />
+            <a href='#start'><img src={logo} className="vetly_logo" alt= "vetly.se" /></a>
                 <input id="nav" type="checkbox" />
                 <label htmlFor="nav">
                     <span />
@@ -46,7 +46,7 @@ class App extends Component {
 
 
             {/*All code except the fixed nav goes here!*/}
-
+            <ScrollableAnchor id={'start'}>
             <div className="start">
             <div className="col-md-6">
                
@@ -65,7 +65,7 @@ class App extends Component {
                     </div>
 
                         <div className="col-md-6">
-                        <img src={startimg} className="img-veterinary" alt= "veterinär" />
+                        <img src={startimg} className="img-veterinary" alt="veterinär" />
 
                         </div>
 
@@ -77,7 +77,7 @@ class App extends Component {
 
                     
                 </div>{/*start*/}
-
+                </ScrollableAnchor>
 
 
 

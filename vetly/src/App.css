@@ -273,7 +273,7 @@ input[type=checkbox]:checked ~ label span:nth-child(3) {
 .start{
     width:100vw;
     height:92vh;
-    margin-top:5%;
+    margin-top:3%;
     background: -webkit-linear-gradient(left, #57c2d4, #4674a6);
     padding:10%;
 
@@ -468,7 +468,7 @@ form button {
 
     .footer-distributed{
         float:left;
-        background-color: #292c2f;
+        background-color: #000;
         box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
         box-sizing: border-box;
         width: 100vw;
@@ -602,7 +602,7 @@ form button {
         width: 35px;
         height: 35px;
         cursor: pointer;
-        background-color:  #292c2f;
+        background-color:  #000;
         border-radius: 2px;
         font-size: 20px;
         color: #ffffff;
