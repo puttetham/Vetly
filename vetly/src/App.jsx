@@ -47,7 +47,6 @@ class App extends Component {
 
             {/*All code except the fixed nav goes here!*/}
             <ScrollableAnchor id={'start'}>
-            <ScrollableAnchor id={'up'}>
             <div className="start">
             <div className="col-md-6">
                
@@ -78,7 +77,7 @@ class App extends Component {
                     
                 </div>{/*start*/}
                 </ScrollableAnchor>
-                </ScrollableAnchor>
+        
 
 
 
@@ -255,7 +254,7 @@ class App extends Component {
                   </div>
                 </div>
 
-                <a href='#up'><i className="fa fa-chevron-up fa-2x" aria-hidden="true"></i></a>
+                <a href='#start'><i className="fa fa-chevron-up fa-2x" aria-hidden="true"></i></a>
                 
                </footer>
             </div>
