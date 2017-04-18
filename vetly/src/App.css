@@ -226,16 +226,19 @@ input[type=checkbox]:checked ~ label span:nth-child(3) {
     }
 
 
-    .footer-distributed .footer-left,
+    .footer-distributed .footer-left{
+      display:none !important;
+    }
     .footer-distributed .footer-center,
     .footer-distributed .footer-right{
+        text-align:left;
         display: initial   !important;
         vertical-align: top;
         width:100%;
     }
 
     .footer-distributed .footer-center i{
-        margin: 10px 0px !important;
+        margin: 15px 10px 15px 2px !important;
     }
 
     .row {
