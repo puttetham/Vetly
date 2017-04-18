@@ -112,9 +112,15 @@ class App extends Component {
                 <div className="row">
                     <div className="col-md-6"> 
                         <h2>Vetly</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sed ipsum metus. Fusce vestibulum lorem ante, sed aliquet dui pharetra ac. Curabitur ut mi odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae scelerisque arcu, nec tristique enim. Integer ornare porta dignissim. Cras feugiat mattis faucibus. Cras ac purus in metus bibendum ullamcorper. Ut at lectus gravida, mattis purus sed, facilisis mauris.
-
-</p>
+                        <h3>Kort beskrivning</h3>
+                        <p> Med Vetly kan du träffa en legitimerad veterinär oavsett var du befinner dig. Dessutom är det både snabbt och enkelt! Låt oss berätta hur:</p>
+                        <p>
+                        Kvalitativ djurvård behöver inte vara kostsam eller tidskrävande. Med Vetly kan du snabbt och enkelt träffa en veterinär via din mobil eller dator, oavsett vart du befinner dig.
+                        </p>
+                        <h3>Möjliheterna med Vetly</h3>
+                        <p>- Träffa en legitimerad veterinär vart du än befinner dig.</p>
+                        <p>- Slipp långa väntetider och få hjälp även kvällar och helger.</p>
+                        <p>- Boka tid snabbt och enkelt direkt via din mobil eller dator.</p>
                     </div>
                         <h2>Registrera</h2>
                     <div className="col-md-6">
@@ -159,7 +165,7 @@ class App extends Component {
                 <div className="vets">
                     <div className="row">
                         <center>
-                        <h3>Veterinärer</h3>
+                        <h3>Träffa din veterinär</h3>
                         <h4> Vetly erbjuder dem bästa veterinärerna.</h4>
                         </center>
                         <div className="col-md-3">
