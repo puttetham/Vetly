@@ -375,6 +375,7 @@ form button {
 .about{
   width:100vw;
   height:92vh;
+  background:#efefef;
 }
 .services{
     width:100vw;
@@ -411,6 +412,7 @@ form button {
 .vets{
     width:100vw;
     height:92vh;
+    background:#efefef;
 }
 .info{
     width:100vw;
