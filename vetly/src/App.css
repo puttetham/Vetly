@@ -613,9 +613,13 @@ form button {
         color: #ffffff;
         text-align: center;
         line-height: 35px;
-
+        transition-duration: 1s;
         margin-right: 3px;
         margin-bottom: 5px;
     }
 
+    .footer-icons a:hover{
+      background-color: #5383d3;
+      transition-duration: 0.5s;
+    }
 /*------------Footer Part Over here---------*/
