@@ -47,6 +47,7 @@ class App extends Component {
 
             {/*All code except the fixed nav goes here!*/}
             <ScrollableAnchor id={'start'}>
+            <ScrollableAnchor id={'up'}>
             <div className="start">
             <div className="col-md-6">
                
@@ -74,9 +75,9 @@ class App extends Component {
                         <img src={startimg2} className="img-horse" alt= "häst" />*/}
 
                         
-
                     
                 </div>{/*start*/}
+                </ScrollableAnchor>
                 </ScrollableAnchor>
 
 
@@ -248,9 +249,13 @@ class App extends Component {
                     <a href="https://se.linkedin.com/"><i className="fa fa-linkedin"></i></a>
                     <a href="https://github.com/"><i className="fa fa-github"></i></a>
 
+
+
                   </div>
                   </div>
                 </div>
+
+                <a href='#up'><i className="fa fa-chevron-up fa-2x" aria-hidden="true"></i></a>
                 
                </footer>
             </div>
