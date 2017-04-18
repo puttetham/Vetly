@@ -613,7 +613,7 @@ form button {
         color: #ffffff;
         text-align: center;
         line-height: 35px;
-        transition-duration: 1s;
+        transition-duration: 0.5s;
         margin-right: 3px;
         margin-bottom: 5px;
     }
