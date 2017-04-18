@@ -7,6 +7,10 @@ html, body {
     font-family: 'Lato', sans-serif;
 }
 
+h3 {
+  margin-top:6%;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -171,10 +175,12 @@ input[type=checkbox]:checked ~ label span:nth-child(3) {
         float:left;
         width:100%;
     }
+    
     .book{
         width:100%;
         float:left;
     }
+
     .book button{
         display:inline-block;
         margin-top:12.5%;
@@ -384,11 +390,19 @@ form button {
     height:92vh;
 }
 
+.book{
+    width:100%;
+    float:left;
+    background: -webkit-linear-gradient(left, #57c2d4, #4674a6);
+}
+
 .bookbutton{
     margin: 0% auto;
     display:inline-block;
     text-align:center;
     margin-top:10%;
+    margin-top:4%;
+    margin-bottom: 4%;
     width:25%;
     padding:1%;
     font-size:2em;
@@ -396,7 +410,9 @@ form button {
     background-color:#57c2d4;
     border:3px solid white;
     transition-duration:0.4s;
-    font-family:'Fredoka One', sans-serif;
+    /*font-family:'Fredoka One', sans-serif;*/
+    font-family: "Fjalla One",sans-serif;
+    border-radius:4px;
 
 }
 .bookbutton:hover{
