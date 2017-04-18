@@ -118,6 +118,11 @@ class App extends Component {
                     </div>
                         <h2>Registrera</h2>
                     <div className="col-md-6">
+                        <h3>Kom igång</h3>
+                        <p>För att kunna boka ditt första veterinärmöte måste du först skapa ett konto. Endast ett fåtal personuppgifter - så som namn och emailaddress - krävs för att kunna registrera en ny användare, och efter bara någon minut kan du börja använda alla tjänstens funktioner.</p>
+                    
+                        <h3>Skapa ditt ärende</h3>
+                        <p>Börja med att fylla i information om den häst som ärendet gäller och beskriv sedan ditt ärende. Försök att ge en så detaljerad och utförlig beskrivning som möjligt för att göra det lättare för veterinären att snabbt kunna göra en korrekt bedömning.</p>
                     </div>
                 </div>
                 </div>
@@ -131,17 +136,17 @@ class App extends Component {
                         <div className="col-md-4">
                             <h2>Registrering</h2>
                             <img src={account} className="account" alt ="account"/>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras consequat est leo, nec pharetra erat tristique vitae. Mauris faucibus massa id sapien consequat, sollicitudin tristique felis pulvinar.</p>
+                            <p>För att kunna boka ditt första veterinärmöte måste du först skapa ett konto. Endast ett fåtal personuppgifter - så som namn och emailaddress - krävs för att kunna registrera en ny användare, och efter bara någon minut kan du börja använda alla tjänstens funktioner</p>
                         </div>
                         <div className="col-md-4">
                             <h2>Bokning</h2>
                             <img src={cal} className="cal" alt="cal"/>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras consequat est leo, nec pharetra erat tristique vitae. Mauris faucibus massa id sapien consequat, sollicitudin tristique felis pulvinar.</p>
+                            <p>Boka en tid som passar dig eller ställ dig i kö för en drop-in- tid och få hjälp direkt.</p>
                         </div>
                         <div className="col-md-4">
                             <h2>Videosamtal</h2>
                             <img src={convo} className="convo" alt="convo" />
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras consequat est leo, nec pharetra erat tristique vitae. Mauris faucibus massa id sapien consequat, sollicitudin tristique felis pulvinar.</p>
+                            <p>När det har blivit dags för ditt möte så ringer veterinären upp dig genom appen. Mötet genomförs via video och du får 10 minuters samtalstid med din veterinär. Du kan när som helst gå till din historik och se dina videomöten. Om det visar sig att ditt ärende kräver vidare vård kan du få en remiss till en fysisk klinik nära dig.</p>
                         </div>
                     </div>
 
@@ -226,7 +231,7 @@ class App extends Component {
 
                   <p className="footer-company-about">
                     <span>About Vetly</span>
-                    Vetly har valt ut legitimerade läkare med gedigen erfarenhet från primärvård som är redo att hjälpa dig med dina besvär eller frågeställningar. Alla läkare har tränats för att på bästa möjliga sätt kunna tillgodose dina behov via videomöte.
+                    Kvalitativ djurvård behöver inte vara kostsam eller tidskrävande. Med Vetly kan du snabbt och enkelt träffa en veterinär via din mobil eller dator, oavsett vart du befinner dig.
                   </p>
 
                   <div className="footer-icons">
