@@ -6,10 +6,25 @@ html, body {
     height: 100%;
     font-family: 'Lato', sans-serif;
 }
+
+a {
+  color:#000;
+
+}
+
+a:hover {
+  color:#000;
+}
+
+a:active {
+  text-decoration:none;
+}
+
 h2,h3,h1{
   font-family: 'Actor', sans-serif !important;
 
 }
+
 h3 {
   margin-top:6%;
 }
