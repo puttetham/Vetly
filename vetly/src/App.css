@@ -215,6 +215,7 @@ input[type=checkbox]:checked ~ label span:nth-child(3) {
         width:50%;
     }
 
+
     
 
 
@@ -276,6 +277,7 @@ input[type=checkbox]:checked ~ label span:nth-child(3) {
       margin-left:1% !important;
       margin-right:1% !important;
     }
+
 
 
    
@@ -418,7 +420,8 @@ form button {
 .services{
     width:100vw;
     height:65vh;
-    background:#ffffb3;
+    background: -webkit-linear-gradient(left, #ffff99, #ffff4d);
+
 
 }
 
