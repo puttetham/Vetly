@@ -117,7 +117,7 @@ class App extends Component {
                         Kvalitativ djurvård behöver inte vara kostsam eller tidskrävande. Med Vetly kan du snabbt och enkelt träffa en veterinär via din mobil eller dator, oavsett vart du befinner dig.
                         </p>   
                     </div>
-                    <div className="col-md-6">
+                    <div className="col-md-6 customers">
                          <h2>98% Nöjda kunder</h2>  
                         <p><i class="fa fa-quote-right 4x" aria-hidden="true"></i>"Kanonbra. Hjälpsamma och trevliga. Jag är supernöjd".</p>
                         <p><i class="fa fa-quote-right 4x" aria-hidden="true"></i>"Mitt absolut bästa veterinärbesök någonsin. Och så skönt att slippa åka iväg."</p>     
@@ -172,19 +172,19 @@ class App extends Component {
                         </center>
                         <div className="col-md-3">
                             <img src={doctor} className="doc" alt= "doc" />
-                            <h2>Malory</h2>
+                            <h2>Vet 1</h2>
                         </div>
                         <div className="col-md-3">
                             <img src={doctor} className="doc" alt= "doc" />
-                            <h2>Archer</h2>
+                            <h2>Vet 2</h2>
                         </div>
                         <div className="col-md-3">
                             <img src={doctor} className="doc" alt= "doc" />
-                            <h2>Lana</h2>
+                            <h2>Vet 3</h2>
                         </div>
                         <div className="col-md-3">
                             <img src={doctor} className="doc" alt= "doc" />
-                            <h2>Krieger</h2>
+                            <h2>Vet 4</h2>
                         </div>
                     </div>
                 </div>{/*VET DOCTORS*/}

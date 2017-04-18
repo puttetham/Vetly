@@ -168,7 +168,13 @@ input[type=checkbox]:checked ~ label span:nth-child(3) {
       height:100% !important;
     }
     .services{
-      background:#fff !important;
+      margin-top:0% !important;
+      width:100% !important;
+      height:100% !important;
+      background: -webkit-linear-gradient(left, #ffff99, #ffff4d);
+     }
+     .col-md-6:nth-child(2){
+      display:none !important;
      }
     .menu li {
         margin: 2px;
@@ -186,19 +192,24 @@ input[type=checkbox]:checked ~ label span:nth-child(3) {
     .col-md-4{
         float:left;
         width:100%;
+        margin-top:5% !important;
+
     }
-    .col-md-4 img{
-        width:25%;
-        border-radius:10px;
+    .col-md-4 h2{
+      margin-bottom:5% !important;
     }
 
     .col-md-3{
         float:left;
         width:100%;
+        border-radius:0px !important;
+    }
+    .col-md-3 h2{
+      text-align:center !important;
     }
     .col-md-3 img{
-      width:50% !important;
-      border-radius:15px;
+      width:25% !important;
+      border-radius:15px !important;
     }    
     .col-md-6{
         float:left;
@@ -426,7 +437,7 @@ form button {
 .services{
     width:100vw;
     height:65vh;
-    background: -webkit-linear-gradient(left, #ffff99, #ffff4d);
+    background: -webkit-linear-gradient(left, #fee0a2, #fdba35);
 
 
 }
@@ -447,13 +458,13 @@ form button {
     transition-duration:0.4s;
     /*font-family:'Fredoka One', sans-serif;*/
     font-family: "Fjalla One",sans-serif;
-    border-radius:4px;
+    
 
 }
 .bookbutton:hover{
 
-    border-top-left-radius:45px;
-    border-bottom-right-radius:45px;
+    border-top-left-radius:50px;
+    border-bottom-right-radius:50px;
     transition-duration:0.4s;
 }
 .vets{
