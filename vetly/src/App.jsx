@@ -136,19 +136,19 @@ class App extends Component {
                     <center><h2>Vetly fungerar på följande sätt</h2></center>
                         <div className="col-md-4">
                             <h2>Registrering</h2>
-                            <img src={account} className="account" alt ="account"/>
+                            <i className="fa fa-user fa-4x" aria-hidden="true"></i>
                             <p>För att kunna boka ditt första veterinärmöte måste du först skapa ett konto. Endast ett fåtal personuppgifter - så som namn och emailaddress - krävs för att kunna registrera en ny användare, och efter bara någon minut kan du börja använda alla tjänstens funktioner</p>
                         </div>
                         <div className="col-md-4">
                             <h2>Bokning</h2>
-                            <img src={cal} className="cal" alt="cal"/>
+                            <i className="fa fa-calendar fa-4x" aria-hidden="true"></i>
                             <p>
                             Börja med att fylla i information om den häst som ärendet gäller och beskriv sedan ditt ärende. Försök att ge en så detaljerad och utförlig beskrivning som möjligt för att göra det lättare för veterinären att snabbt kunna göra en korrekt bedömning.
                             </p>
                         </div>
                         <div className="col-md-4">
                             <h2>Videosamtal</h2>
-                            <img src={convo} className="convo" alt="convo" />
+                            <i className="fa fa-video-camera fa-4x" aria-hidden="true"></i>
                             <p>När det har blivit dags för ditt möte så ringer veterinären upp dig genom appen. Mötet genomförs via video och du får 10 minuters samtalstid med din veterinär. Du kan när som helst gå till din historik och se dina videomöten. Om det visar sig att ditt ärende kräver vidare vård kan du få en remiss till en fysisk klinik nära dig.</p>
                         </div>
                         

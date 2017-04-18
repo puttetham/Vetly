@@ -433,7 +433,7 @@ form button {
     padding:1%;
     font-size:2em;
     color:#fff;
-    background-color:#57c2d4;
+    background: -webkit-linear-gradient(left, #57c2d4, #4674a6);
     border:3px solid white;
     transition-duration:0.4s;
     /*font-family:'Fredoka One', sans-serif;*/
@@ -443,9 +443,8 @@ form button {
 }
 .bookbutton:hover{
 
-    color:#57c2d4;
-    background-color:#fff;
-    border:3px solid #57c2d4;
+    border-top-left-radius:45px;
+    border-bottom-right-radius:45px;
     transition-duration:0.4s;
 }
 .vets{
@@ -595,7 +594,7 @@ form button {
     }
 
     .footer-distributed .footer-center i{
-        background-color: #57c2d4;
+        background-color: #000;
         color: #ffffff;
         font-size: 25px;
         width: 38px;
