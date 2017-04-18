@@ -167,8 +167,7 @@ class App extends Component {
                 <div className="vets">
                     <div className="row">
                         <center>
-                        <h2>Träffa din veterinär</h2>
-                        <h4> Vetly erbjuder dem bästa veterinärerna.</h4>
+                        <h2>Våra veterinärer</h2>
                         </center>
                         <div className="col-md-3">
                             <img src={doctor} className="doc" alt= "doc" />

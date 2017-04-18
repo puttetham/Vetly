@@ -21,7 +21,7 @@ a:active {
 }
 
 h2,h3,h1{
-  font-family: 'Actor', sans-serif !important;
+  font-family: 'Montserrat', sans-serif !important;
 
 }
 
@@ -303,7 +303,7 @@ input[type=checkbox]:checked ~ label span:nth-child(3) {
 @media (max-width: 480px) {
 
     .start-text {
-      text-align: center !important;
+      text-align: left !important;
       float:none !important;
       margin-top: 10% !important;
       margin-left:0px !important;
@@ -318,10 +318,7 @@ input[type=checkbox]:checked ~ label span:nth-child(3) {
       font-size:1.9em;
       margin: 20% 0 0%;
     }
-    .col-md-3 img{
-      border-radius:15px;
-      width:80% !important;
-    }    
+     
 
 }
 
@@ -346,7 +343,7 @@ input[type=checkbox]:checked ~ label span:nth-child(3) {
 .heading-start {
     color:#fff;
     font-size:3.6em;
-    font-family: 'Fjalla One', sans-serif;
+    font-family: 'Fjalla One', sans-serif !important;
 
 }
 
@@ -358,6 +355,7 @@ input[type=checkbox]:checked ~ label span:nth-child(3) {
 }
 
 .start-list li {
+    text-align:left;
     font-size: 1.4em;
     font-weight: 400;
     margin: 20px 0;
@@ -374,6 +372,7 @@ input[type=checkbox]:checked ~ label span:nth-child(3) {
 
 .img-appstore {
     width:40%;
+    float:left;
     margin-top: -10%;
 
 }
@@ -485,6 +484,7 @@ form button {
 
 
 /*BOOTSTRAP STYLING*/
+
 .row{
   margin-left:10%;
   margin-right:10%;
@@ -508,6 +508,13 @@ form button {
   
     width:14vw;
     height:25vh;
+    opacity:0.7;
+    transition-duration:0.4s;
+
+}
+.col-md-3 .doc:hover{
+  opacity:1.0;
+  transition-duration:0.4s;
 }
 
 .col-md-4{
@@ -521,7 +528,7 @@ form button {
     margin-top: 5%;
 }
 .col-md-4 h2{
-  text-align:center;
+    text-align:center;
     margin-bottom:15%;
 }
 
