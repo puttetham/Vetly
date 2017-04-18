@@ -154,10 +154,13 @@ class App extends Component {
                             <img src={convo} className="convo" alt="convo" />
                             <p>När det har blivit dags för ditt möte så ringer veterinären upp dig genom appen. Mötet genomförs via video och du får 10 minuters samtalstid med din veterinär. Du kan när som helst gå till din historik och se dina videomöten. Om det visar sig att ditt ärende kräver vidare vård kan du få en remiss till en fysisk klinik nära dig.</p>
                         </div>
+                        
+
                     </div>
-                    <center><button className="bookbutton" type="button">Boka Nu</button></center>
                 </div>{/*HOW IT WORKS SECTION*/}
                 </ScrollableAnchor>
+                                        <center><button className="bookbutton" type="button">Boka Nu</button></center>
+
                     
                 
                 {/*A page about the Vets*/}
