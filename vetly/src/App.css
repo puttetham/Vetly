@@ -163,10 +163,7 @@ input[type=checkbox]:checked ~ label span:nth-child(3) {
         width: 100%;
         background: -webkit-linear-gradient(left, #57c2d4, #4674a6);
     }
-    .about{
-        background:#efefef;
-
-    }
+    
     .menu li {
         margin: 2px;
         font-size: 1.4em;
@@ -198,6 +195,10 @@ input[type=checkbox]:checked ~ label span:nth-child(3) {
     .col-md-6{
         float:left;
         width:100%;
+    }
+    .col-md-12{
+      float:left;
+      width:100%;
     }
     
     .book{
@@ -406,20 +407,14 @@ form button {
 }
 .about{
   width:100vw;
-  height:92vh;
+  height:27vh;
 }
 .about p{
   font-size:1.1em;
 }
 .services{
     width:100vw;
-    height:92vh;
-}
-
-.book{
-    width:100%;
-    float:left;
-    background: -webkit-linear-gradient(left, #57c2d4, #4674a6);
+    height:65vh;
 }
 
 .bookbutton{
@@ -448,19 +443,22 @@ form button {
     border:3px solid #57c2d4;
     transition-duration:0.4s;
 }
+.vets{
+    width:100vw;
+    height:65vh;
+}
+.join{
+  width:100vw;
+  height:27vh;
+
+}
+
+
+/*BOOTSTRAP STYLING*/
 .row{
   margin-left:10%;
   margin-right:10%;
 }
-.vets{
-    width:100vw;
-    height:92vh;
-}
-.info{
-    width:100vw;
-    height:42vh;
-}
-
 .col-md-12{
   text-align:center;
 }

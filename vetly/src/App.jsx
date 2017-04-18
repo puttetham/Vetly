@@ -117,11 +117,9 @@ class App extends Component {
                         </p>   
                     </div>
                     <div className="col-md-6">
-                        <h2>Gå med idag</h2>              
+                         <h2>98% Nöjda kunder</h2>            
                     </div>
-                    <div className="col-md-12">
-                        <h2>98% Nöjda kunder</h2>
-                    </div>
+                   
                 </div>
                 </div>
                 </ScrollableAnchor>
@@ -184,7 +182,13 @@ class App extends Component {
                     </div>
                 </div>{/*VET DOCTORS*/}
                 </ScrollableAnchor>
-                
+                <div className="join">
+                <div className="row">
+                    <div className="col-md-12">
+                    <center><button className="bookbutton" type="button">Kom igång</button></center>
+                    </div>
+                </div>
+                </div>
 
 
                {/*Footer*/}
