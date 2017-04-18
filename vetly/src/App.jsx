@@ -144,13 +144,11 @@ class App extends Component {
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras consequat est leo, nec pharetra erat tristique vitae. Mauris faucibus massa id sapien consequat, sollicitudin tristique felis pulvinar.</p>
                         </div>
                     </div>
-
+                    <center><button className="bookbutton" type="button">Boka Nu</button></center>
                 </div>{/*HOW IT WORKS SECTION*/}
                 </ScrollableAnchor>
-                <div className="book">
-                    <center><button className="bookbutton" type="button">Boka Nu</button></center>
+                    
                 
-                </div>
                 {/*A page about the Vets*/}
                 <ScrollableAnchor id={'vets'}>
                 <div className="vets">
