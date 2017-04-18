@@ -144,7 +144,10 @@ input[type=checkbox]:checked ~ label span:nth-child(3) {
         width: 100%;
         background: #fff;
     }
+    .about{
+        background:#efefef;
 
+    }
     .menu li {
         margin: 20px;
         font-size: 1.5em;
@@ -170,7 +173,9 @@ input[type=checkbox]:checked ~ label span:nth-child(3) {
         float:left;
         width:100%;
     }
-         
+    .col-md-3 img{
+      width:50% !important;
+    }    
     .col-md-6{
         float:left;
         width:100%;
@@ -189,10 +194,7 @@ input[type=checkbox]:checked ~ label span:nth-child(3) {
     }
 
     
-    .info{
-        float:left;
-        width:100%;
-    }
+
 
 
     .start {
@@ -275,6 +277,9 @@ input[type=checkbox]:checked ~ label span:nth-child(3) {
       font-size:1.9em;
       margin: 20% 0 0%;
     }
+    .col-md-3 img{
+      width:80% !important;
+    }    
 
 }
 
@@ -457,7 +462,7 @@ form button {
 .col-md-4{
     margin-top:5%;
     text-align:center;
-    z-index:-1;
+    z-index:0;
 
 }
 .col-md-4 p, h2{
