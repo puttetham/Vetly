@@ -124,8 +124,10 @@ class App extends Component {
                         <p><i class="fa fa-quote-right 4x" aria-hidden="true"></i>"Mycket trevlig doktor som verkligen tog sin tid för att lyssna på vad jag hade att säga. Kände mig proffsigt behandlad!"</p>    
                     </div>    
                     </div>
-                   
                 </div>
+                   
+                
+
                
                 </ScrollableAnchor>
                 <ScrollableAnchor id={'services'}>
