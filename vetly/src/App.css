@@ -183,6 +183,7 @@ input[type=checkbox]:checked ~ label span:nth-child(3) {
     }
     .col-md-4 img{
         width:25%;
+        border-radius:10px;
     }
 
     .col-md-3{
@@ -191,6 +192,7 @@ input[type=checkbox]:checked ~ label span:nth-child(3) {
     }
     .col-md-3 img{
       width:50% !important;
+      border-radius:15px;
     }    
     .col-md-6{
         float:left;
@@ -298,6 +300,7 @@ input[type=checkbox]:checked ~ label span:nth-child(3) {
       margin: 20% 0 0%;
     }
     .col-md-3 img{
+      border-radius:15px;
       width:80% !important;
     }    
 
@@ -415,6 +418,8 @@ form button {
 .services{
     width:100vw;
     height:65vh;
+    background:#ffffb3;
+
 }
 
 .bookbutton{
@@ -446,7 +451,13 @@ form button {
 .vets{
     width:100vw;
     height:65vh;
+    color:#fff;
+    background: -webkit-linear-gradient(left, #57c2d4, #4674a6);
+  }
+.vets img{
+      border-radius:50%;
 }
+
 .join{
   width:100vw;
   height:27vh;
@@ -499,6 +510,7 @@ form button {
 }
 .col-md-6 {
     float:left;
+    text-align:center;
 }
 /*bild properties för steg för steg sidan*/
 .account, .cal, .convo{

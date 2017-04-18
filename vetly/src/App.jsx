@@ -5,6 +5,7 @@ import { configureAnchors } from 'react-scrollable-anchor'
 import account from './account.jpg';
 import startimg from './start_img.png';
 import doc from './doc.png';
+import doctor from './doctor.jpg';
 import startimg2 from './phone1.png';
 import appstore from './app-store.png';
 import archer from './archer.jpg';
@@ -164,19 +165,19 @@ class App extends Component {
                         <h4> Vetly erbjuder dem bästa veterinärerna.</h4>
                         </center>
                         <div className="col-md-3">
-                            <img src={doc} className="doc" alt= "doc" />
+                            <img src={doctor} className="doc" alt= "doc" />
                             <h2>Malory</h2>
                         </div>
                         <div className="col-md-3">
-                            <img src={doc} className="doc" alt= "doc" />
+                            <img src={doctor} className="doc" alt= "doc" />
                             <h2>Archer</h2>
                         </div>
                         <div className="col-md-3">
-                            <img src={doc} className="doc" alt= "doc" />
+                            <img src={doctor} className="doc" alt= "doc" />
                             <h2>Lana</h2>
                         </div>
                         <div className="col-md-3">
-                            <img src={doc} className="doc" alt= "doc" />
+                            <img src={doctor} className="doc" alt= "doc" />
                             <h2>Krieger</h2>
                         </div>
                     </div>
