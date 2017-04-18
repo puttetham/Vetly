@@ -6,7 +6,10 @@ html, body {
     height: 100%;
     font-family: 'Lato', sans-serif;
 }
+h2,h3,h1{
+  font-family: 'Actor', sans-serif !important;
 
+}
 h3 {
   margin-top:6%;
 }
@@ -442,7 +445,9 @@ form button {
     height:42vh;
 }
 
-
+.col-md-12{
+  text-align:center;
+}
 .col-md-3{
     margin-top:5%;
     text-align:center;
@@ -450,6 +455,7 @@ form button {
     font-size: 1.3em;
 }
 .col-md-3 h2 {
+
     text-align:center;
     margin-left:4%;
     font-size: 1.4em;
@@ -466,10 +472,11 @@ form button {
     z-index:0;
 
 }
-.col-md-4 p, h2{
-    text-align:center;
+.col-md-4 p{
+    text-align:left !important;
 }
 .col-md-4 h2{
+  text-align:center;
     margin-bottom:15%;
 }
 

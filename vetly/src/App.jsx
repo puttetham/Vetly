@@ -37,7 +37,7 @@ class App extends Component {
                     <span />
                 </label>
                 <ul className="menu">
-                    <a href='#services'><li>Våra tjänster</li></a>
+                    <a href='#services'><li href>Våra tjänster</li></a>
                     <a href='#vets'><li>Våra vetrinärer</li></a>
                     <li>Skapa konto</li>
                     <li>Logga in</li>
@@ -111,24 +111,16 @@ class App extends Component {
                 <div className="about">
                 <div className="row">
                     <div className="col-md-6"> 
-                        <h2>Vetly</h2>
-                        <h3>Kort beskrivning</h3>
-                        <p> Med Vetly kan du träffa en legitimerad veterinär oavsett var du befinner dig. Dessutom är det både snabbt och enkelt! Låt oss berätta hur:</p>
+                        <b><h2>Vetly</h2></b>
                         <p>
                         Kvalitativ djurvård behöver inte vara kostsam eller tidskrävande. Med Vetly kan du snabbt och enkelt träffa en veterinär via din mobil eller dator, oavsett vart du befinner dig.
-                        </p>
-                        <h3>Möjliheterna med Vetly</h3>
-                        <p>- Träffa en legitimerad veterinär vart du än befinner dig.</p>
-                        <p>- Slipp långa väntetider och få hjälp även kvällar och helger.</p>
-                        <p>- Boka tid snabbt och enkelt direkt via din mobil eller dator.</p>
+                        </p>   
                     </div>
-                        <h2>Registrera</h2>
                     <div className="col-md-6">
-                        <h3>Kom igång</h3>
-                        <p>För att kunna boka ditt första veterinärmöte måste du först skapa ett konto. Endast ett fåtal personuppgifter - så som namn och emailaddress - krävs för att kunna registrera en ny användare, och efter bara någon minut kan du börja använda alla tjänstens funktioner.</p>
-                    
-                        <h3>Skapa ditt ärende</h3>
-                        <p>Börja med att fylla i information om den häst som ärendet gäller och beskriv sedan ditt ärende. Försök att ge en så detaljerad och utförlig beskrivning som möjligt för att göra det lättare för veterinären att snabbt kunna göra en korrekt bedömning.</p>
+                        <h2>Gå med idag</h2>              
+                    </div>
+                    <div className="col-md-12">
+                        <h2>98% Nöjda kunder</h2>
                     </div>
                 </div>
                 </div>
@@ -138,7 +130,7 @@ class App extends Component {
 
                     <div className="row">
 
-                    <center><h3>Vetly fungerar på följande sätt</h3></center>
+                    <center><h2>Vetly fungerar på följande sätt</h2></center>
                         <div className="col-md-4">
                             <h2>Registrering</h2>
                             <img src={account} className="account" alt ="account"/>
@@ -147,7 +139,9 @@ class App extends Component {
                         <div className="col-md-4">
                             <h2>Bokning</h2>
                             <img src={cal} className="cal" alt="cal"/>
-                            <p>Boka en tid som passar dig eller ställ dig i kö för en drop-in- tid och få hjälp direkt.</p>
+                            <p>
+                            Börja med att fylla i information om den häst som ärendet gäller och beskriv sedan ditt ärende. Försök att ge en så detaljerad och utförlig beskrivning som möjligt för att göra det lättare för veterinären att snabbt kunna göra en korrekt bedömning.
+                            </p>
                         </div>
                         <div className="col-md-4">
                             <h2>Videosamtal</h2>
@@ -168,39 +162,29 @@ class App extends Component {
                 <div className="vets">
                     <div className="row">
                         <center>
-                        <h3>Träffa din veterinär</h3>
+                        <h2>Träffa din veterinär</h2>
                         <h4> Vetly erbjuder dem bästa veterinärerna.</h4>
                         </center>
                         <div className="col-md-3">
-                            <img src={archer} className="doc" alt= "doc" />
+                            <img src={doc} className="doc" alt= "doc" />
                             <h2>Malory</h2>
                         </div>
                         <div className="col-md-3">
-                            <img src={archer} className="doc" alt= "doc" />
+                            <img src={doc} className="doc" alt= "doc" />
                             <h2>Archer</h2>
                         </div>
                         <div className="col-md-3">
-                            <img src={archer} className="doc" alt= "doc" />
+                            <img src={doc} className="doc" alt= "doc" />
                             <h2>Lana</h2>
                         </div>
                         <div className="col-md-3">
-                            <img src={archer} className="doc" alt= "doc" />
+                            <img src={doc} className="doc" alt= "doc" />
                             <h2>Krieger</h2>
                         </div>
                     </div>
                 </div>{/*VET DOCTORS*/}
                 </ScrollableAnchor>
-                <div className="info">
-                <div className="row">
-                    <div className="col-md-6">
-                        <h2>Vanliga frågor</h2>
-                        
-                    </div>
-                    <div className="col-md-6">
-                        <h2>99% nöjda ryttare</h2>
-                    </div>
-                </div>
-                </div>
+                
 
 
                {/*Footer*/}
