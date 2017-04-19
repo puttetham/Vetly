@@ -18,6 +18,7 @@ import map from './map.jpg';
 import vetlylogo from './VETLYLOGO.png';
 import logo from './vetly_logo.png';
 import footerlogo from './vetly_logo_white.png';
+import computerimg from './btn_computer.png';
 
 
 
@@ -61,6 +62,7 @@ class App extends Component {
                                 <li>✓   Snabb diagnos eller remiss</li>
                             </ul>
                             <img src={appstore} className="img-appstore" alt= "ladda ner vetly från appstore" />
+                            <img src={computerimg} className="img-computer" alt= "kör vetly från datorn" />
 
                     </div>
                     </div>
