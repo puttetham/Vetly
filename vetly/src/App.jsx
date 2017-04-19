@@ -39,7 +39,7 @@ class App extends Component {
                 </label>
                 <ul className="menu">
                     <a href='#services'><li href>Våra tjänster</li></a>
-                    <a href='#vets'><li>Våra vetrinärer</li></a>
+                    <a href='#vets'><li>Våra veterinärer</li></a>
                     <li>Skapa konto</li>
                     <li>Logga in</li>
                 </ul>
@@ -114,14 +114,16 @@ class App extends Component {
                     <div className="col-md-6"> 
                         <b><h2>Vetly</h2></b>
                         <p>
-                        Kvalitativ djurvård behöver inte vara kostsam eller tidskrävande. Med Vetly kan du snabbt och enkelt träffa en veterinär via din mobil eller dator, oavsett vart du befinner dig.
+                        Kvalitativ djurvård behöver inte vara kostsam eller tidskrävande. Med Vetly kan du snabbt och enkelt träffa en veterinär
+                        via din mobil eller dator, oavsett vart du befinner dig.
                         </p>   
                     </div>
                     <div className="col-md-6 customers">
                          <h2>98% Nöjda kunder</h2>  
-                        <p><i class="fa fa-quote-right 4x" aria-hidden="true"></i>"Kanonbra. Hjälpsamma och trevliga. Jag är supernöjd".</p>
+                        
                         <p><i class="fa fa-quote-right 4x" aria-hidden="true"></i>"Mitt absolut bästa veterinärbesök någonsin. Och så skönt att slippa åka iväg."</p>     
-                        <p><i class="fa fa-quote-right 4x" aria-hidden="true"></i>"Mycket trevlig doktor som verkligen tog sin tid för att lyssna på vad jag hade att säga. Kände mig proffsigt behandlad!"</p>    
+                        <p><i class="fa fa-quote-right 4x" aria-hidden="true"></i>"Mycket trevlig doktor som verkligen tog sin tid för att lyssna 
+                        på vad jag hade att säga. Kände mig proffsigt behandlad!"</p>    
                     </div>    
                     </div>
                 </div>
@@ -139,19 +141,26 @@ class App extends Component {
                         <div className="col-md-4">
                             <h2>Registrering</h2>
                             <i className="fa fa-user fa-4x" aria-hidden="true"></i>
-                            <p>För att kunna boka ditt första veterinärmöte måste du först skapa ett konto. Endast ett fåtal personuppgifter - så som namn och emailaddress - krävs för att kunna registrera en ny användare, och efter bara någon minut kan du börja använda alla tjänstens funktioner</p>
+                            <p>För att kunna boka ditt första veterinärmöte måste du först skapa ett konto. Endast ett fåtal personuppgifter 
+                                - så som namn och emailaddress - krävs för att kunna registrera en ny användare, och efter bara någon minut kan
+                                 du börja använda alla tjänstens funktioner</p>
                         </div>
                         <div className="col-md-4">
                             <h2>Bokning</h2>
                             <i className="fa fa-calendar fa-4x" aria-hidden="true"></i>
                             <p>
-                            Börja med att fylla i information om den häst som ärendet gäller och beskriv sedan ditt ärende. Försök att ge en så detaljerad och utförlig beskrivning som möjligt för att göra det lättare för veterinären att snabbt kunna göra en korrekt bedömning.
+                            Börja med att fylla i information om den häst som ärendet gäller och beskriv sedan ditt ärende. Försök att ge en så
+                             detaljerad och utförlig beskrivning som möjligt för att göra det lättare för veterinären att snabbt kunna göra en
+                              korrekt bedömning.
                             </p>
                         </div>
                         <div className="col-md-4">
                             <h2>Videosamtal</h2>
                             <i className="fa fa-video-camera fa-4x" aria-hidden="true"></i>
-                            <p>När det har blivit dags för ditt möte så ringer veterinären upp dig genom appen. Mötet genomförs via video och du får 10 minuters samtalstid med din veterinär. Du kan när som helst gå till din historik och se dina videomöten. Om det visar sig att ditt ärende kräver vidare vård kan du få en remiss till en fysisk klinik nära dig.</p>
+                            <p>När det har blivit dags för ditt möte så ringer veterinären upp dig genom appen.
+                                 Mötet genomförs via video och du får 10 minuters samtalstid med din veterinär.
+                                  Du kan när som helst gå till din historik och se dina videomöten. 
+                                  Om det visar sig att ditt ärende kräver vidare vård kan du få en remiss till en fysisk klinik nära dig.</p>
                         </div>
                         
 
@@ -232,7 +241,8 @@ class App extends Component {
 
                   <p className="footer-company-about">
                     <span>About Vetly</span>
-                    Kvalitativ djurvård behöver inte vara kostsam eller tidskrävande. Med Vetly kan du snabbt och enkelt träffa en veterinär via din mobil eller dator, oavsett vart du befinner dig.
+                    Kvalitativ djurvård behöver inte vara kostsam eller tidskrävande. Med Vetly kan du snabbt 
+                    och enkelt träffa en veterinär via din mobil eller dator, oavsett vart du befinner dig.
                   </p>
 
                   <div className="footer-icons">
