@@ -25,7 +25,7 @@ import computerimg from './btn_computer.png';
 
 
 class App extends Component {
-    
+
   render() {
     configureAnchors({offset: -70, scrollDuration: 400});
     return (
@@ -51,7 +51,7 @@ class App extends Component {
             <ScrollableAnchor id={'start'}>
             <div className="start">
             <div className="col-md-6">
-               
+
                     <div className="start-text">
                         <h1 className="heading-start">Träffa veterinär online</h1>
                             <ul className="start-list">
@@ -72,15 +72,15 @@ class App extends Component {
 
                         </div>
 
-                        
+
                         {/*<img src={startimg} className="img-veterinary" alt= "veterinär" />
                         <img src={startimg2} className="img-horse" alt= "häst" />*/}
 
-                        
-                    
+
+
                 </div>{/*start*/}
                 </ScrollableAnchor>
-        
+
 
 
 
@@ -113,26 +113,26 @@ class App extends Component {
                 <ScrollableAnchor>
                 <div className="about">
                 <div className="row">
-                    <div className="col-md-6"> 
+                    <div className="col-md-6">
                         <b><h2>Vetly</h2></b>
                         <p>
                         Kvalitativ djurvård behöver inte vara kostsam eller tidskrävande. Med Vetly kan du snabbt och enkelt träffa en veterinär
                         via din mobil eller dator, oavsett vart du befinner dig.
-                        </p>   
+                        </p>
                     </div>
                     <div className="col-md-6 customers">
-                         <h2>98% Nöjda kunder</h2>  
-                        <p><i className="fa fa-quote-right 4x" aria-hidden="true"></i>"Kanonbra. Hjälpsamma och trevliga. Jag är supernöjd".</p>
-                        <p><i className="fa fa-quote-right 4x" aria-hidden="true"></i>"Mitt absolut bästa veterinärbesök någonsin. Och så skönt att slippa åka iväg."</p>     
-                           
-                            
-                    </div>    
+                         <h2>98% Nöjda kunder</h2>
+                        <p><i className="fa fa-quote-right 4x" aria-hidden="true"></i> "Kanonbra. Hjälpsamma och trevliga. Jag är supernöjd".</p>
+                        <p><i className="fa fa-quote-right 4x" aria-hidden="true"></i> "Mitt absolut bästa veterinärbesök någonsin. Och så skönt att slippa åka iväg."</p>
+
+
+                    </div>
                     </div>
                 </div>
-                   
-                
 
-               
+
+
+
                 </ScrollableAnchor>
                 <ScrollableAnchor id={'services'}>
                 <div className="services">
@@ -143,7 +143,7 @@ class App extends Component {
                         <div className="col-md-4">
                             <h2>Registrering</h2>
                             <i className="fa fa-user fa-4x" aria-hidden="true"></i>
-                            <p>För att kunna boka ditt första veterinärmöte måste du först skapa ett konto. Endast ett fåtal personuppgifter 
+                            <p>För att kunna boka ditt första veterinärmöte måste du först skapa ett konto. Endast ett fåtal personuppgifter
                                 - så som namn och emailaddress - krävs för att kunna registrera en ny användare, och efter bara någon minut kan
                                  du börja använda alla tjänstens funktioner</p>
                         </div>
@@ -161,40 +161,47 @@ class App extends Component {
                             <i className="fa fa-video-camera fa-4x" aria-hidden="true"></i>
                             <p>När det har blivit dags för ditt möte så ringer veterinären upp dig genom appen.
                                  Mötet genomförs via video och du får 10 minuters samtalstid med din veterinär.
-                                  Du kan när som helst gå till din historik och se dina videomöten. 
+                                  Du kan när som helst gå till din historik och se dina videomöten.
                                   Om det visar sig att ditt ärende kräver vidare vård kan du få en remiss till en fysisk klinik nära dig.</p>
                         </div>
-                        
+
 
                     </div>
                 </div>{/*HOW IT WORKS SECTION*/}
                 </ScrollableAnchor>
                                         <center><button className="bookbutton" type="button">Boka Nu</button></center>
 
-                    
-                
+
+
                 {/*A page about the Vets*/}
                 <ScrollableAnchor id={'vets'}>
                 <div className="vets">
                     <div className="row">
                         <center>
                         <h2>Våra veterinärer</h2>
+                        <p className="vettext">Vetly har många legitimerade vetrinärer som har specialkompetens inom hästens sjukdomar och några har specialiserat sig
+                          inom egna intresseområden. Vill du vet mer om en veterinärs specialområde kan du klicka på deras bild neden.
+                          Alla vetrinärer har tränats för att på bästa möjliga sätt kunna tillgodose dina behov via videomöte.</p>
                         </center>
                         <div className="col-md-3">
                             <img src={doctor} className="doc" alt= "doc" />
                             <h2>Vet 1</h2>
+                            <p className="vettext2">Leg. Vetrinär</p>
                         </div>
                         <div className="col-md-3">
                             <img src={doctor} className="doc" alt= "doc" />
                             <h2>Vet 2</h2>
+                            <p className="vettext2">Leg. Vetrinär</p>
                         </div>
                         <div className="col-md-3">
                             <img src={doctor} className="doc" alt= "doc" />
                             <h2>Vet 3</h2>
+                            <p className="vettext2">Leg. Vetrinär</p>
                         </div>
                         <div className="col-md-3">
                             <img src={doctor} className="doc" alt= "doc" />
                             <h2>Vet 4</h2>
+                            <p className="vettext2">Leg. Vetrinär</p>
                         </div>
                     </div>
                 </div>{/*VET DOCTORS*/}
@@ -209,13 +216,13 @@ class App extends Component {
 
 
                {/*Footer*/}
-               
+
                <footer className="footer-distributed">
                <div className="row">
 
 
                 <div className="footer-left">
-                
+
                 {/*<img src={vetlylogo} alt= "häst" />*/}
                 <img src={footerlogo} className="vetly_logo_footer" alt= "veterinär på nätet" />
                 </div>
@@ -242,8 +249,8 @@ class App extends Component {
                 <div className="footer-right">
 
                   <p className="footer-company-about">
-                    <span>About Vetly</span>
-                    Kvalitativ djurvård behöver inte vara kostsam eller tidskrävande. Med Vetly kan du snabbt 
+                    <span>Om Vetly</span>
+                    Kvalitativ djurvård behöver inte vara kostsam eller tidskrävande. Med Vetly kan du snabbt
                     och enkelt träffa en veterinär via din mobil eller dator, oavsett vart du befinner dig.
                   </p>
 
@@ -261,14 +268,14 @@ class App extends Component {
                 </div>
 
                 <a href='#start'><i className="fa fa-chevron-up fa-2x" aria-hidden="true"></i></a>
-                
+
                </footer>
             </div>
 
-        
-    
 
-        
+
+
+
 
 
 
