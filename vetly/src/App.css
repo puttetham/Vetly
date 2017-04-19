@@ -214,7 +214,7 @@ input[type=checkbox]:checked ~ label span:nth-child(3) {
     .col-md-3 img{
       width:25% !important;
       border-radius:15px !important;
-    }    
+    }
     .col-md-6{
         float:left;
         width:100%;
@@ -223,7 +223,7 @@ input[type=checkbox]:checked ~ label span:nth-child(3) {
       float:left;
       width:100%;
     }
-    
+
     .book{
         width:100%;
         float:left;
@@ -237,7 +237,7 @@ input[type=checkbox]:checked ~ label span:nth-child(3) {
     }
 
 
-    
+
 
 
 
@@ -301,7 +301,7 @@ input[type=checkbox]:checked ~ label span:nth-child(3) {
 
 
 
-   
+
 }
 
 @media (max-width: 480px) {
@@ -322,7 +322,7 @@ input[type=checkbox]:checked ~ label span:nth-child(3) {
       font-size:1.9em;
       margin: 20% 0 0%;
     }
-     
+
 
 }
 
@@ -469,7 +469,7 @@ form button {
     transition-duration:0.4s;
     /*font-family:'Fredoka One', sans-serif;*/
     font-family: "Fjalla One",sans-serif;
-    
+
 
 }
 .bookbutton:hover{
@@ -517,7 +517,7 @@ form button {
     font-size: 1.4em;
 }
 .col-md-3 .doc{
-  
+
     width:14vw;
     height:25vh;
     opacity:0.7;
@@ -563,12 +563,12 @@ form button {
 
     .vetly_logo_footer {
         width:140px;
-        
+
     }
 
     .footer-distributed{
         float:left;
-        background-color: #000;
+        background-color: #222;
         box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
         box-sizing: border-box;
         width: 100vw;
@@ -719,7 +719,7 @@ form button {
     }
 
     .fa-chevron-up {
-      
+
       color:#fff;
       float:right !important;
     }
