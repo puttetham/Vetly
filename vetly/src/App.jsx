@@ -70,7 +70,8 @@ class App extends Component {
 
                         <div className="col-md-6">
                         <img src={startimg} className="img-veterinary" alt="veterinär" />
-                        t
+                        <img src={startimg} className="img-veterinary" alt="veterinär" />
+                        
 
                         </div>
 
