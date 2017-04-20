@@ -20,10 +20,7 @@ import logo from './vetly_logo.png';
 import footerlogo from './vetly_logo_white.png';
 import computerimg from './btn_computer.png';
 import star from './star.png';
-<<<<<<< HEAD
 
-=======
->>>>>>> parent of 30ce990... bild
 
 
 
@@ -73,10 +70,7 @@ class App extends Component {
 
                         <div className="col-md-6">
                         <img src={startimg} className="img-veterinary" alt="veterinär" />
-<<<<<<< HEAD
                         
-=======
->>>>>>> parent of 30ce990... bild
 
                         </div>
 
