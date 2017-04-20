@@ -266,12 +266,13 @@ class App extends Component {
 
                 <div className="footer-right">
 
-                  <p className="footer-company-about">
-                    <span>Om Vetly</span><br></br>
-                    <br></br>
+                  <div className="footer-company-about">
+                    <span>Om Vetly</span>
+                    <p>
                     Kvalitativ djurvård behöver inte vara kostsam eller tidskrävande. Med Vetly kan du snabbt
                     och enkelt träffa en veterinär via din mobil eller dator, oavsett vart du befinner dig.
-                  </p>
+                    </p>
+                  </div>
 
                   <div className="footer-icons">
 
