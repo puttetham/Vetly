@@ -19,7 +19,7 @@ import vetlylogo from './VETLYLOGO.png';
 import logo from './vetly_logo.png';
 import footerlogo from './vetly_logo_white.png';
 import computerimg from './btn_computer.png';
-
+import star from './star.png';
 
 
 
@@ -111,24 +111,36 @@ class App extends Component {
 
                 {/*General info regarding the process*/}
                 <ScrollableAnchor>
-                <div className="about">
+             <div className="about">
                 <div className="row">
-                    <div className="col-md-6">
-                        <b><h2>Vetly</h2></b>
-                        <p>
-                        Kvalitativ djurvård behöver inte vara kostsam eller tidskrävande. Med Vetly kan du snabbt och enkelt träffa en veterinär
-                        via din mobil eller dator, oavsett vart du befinner dig.
-                        </p>
+                    <div className="col-md-12 customers">
+                      <h2>98% Nöjda kunder</h2>
+                      {/* <br></br>
+                      Kvalitativ djurvård behöver inte vara kostsam eller tidskrävande. Med Vetly kan du snabbt och enkelt träffa en veterinär
+                      via din mobil eller dator, oavsett vart du befinner dig.
+                      <br></br> */}
+                      <br></br>
+                      <img src={star} className="star" alt= "star" />
+                      <img src={star} className="star" alt= "star" />
+                      <img src={star} className="star" alt= "star" />
+                      <img src={star} className="star" alt= "star" />
+                      <img src={star} className="star" alt= "star" />
+                      <hr></hr>
+                   </div>
+                     <div className="col-md-4 quotes">
+                       <p><i className="fa fa-quote-right 4x" aria-hidden="true"></i> "Kanonbra. Hjälpsamma och trevliga. Jag är supernöjd".</p>
+                     </div>
+                     <div className="col-md-4 quotes">
+                       <p><i className="fa fa-quote-right 4x" aria-hidden="true"></i> "Mitt absolut bästa veterinärbesök någonsin. Och så skönt att slippa åka iväg."</p>
                     </div>
-                    <div className="col-md-6 customers">
-                         <h2>98% Nöjda kunder</h2>
-                        <p><i className="fa fa-quote-right 4x" aria-hidden="true"></i> "Kanonbra. Hjälpsamma och trevliga. Jag är supernöjd".</p>
-                        <p><i className="fa fa-quote-right 4x" aria-hidden="true"></i> "Mitt absolut bästa veterinärbesök någonsin. Och så skönt att slippa åka iväg."</p>
+                    <div className="col-md-4 quotes">
+                       <p><i className="fa fa-quote-right 4x" aria-hidden="true"></i> "Riktigt bra! Bokar in ett nytt möte så fort som möjligt"</p>
 
 
-                    </div>
+
                     </div>
                 </div>
+              </div>
 
 
 
@@ -163,6 +175,7 @@ class App extends Component {
                                  Mötet genomförs via video och du får 10 minuters samtalstid med din veterinär.
                                   Du kan när som helst gå till din historik och se dina videomöten.
                                   Om det visar sig att ditt ärende kräver vidare vård kan du få en remiss till en fysisk klinik nära dig.</p>
+
                         </div>
 
 

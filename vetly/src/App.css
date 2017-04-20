@@ -440,14 +440,20 @@ form button {
 }
 .about{
   width:100vw;
-  height:27vh;
+  height:50vh;
 }
 .about p{
-  font-size:1.1em;
+  font-size:1.2em;
+  font-style: italic;
 }
+
+.customers {
+  margin-bottom: -40px;
+}
+
 .services{
     width:100vw;
-    height:65vh;
+    height:75vh;
     background: -webkit-linear-gradient(left, #fee0a2, #fdba35);
 
 
@@ -697,7 +703,8 @@ form button {
         margin: 0;
     }
 
-    .footer-distributed .footer-company-about span{
+    .footer-distributed .
+    -company-about span{
         display: block;
         color:  #ffffff;
         font-size: 14px;
