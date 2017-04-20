@@ -62,10 +62,10 @@ class App extends Component {
                                 <li>✓   Hemleverans av läkemedel</li>
                                 <li>✓   Snabb diagnos eller remiss</li>
                             </ul>
-                
+
                             <img src={appstore} className="img-appstore" alt= "ladda ner vetly från appstore" />
                             <img src={computerimg} className="img-computer" alt= "kör vetly från datorn" />
-                            
+
 
                     </div>
                     </div>
@@ -73,7 +73,7 @@ class App extends Component {
                         <div className="col-md-6">
                         <img src={startimg} className="img-veterinary" alt="veterinär" />
 
-                        
+
 
                         </div>
 
@@ -197,29 +197,29 @@ class App extends Component {
                     <div className="row">
                         <center>
                         <h2>Våra veterinärer</h2>
-                        <p className="vettext">Vetly har många legitimerade vetrinärer som har specialkompetens inom hästens sjukdomar och några har specialiserat sig
+                        <p className="vettext">Vetly har många legitimerade veterinärer som har specialkompetens inom hästens sjukdomar och några har specialiserat sig
                           inom egna intresseområden. Vill du vet mer om en veterinärs specialområde kan du klicka på deras bild neden.
                           Alla vetrinärer har tränats för att på bästa möjliga sätt kunna tillgodose dina behov via videomöte.</p>
                         </center>
                         <div className="col-md-3">
                             <img src={doctor} className="doc" alt= "doc" />
                             <h2>Vet 1</h2>
-                            <p className="vettext2">Leg. Vetrinär</p>
+                            <p className="vettext2">Leg. veterinär</p>
                         </div>
                         <div className="col-md-3">
                             <img src={doctor} className="doc" alt= "doc" />
                             <h2>Vet 2</h2>
-                            <p className="vettext2">Leg. Vetrinär</p>
+                            <p className="vettext2">Leg. veterinär</p>
                         </div>
                         <div className="col-md-3">
                             <img src={doctor} className="doc" alt= "doc" />
                             <h2>Vet 3</h2>
-                            <p className="vettext2">Leg. Vetrinär</p>
+                            <p className="vettext2">Leg. veterinär</p>
                         </div>
                         <div className="col-md-3">
                             <img src={doctor} className="doc" alt= "doc" />
                             <h2>Vet 4</h2>
-                            <p className="vettext2">Leg. Vetrinär</p>
+                            <p className="vettext2">Leg. veterinär</p>
                         </div>
                     </div>
                 </div>{/*VET DOCTORS*/}
