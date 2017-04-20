@@ -251,23 +251,6 @@ input[type=checkbox]:checked ~ label span:nth-child(3) {
       margin-top:10% !important;
     }
 
-    .start-text {
-      text-align: center !important;
-      float:none !important;
-      margin-top: -18% !important;
-      margin-left:0px !important;
-    }
-
-    .start img {
-      width:30%;
-      margin-bottom:12%;
-    }
-
-
-    .start h1 {
-      margin: 20% 0 0%;
-    }
-
     .start ul  {
       list-style: outside none none;
       margin: 16% 0;
@@ -382,8 +365,6 @@ input[type=checkbox]:checked ~ label span:nth-child(3) {
 
 .img-appstore {
     width:147px;
-    
-
 }
 
 .img-computer {
@@ -572,7 +553,6 @@ form button {
 }
 .col-md-6 {
     float:left;
-    text-align:center;
 }
 /*bild properties för steg för steg sidan*/
 .account, .cal, .convo{
