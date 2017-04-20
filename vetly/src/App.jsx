@@ -133,7 +133,7 @@ class App extends Component {
                      <div className="col-md-4 quotes">
                        <p><i className="fa fa-quote-right 4x" aria-hidden="true"></i> "Mitt absolut bästa veterinärbesök någonsin. Och så skönt att slippa åka iväg."</p>
                     </div>
-                    <div className="col-md-4 quotes">
+                    <div className="col-md-4 fix">
                        <p><i className="fa fa-quote-right 4x" aria-hidden="true"></i> "Riktigt bra! Bokar in ett nytt möte så fort som möjligt"</p>
 
 
