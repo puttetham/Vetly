@@ -20,6 +20,7 @@ import logo from './vetly_logo.png';
 import footerlogo from './vetly_logo_white.png';
 import computerimg from './btn_computer.png';
 import star from './star.png';
+import image from './images.jpeg';
 
 
 
@@ -69,6 +70,7 @@ class App extends Component {
 
                         <div className="col-md-6">
                         <img src={startimg} className="img-veterinary" alt="veterinär" />
+                        <img src={image} className="img-veterinary" alt="veterinär" />
 
                         </div>
 
