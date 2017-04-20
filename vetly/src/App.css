@@ -381,15 +381,14 @@ input[type=checkbox]:checked ~ label span:nth-child(3) {
 }
 
 .img-appstore {
-    width:30%;
-    float:left;
-    margin-top: -10%;
+    width:147px;
+    
 
 }
 
 .img-computer {
-    width:147px;
-    margin-top:-69px;
+    width:160px;
+    
 
 }
 
