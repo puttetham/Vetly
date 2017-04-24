@@ -471,27 +471,13 @@ form button {
   font-size: 0.7em;
   font-weight: bold;
   font-family: 'Raleway', sans-serif;
-    /*margin: 0% auto;
-    display:inline-block;
-    text-align:center;
-    margin-top:10%;
-    margin-top:4%;
-    margin-bottom: 4%;
-    width:25%;
-    padding:1%;
-    font-size:2em;
-    color:#fff;
-    background: -webkit-linear-gradient(left, #57c2d4, #4674a6);
-    border:3px solid white;
-    transition-duration:0.4s;
-    font-family: "Fjalla One",sans-serif;*/
-
-
+  transition-duration: 0.4s;
 }
 
 .bookbutton:hover{
   background-color: skyblue;
   color: white;
+  transition-duration: 0.6s;
 }
 
 
