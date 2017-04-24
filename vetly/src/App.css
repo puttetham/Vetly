@@ -490,9 +490,8 @@ form button {
 }
 
 .bookbutton:hover{
-    /*border-top-left-radius:50px;
-    border-bottom-right-radius:50px;
-    transition-duration:0.4s;*/
+  background-color: skyblue;
+  color: white;
 }
 
 
