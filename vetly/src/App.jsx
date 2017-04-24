@@ -192,6 +192,7 @@ class App extends Component {
                 <div className="vets">
                     <div className="row">
                         <center>
+                        <br></br>
                         <h2>Våra veterinärer</h2>
                         <p className="vettext">Vetly har många legitimerade veterinärer som har specialkompetens inom hästens sjukdomar och några har specialiserat sig
                           inom egna intresseområden. Vill du vet mer om en veterinärs specialområde kan du klicka på deras bild neden.
@@ -221,9 +222,10 @@ class App extends Component {
                 </div>{/*VET DOCTORS*/}
                 </ScrollableAnchor>
                 <div className="join">
+                <div className="row">
                     <div className="col-md-12">
-                <center><button className="bookbutton" type="button">Kom igång</button></center>
-                    
+                    <center><button className="bookbutton" type="button">Kom igång</button></center>
+                    </div>
                 </div>
                 </div>
 
