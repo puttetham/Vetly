@@ -28,7 +28,7 @@ class App extends Component {
   render() {
     configureAnchors({offset: -70, scrollDuration: 400});
     return (
-
+      <div>
       <Router>
         <div>
         
@@ -48,12 +48,10 @@ class App extends Component {
                     <li><Link to="/form">Logga in</Link></li>
                 </ul>
             </nav>
-<<<<<<< HEAD
             <Route exact={true} path="/" component={Home} />
             <Route path="/Form" component={Form} />
           </div>
             </Router>
-=======
 
 
             {/*All code except the fixed nav goes here!*/}
@@ -298,9 +296,10 @@ class App extends Component {
                 <a href='#start'><i className="fa fa-chevron-up fa-2x" aria-hidden="true"></i></a>
 
                </footer>
+
             </div>
 
->>>>>>> c7c2afc93aec23fc66be23a215c31bfb36f8116a
+
 
 
 
