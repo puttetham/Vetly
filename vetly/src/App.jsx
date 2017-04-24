@@ -18,7 +18,7 @@ import computerimg from './btn_computer.png';
 import star from './star.png';
 import Form from './Form.jsx';
 import { BrowserRouter as Router, Route, Link} from 'react-router-dom';
-import Home from './home.js'
+//import Home from './home.js'
 
 
 
@@ -48,7 +48,7 @@ class App extends Component {
                     <li><Link to="/form">Logga in</Link></li>
                 </ul>
             </nav>
-            <Route exact={true} path="/" component={Home} />
+            <Route exact={true} path="/" component={"#"} />
             <Route path="/Form" component={Form} />
           </div>
             </Router>
