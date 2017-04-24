@@ -45,7 +45,7 @@ class App extends Component {
                     <li><Link to="/">Våra tjänster</Link></li>
                     <a href='#vets'><li>Våra veterinärer</li></a>
                     <li>Skapa konto</li>
-                    <li><Link to="/form">Logga in</Link></li>
+                    <li><Link to="/Form">Logga in</Link></li>
                 </ul>
             </nav>
             <Route exact={true} path="/" component={Home} />
