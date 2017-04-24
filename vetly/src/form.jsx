@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import { BrowserRouter as Router, Route, Link} from 'react-router';
-import './Form.css';
+import './form.css';
 
 class Form extends React.Component {
   render() {
