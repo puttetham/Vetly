@@ -1,8 +1,9 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import { BrowserRouter as Router, Route, Link} from 'react-router';
+import './form.css';
 
-class App extends Component {
+class Form extends React.Component {
   render() {
 
 
@@ -80,13 +81,13 @@ function ocultarLoginSignUp() {
     
     <div className="cont_back_info">
        <div className="cont_img_back_grey">
-       <img src="https://cdn.pixabay.com/photo/2014/07/23/19/31/amur-400400_960_720.jpg" alt="" />
+       <img src="https://www.scienceabc.com/wp-content/uploads/2016/05/horse-running.jpg" alt="" />
        </div>
        
     </div>
 <div className="cont_forms" >
     <div className="cont_img_back_">
-       <img src="https://cdn.pixabay.com/photo/2014/07/23/19/31/amur-400400_960_720.jpg" alt="" />
+       <img src="https://www.scienceabc.com/wp-content/uploads/2016/05/horse-running.jpg" alt="" />
        </div>
  <div className="cont_form_login">
 <a href="#" onClick={ocultarLoginSignUp}><i className="material-icons">&#xE5C4;</i></a>
@@ -114,5 +115,4 @@ function ocultarLoginSignUp() {
     );
   }
 }
-
-export default App;
+export default Form;
