@@ -445,8 +445,33 @@ form button {
 
 }
 
-.bookbutton{
-    margin: 0% auto;
+.buttondiv {
+  height: 30vh;
+  width: 100vw;
+}
+
+.buttoncontainer {
+  padding-top: 12vh;
+}
+
+.booktext {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.7em;
+}
+
+.bookbutton {
+  margin-left: 20px;
+  background-color: #FFF;
+  color: SkyBlue;
+  border: 3px solid SkyBlue;
+  padding: 10px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 0.7em;
+  font-weight: bold;
+  font-family: 'Raleway', sans-serif;
+    /*margin: 0% auto;
     display:inline-block;
     text-align:center;
     margin-top:10%;
@@ -459,24 +484,25 @@ form button {
     background: -webkit-linear-gradient(left, #57c2d4, #4674a6);
     border:3px solid white;
     transition-duration:0.4s;
-    /*font-family:'Fredoka One', sans-serif;*/
-    font-family: "Fjalla One",sans-serif;
+    font-family: "Fjalla One",sans-serif;*/
 
 
 }
 
 .bookbutton:hover{
-
-    border-top-left-radius:50px;
+    /*border-top-left-radius:50px;
     border-bottom-right-radius:50px;
-    transition-duration:0.4s;
+    transition-duration:0.4s;*/
 }
+
+
 .vets{
     width:100vw;
     height:80vh;
     color:#fff;
     background: -webkit-linear-gradient(left, #57c2d4, #4674a6);
   }
+
 .vets img{
       border-radius:50%;
 }
@@ -738,7 +764,7 @@ form button {
       transition-duration:0.4s;
     }
 
-    
+
 
     .fa-chevron-up {
 

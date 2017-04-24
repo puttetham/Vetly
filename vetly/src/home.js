@@ -23,8 +23,8 @@ class Home extends Component {
     configureAnchors({offset: -70, scrollDuration: 400});
     return (
 
-      
-            
+
+
             <div>
             {/*All code except the fixed nav goes here!*/}
             <ScrollableAnchor id={'start'}>
@@ -40,10 +40,10 @@ class Home extends Component {
                                 <li>✓   Hemleverans av läkemedel</li>
                                 <li>✓   Snabb diagnos eller remiss</li>
                             </ul>
-                
+
                             <img src={appstore} className="img-appstore" alt= "ladda ner vetly från appstore" />
                             <img src={computerimg} className="img-computer" alt= "kör vetly från datorn" />
-                            
+
 
                     </div>
                     </div>
@@ -51,7 +51,7 @@ class Home extends Component {
                         <div className="col-md-6">
                         <img src={startimg} className="img-veterinary" alt="veterinär" />
 
-                        
+
 
                         </div>
 
@@ -165,7 +165,14 @@ class Home extends Component {
                     </div>
                 </div>{/*HOW IT WORKS SECTION*/}
                 </ScrollableAnchor>
-                                        <center><button className="bookbutton" type="button">Boka Nu</button></center>
+
+                <div className="buttondiv">
+                  <div className="buttoncontainer">
+                    <center>
+                      <p className="booktext">Kom igång direkt, och boka ditt första veterinärmöte<button className="bookbutton" type="button">BOKA NU</button></p>
+                    </center>
+                  </div>
+                </div>
 
 
 
@@ -202,12 +209,12 @@ class Home extends Component {
                     </div>
                 </div>{/*VET DOCTORS*/}
                 </ScrollableAnchor>
-                <div className="join">
-                <div className="row">
-                    <div className="col-md-12">
-                    <center><button className="bookbutton" type="button">Kom igång</button></center>
-                    </div>
-                </div>
+                <div className="buttondiv">
+                  <div className="buttoncontainer">
+                    <center>
+                      <p className="booktext">Kom igång direkt, och boka ditt första veterinärmöte.<button className="bookbutton" type="button">REGISTRERA DIG</button></p>
+                    </center>
+                  </div>
                 </div>
 
 
@@ -267,7 +274,7 @@ class Home extends Component {
 
                </footer>
             </div>
-            
+
 
 
 
