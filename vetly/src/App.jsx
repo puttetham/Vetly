@@ -193,7 +193,7 @@ class App extends Component {
                     </div>
                 </div>{/*HOW IT WORKS SECTION*/}
                 </ScrollableAnchor>
-                <center><button className="bookbutton" type="button">Boka Nu</button></center>
+                                        <center><button className="bookbutton" type="button">Boka Nu</button></center>
 
 
 
