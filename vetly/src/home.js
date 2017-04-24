@@ -169,7 +169,7 @@ class Home extends Component {
                 <div className="buttondiv">
                   <div className="buttoncontainer">
                     <center>
-                      <p className="booktext">Kom igång direkt, och boka ditt första veterinärmöte<button className="bookbutton" type="button">BOKA NU</button></p>
+                      <p className="booktext">Läkarbesök online. När det passar dig.<button className="bookbutton" type="button">BOKA NU</button></p>
                     </center>
                   </div>
                 </div>
