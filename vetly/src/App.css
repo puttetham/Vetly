@@ -717,10 +717,27 @@ form button {
         margin-bottom: 5px;
     }
 
-    .footer-icons a:hover{
-      background-color: #5383d3;
-      transition-duration: 0.5s;
+    .footer-icons .facebook:hover{
+      background-color: #3b5998;
+      transition-duration: 0.4s;
     }
+
+    .footer-icons .twitter:hover{
+      background-color: #00aced;
+      transition-duration:0.4s;
+    }
+
+    .footer-icons .linkedin:hover{
+      background-color: #0077b5;
+      transition-duration:0.4s;
+    }
+
+    .footer-icons .github:hover{
+      background-color: #6e5494;
+      transition-duration:0.4s;
+    }
+
+    
 
     .fa-chevron-up {
 

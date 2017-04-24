@@ -270,10 +270,10 @@ class App extends Component {
 
                   <div className="footer-icons">
 
-                    <a href="https://www.facebook.com/"><i className="fa fa-facebook"></i></a>
-                    <a href="https://twitter.com/"><i className="fa fa-twitter"></i></a>
-                    <a href="https://se.linkedin.com/"><i className="fa fa-linkedin"></i></a>
-                    <a href="https://github.com/"><i className="fa fa-github"></i></a>
+                    <a href="https://www.facebook.com/" className="facebook"><i className="fa fa-facebook"></i></a>
+                    <a href="https://twitter.com/" className="twitter"><i className="fa fa-twitter"></i></a>
+                    <a href="https://se.linkedin.com/" className="linkedin"><i className="fa fa-linkedin"></i></a>
+                    <a href="https://github.com/" className="github"><i className="fa fa-github"></i></a>
 
 
 
