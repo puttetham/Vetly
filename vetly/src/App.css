@@ -369,7 +369,7 @@ input[type=checkbox]:checked ~ label span:nth-child(3) {
 
 .img-computer {
     width:160px;
-    
+
 
 }
 
@@ -464,6 +464,7 @@ form button {
 
 
 }
+
 .bookbutton:hover{
 
     border-top-left-radius:50px;
@@ -472,7 +473,7 @@ form button {
 }
 .vets{
     width:100vw;
-    height:70vh;
+    height:80vh;
     color:#fff;
     background: -webkit-linear-gradient(left, #57c2d4, #4674a6);
   }

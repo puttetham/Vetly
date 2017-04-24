@@ -16,7 +16,9 @@ import logo from './vetly_logo.png';
 import footerlogo from './vetly_logo_white.png';
 import computerimg from './btn_computer.png';
 import star from './star.png';
-
+import Form from './Form.jsx';
+import { BrowserRouter as Router, Route, Link} from 'react-router-dom';
+import Home from './home.js'
 
 
 
@@ -26,22 +28,30 @@ class App extends Component {
   render() {
     configureAnchors({offset: -70, scrollDuration: 400});
     return (
+      <div>
+      <Router>
         <div>
+        
             <nav>
-            <a href='#start'><img src={logo} className="vetly_logo" alt= "vetly.se" /></a>
+            <Link to="/"><img src={logo} className="vetly_logo" alt= "vetly.se" /></Link>
                 <input id="nav" type="checkbox" />
                 <label htmlFor="nav">
                     <span />
                     <span />
                     <span />
                 </label>
+                
                 <ul className="menu">
-                    <a href='#services'><li href>Våra tjänster</li></a>
+                    <li><Link to="/">Våra tjänster</Link></li>
                     <a href='#vets'><li>Våra veterinärer</li></a>
                     <li>Skapa konto</li>
-                    <li>Logga in</li>
+                    <li><Link to="/form">Logga in</Link></li>
                 </ul>
             </nav>
+            <Route exact={true} path="/" component={Home} />
+            <Route path="/Form" component={Form} />
+          </div>
+            </Router>
 
 
             {/*All code except the fixed nav goes here!*/}
@@ -192,6 +202,7 @@ class App extends Component {
                 <div className="vets">
                     <div className="row">
                         <center>
+                        <br></br>
                         <h2>Våra veterinärer</h2>
                         <p className="vettext">Vetly har många legitimerade veterinärer som har specialkompetens inom hästens sjukdomar och några har specialiserat sig
                           inom egna intresseområden. Vill du vet mer om en veterinärs specialområde kan du klicka på deras bild neden.
@@ -221,9 +232,10 @@ class App extends Component {
                 </div>{/*VET DOCTORS*/}
                 </ScrollableAnchor>
                 <div className="join">
+                <div className="row">
                     <div className="col-md-12">
-                <center><button className="bookbutton" type="button">Kom igång</button></center>
-                    
+                    <center><button className="bookbutton" type="button">Kom igång</button></center>
+                    </div>
                 </div>
                 </div>
 
@@ -284,7 +296,9 @@ class App extends Component {
                 <a href='#start'><i className="fa fa-chevron-up fa-2x" aria-hidden="true"></i></a>
 
                </footer>
+
             </div>
+
 
 
 
