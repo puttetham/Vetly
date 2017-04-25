@@ -97,7 +97,7 @@ class Home extends Component {
              <div className="about">
                 <div className="row">
                     <div className="col-md-12 customers">
-                      <h2>98% Nöjda kunder</h2>
+                      <h2>98% Nöjda kunder!</h2>
                       {/* <br></br>
                       Kvalitativ djurvård behöver inte vara kostsam eller tidskrävande. Med Vetly kan du snabbt och enkelt träffa en veterinär
                       via din mobil eller dator, oavsett vart du befinner dig.
@@ -111,13 +111,13 @@ class Home extends Component {
                       <hr></hr>
                    </div>
                      <div className="col-md-4 quotes">
-                       <p><i className="fa fa-quote-right 4x" aria-hidden="true"></i> "Kanonbra. Hjälpsamma och trevliga. Jag är supernöjd".</p>
+                       <p><i className="fa fa-quote-right 4x" aria-hidden="true"></i> Kanonbra. Hjälpsamma och trevliga. Jag är supernöjd.</p>
                      </div>
                      <div className="col-md-4 quotes">
-                       <p><i className="fa fa-quote-right 4x" aria-hidden="true"></i> "Mitt absolut bästa veterinärbesök någonsin. Och så skönt att slippa åka iväg."</p>
+                       <p><i className="fa fa-quote-right 4x" aria-hidden="true"></i> Mitt absolut bästa veterinärbesök någonsin. Och så skönt att slippa åka iväg.</p>
                     </div>
                     <div className="col-md-4 fix">
-                       <p><i className="fa fa-quote-right 4x" aria-hidden="true"></i> "Riktigt bra! Bokar in ett nytt möte så fort som möjligt"</p>
+                       <p><i className="fa fa-quote-right 4x" aria-hidden="true"></i> Riktigt bra! Bokar in ett nytt möte så fort som möjligt.</p>
 
 
 

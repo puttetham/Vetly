@@ -244,6 +244,10 @@ input[type=checkbox]:checked ~ label span:nth-child(3) {
       height:100% !important;
     }
 
+    .about p {
+      margin-left: 5%;
+    }
+
     .fix {
       margin-bottom: 50px !important;
     }
@@ -290,6 +294,15 @@ input[type=checkbox]:checked ~ label span:nth-child(3) {
       margin-right:1% !important;
     }
 
+    .vetly_logo {
+      margin-left:4%;
+    }
+
+    nav label {
+      right: 3%;
+      top: 5%;
+    }
+
 
 
 
@@ -323,6 +336,14 @@ input[type=checkbox]:checked ~ label span:nth-child(3) {
       top: 5%;
     }
 
+    .about p {
+      font-size: 1.3em !important;
+      width: 80%;
+      margin: 0 auto;
+    }
+
+
+
 
 }
 
@@ -346,8 +367,8 @@ input[type=checkbox]:checked ~ label span:nth-child(3) {
 
 .heading-start {
     color:#fff;
-    font-size:3.6em;
-    font-family: 'Fjalla One', sans-serif !important;
+    font-size:3em;
+    font-family: 'Montserrat', sans-serif !important;
 
 }
 
@@ -355,7 +376,7 @@ input[type=checkbox]:checked ~ label span:nth-child(3) {
     list-style: outside none none;
     margin: 16% 0;
     padding: 0;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Raleway', sans-serif;
 }
 
 .start-list li {
@@ -439,9 +460,11 @@ form button {
   height:50vh;
 }
 
+
 .about p{
   font-size:1.2em;
   font-style: italic;
+  font-family: 'Raleway', sans-serif;
 }
 
 .customers {
