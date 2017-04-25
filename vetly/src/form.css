@@ -2,7 +2,10 @@
 ---------------------------------------
 */
 
-.body {
+.cotn_principal, .cont_centrar, .cont_login, .cont_info_log_sign_up, 
+.col_md_login, .cont_ba_opcitiy, .btn_login, .col_md_sign_up, .cont_ba_opcitiy, 
+.btn_sign_up, .cont_back_info, .cont_img_back_grey, .cont_forms, .cont_img_back_, 
+.cont_form_login, .cont_form_sign_up, .btn_sign_up {
   margin: 0px auto;
   padding: 0px;
   text-align: center;
@@ -39,11 +42,11 @@ margin-left: -320px;
 }
 
 .cont_back_info {
-position: relative;
+  position: relative;
   float: left;
   width: 640px;
   height: 280px;
-overflow: hidden;
+  overflow: hidden;
   background-color: #fff;
   margin-top: 100px;
 box-shadow: 1px 10px 30px -10px rgba(0,0,0,0.5);
@@ -53,7 +56,7 @@ box-shadow: 1px 10px 30px -10px rgba(0,0,0,0.5);
   position: absolute;
   overflow: hidden;
   top:100px;
-left: 0px;
+  left: 0px;
   width: 320px;
   height: 280px;
   background-color: #eee;
@@ -92,7 +95,7 @@ transition: all 0.5s;
 .cont_img_back_grey {
   position: absolute;
   width: 950px;
-top:-80px;
+  top:-80px;
   left: -116px;
 }
 
