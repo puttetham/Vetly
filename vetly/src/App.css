@@ -22,7 +22,6 @@ a:active {
 
 h2,h3,h1{
   font-family: 'Montserrat', sans-serif !important;
-
 }
 
 h2 {
@@ -116,7 +115,6 @@ nav label {
   background: #transparent;
   cursor: pointer;
   z-index: 2;
-
 }
 
 nav > label > span {
@@ -310,6 +308,15 @@ input[type=checkbox]:checked ~ label span:nth-child(3) {
     .start h1 {
       font-size:1.9em;
       margin: 20% 0 0%;
+    }
+
+    .vetly_logo {
+      margin-left:-10px;
+    }
+
+    nav label {
+      right: 5%;
+      top: 5%;
     }
 
 
