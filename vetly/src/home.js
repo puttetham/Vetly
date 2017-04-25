@@ -253,6 +253,7 @@ class Home extends Component {
 
                   <p className="footer-company-about">
                     <span>Om Vetly</span>
+                    <br></br>
                     Kvalitativ djurvård behöver inte vara kostsam eller tidskrävande. Med Vetly kan du snabbt
                     och enkelt träffa en veterinär via din mobil eller dator, oavsett vart du befinner dig.
                   </p>
