@@ -707,8 +707,7 @@ form button {
         margin: 0;
     }
 
-    .footer-distributed .
-    -company-about span{
+    .footer-right .footer-company-about span{
         display: block;
         color:  #ffffff;
         font-size: 14px;
