@@ -475,8 +475,17 @@ form button {
     width:100vw;
     height:75vh;
     background: -webkit-linear-gradient(left, #fee0a2, #fdba35);
+}
 
+.services h2 {
+  font-family: 'Raleway', sans-serif !important;
+}
 
+.regitext {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.05em;
+  line-height: 1.4em;
+  font-weight: 500;
 }
 
 .buttondiv {
