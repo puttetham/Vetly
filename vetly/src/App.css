@@ -475,15 +475,20 @@ form button {
     width:100vw;
     height:75vh;
     background: -webkit-linear-gradient(left, #fee0a2, #fdba35);
+
 }
 
 .services h2 {
   font-family: 'Raleway', sans-serif !important;
 }
 
+.fa-4x {
+  margin-bottom: 5%;
+}
+
 .regitext {
   font-family: 'Raleway', sans-serif;
-  font-size: 1.05em;
+  font-size: 1.9em !important;
   line-height: 1.4em;
   font-weight: 500;
 }
@@ -528,7 +533,7 @@ form button {
     width:100vw;
     height:80vh;
     color:#fff;
-    background: -webkit-linear-gradient(left, #57c2d4, #4674a6);
+    background: -webkit-linear-gradient(right, #57c2d4, #4674a6);
   }
 
 .vets img{
@@ -579,7 +584,7 @@ form button {
 
     width:14vw;
     height:25vh;
-    opacity:0.7;
+    opacity:0.9;
     transition-duration:0.4s;
 
 }
