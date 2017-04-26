@@ -33,7 +33,7 @@ class App extends Component {
         <div>
         
             <nav>
-            <a href='#start'><img src={logo} className="vetly_logo" alt= "vetly.se" /></a>
+            <a href='#start'><Link to='/'><img src={logo} className="vetly_logo" alt= "vetly.se" /></Link></a>
                 <input id="nav" type="checkbox" />
                 <label htmlFor="nav">
                     <span />
@@ -44,7 +44,7 @@ class App extends Component {
                 <ul className="menu">
                     <a href='#services'><li>Våra tjänster</li></a>
                     <a href='#vets'><li>Våra veterinärer</li></a>
-                    <li>Skapa konto</li>
+                    <li><Link to="/Form">Skapa konto</Link></li>
                     <li><Link to="/Form">Logga in</Link></li>
                 </ul>
             </nav>
