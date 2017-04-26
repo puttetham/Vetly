@@ -86,6 +86,7 @@ nav h2 {
   cursor: pointer;
   /*font-family: 'Raleway', sans-serif;*/
   font-size: 1.1em;
+  font-family: 'Maven Pro', sans-serif;
 }
 
 .menu li::before {
