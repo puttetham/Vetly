@@ -47,6 +47,9 @@ nav {
   z-index:2;
   width: 100vw;
   background: #fff;
+  font-family: 'Montserrat', sans-serif !important;
+  font-size:1.1em;
+  font-weight:bold;
 
 }
 
