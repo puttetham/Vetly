@@ -313,6 +313,22 @@ display: none;
 transition: all 0.5s;
 }
 
+.cont_form_sign_up .material-icons{
+  color:#000000;
+ } 
+
+.cont_form_sign_up .material-icons:hover{
+  color:#fff;
+ } 
+
+.cont_form_login .material-icons{
+  color:#000000;
+} 
+ 
+.cont_form_login .material-icons:hover{
+  color:#fff;
+} 
+
 
 .cont_form_sign_up > input {
 text-align: left;

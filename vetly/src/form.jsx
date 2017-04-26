@@ -90,7 +90,7 @@ function ocultarLoginSignUp() {
        <img src="https://www.scienceabc.com/wp-content/uploads/2016/05/horse-running.jpg" alt="" />
        </div>
  <div className="cont_form_login">
-<a href="#" onClick={ocultarLoginSignUp}><i className="material-icons">&#xE5C4;</i></a>
+<a href="#" onClick={ocultarLoginSignUp}><i className="material-icons">&#xE14C;</i></a>
    <h2>Logga In</h2>
  <input type="text" placeholder="Email" />
 <input type="password" placeholder="Lösenord" />
@@ -98,7 +98,7 @@ function ocultarLoginSignUp() {
   </div>
 
    <div className="cont_form_sign_up">
-<a href="#" onClick={ocultarLoginSignUp}><i className="material-icons">&#xE5C4;</i></a>
+<a href="#" onClick={ocultarLoginSignUp}><i className="material-icons">&#xE14C;</i></a>
      <h2>Skapa Konto</h2>
 <input type="text" placeholder="Email" />
 <input type="password" placeholder="Lösenord" />
