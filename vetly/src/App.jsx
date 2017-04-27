@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
-import ScrollableAnchor from 'react-scrollable-anchor'
-import { configureAnchors } from 'react-scrollable-anchor'
+import ScrollableAnchor from 'react-scrollable-anchor';
+import { configureAnchors } from 'react-scrollable-anchor';
 import account from './account.jpg';
 import startimg from './start_img.png';
 import doc from './doc.png';
@@ -26,14 +26,17 @@ import Home from './home.js';
 class App extends Component {
 
   render() {
+    
+ 
     configureAnchors({offset: -70, scrollDuration: 400});
     return (
       <div>
       <Router>
         <div>
+
         
             <nav>
-            <Link to="/"><img src={logo} className="vetly_logo" alt= "vetly.se" /></Link>
+            <a href='#start'><Link to='/'><img src={logo} className="vetly_logo" alt= "vetly.se" /></Link></a>
                 <input id="nav" type="checkbox" />
                 <label htmlFor="nav">
                     <span />
@@ -42,9 +45,9 @@ class App extends Component {
                 </label>
                 
                 <ul className="menu">
-                    <li><Link to="/">Våra tjänster</Link></li>
+                    <a href='#services'><li>Våra tjänster</li></a>
                     <a href='#vets'><li>Våra veterinärer</li></a>
-                    <li>Skapa konto</li>
+                    <li><Link to="/Form">Skapa konto</Link></li>
                     <li><Link to="/Form">Logga in</Link></li>
                 </ul>
             </nav>

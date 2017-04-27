@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import ScrollableAnchor from 'react-scrollable-anchor'
 import { configureAnchors } from 'react-scrollable-anchor'
+import TextCarousel from 'react-text-carousel';
 import account from './account.jpg';
 import startimg from './start_img.png';
 import doc from './doc.png';
@@ -21,6 +22,9 @@ class Home extends Component {
 
   render() {
     configureAnchors({offset: -70, scrollDuration: 400});
+    const phrases = ["An array", "of strings", "to pass the component"]; // Required
+    const interval = 3000; // The time to wait before rendering the next string
+    const typistProps = {} // Props that are passed to the react-typist component
     return (
 
 
@@ -40,6 +44,8 @@ class Home extends Component {
                                 <li>✓   Hemleverans av läkemedel</li>
                                 <li>✓   Snabb diagnos eller remiss</li>
                             </ul>
+                                    <TextCarousel phrases={phrases} interval={interval} typistProps={typistProps} />
+
 
                             <img src={appstore} className="img-appstore" alt= "ladda ner vetly från appstore" />
                             <img src={computerimg} className="img-computer" alt= "kör vetly från datorn" />
@@ -97,7 +103,7 @@ class Home extends Component {
              <div className="about">
                 <div className="row">
                     <div className="col-md-12 customers">
-                      <h2>98% Nöjda kunder</h2>
+                      <h2>98% Nöjda kunder!</h2>
                       {/* <br></br>
                       Kvalitativ djurvård behöver inte vara kostsam eller tidskrävande. Med Vetly kan du snabbt och enkelt träffa en veterinär
                       via din mobil eller dator, oavsett vart du befinner dig.
@@ -111,13 +117,13 @@ class Home extends Component {
                       <hr></hr>
                    </div>
                      <div className="col-md-4 quotes">
-                       <p><i className="fa fa-quote-right 4x" aria-hidden="true"></i> "Kanonbra. Hjälpsamma och trevliga. Jag är supernöjd".</p>
+                       <p><i className="fa fa-quote-right 4x" aria-hidden="true"></i> Kanonbra. Hjälpsamma och trevliga. Jag är supernöjd.</p>
                      </div>
                      <div className="col-md-4 quotes">
-                       <p><i className="fa fa-quote-right 4x" aria-hidden="true"></i> "Mitt absolut bästa veterinärbesök någonsin. Och så skönt att slippa åka iväg."</p>
+                       <p><i className="fa fa-quote-right 4x" aria-hidden="true"></i> Mitt absolut bästa veterinärbesök någonsin. Och så skönt att slippa åka iväg.</p>
                     </div>
                     <div className="col-md-4 fix">
-                       <p><i className="fa fa-quote-right 4x" aria-hidden="true"></i> "Riktigt bra! Bokar in ett nytt möte så fort som möjligt"</p>
+                       <p><i className="fa fa-quote-right 4x" aria-hidden="true"></i> Riktigt bra! Bokar in ett nytt möte så fort som möjligt.</p>
 
 
 
@@ -188,22 +194,22 @@ class Home extends Component {
                         </center>
                         <div className="col-md-3">
                             <img src={doctor} className="doc" alt= "doc" />
-                            <h2>Vet 1</h2>
+                            <h2>Pierre Massamiri</h2>
                             <p className="vettext2">Leg. Vetrinär</p>
                         </div>
                         <div className="col-md-3">
                             <img src={doctor} className="doc" alt= "doc" />
-                            <h2>Vet 2</h2>
+                            <h2>Joseph Prasant</h2>
                             <p className="vettext2">Leg. Vetrinär</p>
                         </div>
                         <div className="col-md-3">
                             <img src={doctor} className="doc" alt= "doc" />
-                            <h2>Vet 3</h2>
+                            <h2>WARMACHINE</h2>
                             <p className="vettext2">Leg. Vetrinär</p>
                         </div>
                         <div className="col-md-3">
                             <img src={doctor} className="doc" alt= "doc" />
-                            <h2>Vet 4</h2>
+                            <h2>Fgt doktor</h2>
                             <p className="vettext2">Leg. Vetrinär</p>
                         </div>
                     </div>
@@ -253,16 +259,17 @@ class Home extends Component {
 
                   <p className="footer-company-about">
                     <span>Om Vetly</span>
+                    
                     Kvalitativ djurvård behöver inte vara kostsam eller tidskrävande. Med Vetly kan du snabbt
                     och enkelt träffa en veterinär via din mobil eller dator, oavsett vart du befinner dig.
                   </p>
 
                   <div className="footer-icons">
 
-                    <a href="https://www.facebook.com/"><i className="fa fa-facebook"></i></a>
-                    <a href="https://twitter.com/"><i className="fa fa-twitter"></i></a>
-                    <a href="https://se.linkedin.com/"><i className="fa fa-linkedin"></i></a>
-                    <a href="https://github.com/"><i className="fa fa-github"></i></a>
+                    <a href="https://www.facebook.com/" className="facebook"><i className="fa fa-facebook"></i></a>
+                    <a href="https://twitter.com/" className="twitter"><i className="fa fa-twitter"></i></a>
+                    <a href="https://se.linkedin.com/" className="linkedin"><i className="fa fa-linkedin"></i></a>
+                    <a href="https://github.com/" className="github"><i className="fa fa-github"></i></a>
 
 
 

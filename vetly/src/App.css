@@ -22,7 +22,6 @@ a:active {
 
 h2,h3,h1{
   font-family: 'Montserrat', sans-serif !important;
-
 }
 
 h2 {
@@ -48,6 +47,9 @@ nav {
   z-index:2;
   width: 100vw;
   background: #fff;
+  font-family: 'Montserrat', sans-serif !important;
+  font-size:1.1em;
+  font-weight:bold;
 
 }
 
@@ -61,7 +63,11 @@ nav h2 {
 
 .vetly_logo {
   width:140px;
+
   margin-left:12%;
+
+=======
+  margin-left:10%;
 
 }
 
@@ -85,6 +91,7 @@ nav h2 {
   cursor: pointer;
   /*font-family: 'Raleway', sans-serif;*/
   font-size: 1.1em;
+  font-family: 'Maven Pro', sans-serif;
 }
 
 .menu li::before {
@@ -117,7 +124,6 @@ nav label {
   background: #transparent;
   cursor: pointer;
   z-index: 2;
-
 }
 
 nav > label > span {
@@ -250,6 +256,10 @@ input[type=checkbox]:checked ~ label span:nth-child(3) {
       height:100% !important;
     }
 
+    .about p {
+      margin-left: 5%;
+    }
+
     .fix {
       margin-bottom: 50px !important;
     }
@@ -296,6 +306,15 @@ input[type=checkbox]:checked ~ label span:nth-child(3) {
       margin-right:1% !important;
     }
 
+    .vetly_logo {
+      margin-left:4%;
+    }
+
+    nav label {
+      right: 3%;
+      top: 5%;
+    }
+
 
 
 
@@ -320,6 +339,23 @@ input[type=checkbox]:checked ~ label span:nth-child(3) {
       margin: 20% 0 0%;
     }
 
+    .vetly_logo {
+      margin-left:-10px;
+    }
+
+    nav label {
+      right: 5%;
+      top: 5%;
+    }
+
+    .about p {
+      font-size: 1.3em !important;
+      width: 80%;
+      margin: 0 auto;
+    }
+
+
+
 
 }
 
@@ -338,13 +374,13 @@ input[type=checkbox]:checked ~ label span:nth-child(3) {
 .start-text {
     float:left;
     margin-top:-3%;
-    margin-left:6%;
+    margin-left:0%;
 }
 
 .heading-start {
     color:#fff;
-    font-size:3.6em;
-    font-family: 'Fjalla One', sans-serif !important;
+    font-size:3em;
+    font-family: 'Montserrat', sans-serif !important;
 
 }
 
@@ -352,7 +388,7 @@ input[type=checkbox]:checked ~ label span:nth-child(3) {
     list-style: outside none none;
     margin: 16% 0;
     padding: 0;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Raleway', sans-serif;
 }
 
 .start-list li {
@@ -436,9 +472,11 @@ form button {
   height:50vh;
 }
 
+
 .about p{
   font-size:1.2em;
   font-style: italic;
+  font-family: 'Raleway', sans-serif;
 }
 
 .customers {
@@ -450,7 +488,21 @@ form button {
     height:75vh;
     background: -webkit-linear-gradient(left, #fee0a2, #fdba35);
 
+}
 
+.services h2 {
+  font-family: 'Raleway', sans-serif !important;
+}
+
+.fa-4x {
+  margin-bottom: 5%;
+}
+
+.regitext {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.9em !important;
+  line-height: 1.4em;
+  font-weight: 500;
 }
 
 .buttondiv {
@@ -493,7 +545,7 @@ form button {
     width:100vw;
     height:80vh;
     color:#fff;
-    background: -webkit-linear-gradient(left, #57c2d4, #4674a6);
+    background: -webkit-linear-gradient(right, #57c2d4, #4674a6);
   }
 
 .vets img{
@@ -544,7 +596,7 @@ form button {
 
     width:14vw;
     height:25vh;
-    opacity:0.7;
+    opacity:0.9;
     transition-duration:0.4s;
 
 }
@@ -708,8 +760,7 @@ form button {
         margin: 0;
     }
 
-    .footer-distributed .
-    -company-about span{
+    .footer-right .footer-company-about span{
         display: block;
         color:  #ffffff;
         font-size: 14px;
