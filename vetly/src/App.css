@@ -64,10 +64,9 @@ nav h2 {
 .vetly_logo {
   width:140px;
 
-  margin-left:12%;
+  margin-left:9%;
 
 
-  margin-left:10%;
 
 }
 
@@ -79,7 +78,7 @@ nav h2 {
   position: relative;
   margin-top: 7px;
   float: right;
-  margin-right:9.5%;
+  margin-right:7%;
   list-style-type: none;
   transition: top 0.5s cubic-bezier(0.3, 0.1, 0.3, 0.85);
   z-index: 1;
