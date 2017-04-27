@@ -37,10 +37,13 @@ function cambiarSignUp(at) {
 
 function clickToggle() {
     var x = document.getElementById('signup');
-    if (x.style.display === 'none') {
-        x.style.display = 'block';
-    } else {
+    var y = document.getElementById('login');
+    if (x.style.display === 'block' && y.style.display === 'none') {
+        y.style.display = 'block';
         x.style.display = 'none';
+    } else {
+        x.style.display = 'block';
+        y.style.display = 'none';
     }
 }
 
@@ -131,21 +134,23 @@ function ocultarLoginSignUp() {
 
 
  <div className="form-div">
- <h3>Kom Igång</h3>
-  <div id="signup"> 
+ 
+  <div id="signup">
+  <h3 className="formh3">Kom Igång</h3> 
   <input type="email" placeholder="Email" />
   <input type="password" placeholder="Lösenord" />
   <input type="password" placeholder="Bekräfta Lösenord" />
   <button className="formButton">Skapa Konto</button>
   </div>
 
-  <div className="login"> 
+  <div id="login">
+  <h3 className="formh3">Logga In</h3> 
   <input type="email" placeholder="Email" />
   <input type="password" placeholder="Lösenord" />
   <button className="formButton">Logga In</button>
   </div>
 </div>
-<button className="formButton" onClick={clickToggle}>toggla här</button>
+<button id="toggleButton" onClick={clickToggle}>Toggla här</button>
 </div>
 
 
