@@ -22,8 +22,8 @@ class Home extends Component {
 
   render() {
     configureAnchors({offset: -70, scrollDuration: 400});
-    const phrases = ["An array", "of strings", "to pass the component"]; // Required
-    const interval = 3000; // The time to wait before rendering the next string
+    const phrases = ["hältutredningar", "ledbehandlingar", "tandundersökningar", " tandbehandlingar", "besiktningar", "röntgen", "endoskopi", "endoskopi", "och mer därtill.."]; // Required
+    const interval = 2600; // The time to wait before rendering the next string
     const typistProps = {} // Props that are passed to the react-typist component
     return (
 
@@ -44,7 +44,7 @@ class Home extends Component {
                                 <li>✓   Hemleverans av läkemedel</li>
                                 <li>✓   Snabb diagnos eller remiss</li>
                             </ul>
-                                    <TextCarousel phrases={phrases} interval={interval} typistProps={typistProps} />
+
 
 
                             <img src={appstore} className="img-appstore" alt= "ladda ner vetly från appstore" />
@@ -175,7 +175,8 @@ class Home extends Component {
                 <div className="buttondiv">
                   <div className="buttoncontainer">
                     <center>
-                      <p className="booktext">Läkarbesök online. När det passar dig.<button className="bookbutton" type="button">BOKA NU</button></p>
+                      <p className="booktext">Vi kan hjälpa dig med <p className="textcar"><TextCarousel phrases={phrases} interval={interval} typistProps={typistProps} /></p></p>
+                      <button className="bookbutton" type="button">BOKA NU</button>
                     </center>
                   </div>
                 </div>
@@ -218,7 +219,8 @@ class Home extends Component {
                 <div className="buttondiv">
                   <div className="buttoncontainer">
                     <center>
-                      <p className="booktext">Kom igång direkt, och boka ditt första veterinärmöte.<button className="bookbutton" type="button">REGISTRERA DIG</button></p>
+                      <p className="booktext">Kom igång direkt, och boka ditt första veterinärmöte.</p>
+                      <button className="bookbutton" type="button">REGISTRERA DIG</button>
                     </center>
                   </div>
                 </div>
@@ -259,7 +261,7 @@ class Home extends Component {
 
                   <p className="footer-company-about">
                     <span>Om Vetly</span>
-                    
+
                     Kvalitativ djurvård behöver inte vara kostsam eller tidskrävande. Med Vetly kan du snabbt
                     och enkelt träffa en veterinär via din mobil eller dator, oavsett vart du befinner dig.
                   </p>

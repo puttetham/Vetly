@@ -511,12 +511,19 @@ form button {
 }
 
 .buttoncontainer {
-  padding-top: 12vh;
+  padding: 12vh 0;
 }
 
 .booktext {
   font-family: 'Raleway', sans-serif;
   font-size: 1.7em;
+  margin-top: -3vh;
+}
+
+.textcar {
+  display: inline-block;
+  font-weight: 600;
+  color: #ddad34;
 }
 
 .bookbutton {
@@ -528,7 +535,7 @@ form button {
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 0.7em;
+  font-size: 1.3em;
   font-weight: bold;
   font-family: 'Raleway', sans-serif;
   transition-duration: 0.4s;
@@ -536,7 +543,7 @@ form button {
 
 .bookbutton:hover{
   background-color: skyblue;
-  color: white;
+  color: #FFF;
   transition-duration: 0.6s;
 }
 
