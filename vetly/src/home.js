@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import ScrollableAnchor from 'react-scrollable-anchor'
 import { configureAnchors } from 'react-scrollable-anchor'
+import TextCarousel from 'react-text-carousel';
 import account from './account.jpg';
 import startimg from './start_img.png';
 import doc from './doc.png';
@@ -21,6 +22,9 @@ class Home extends Component {
 
   render() {
     configureAnchors({offset: -70, scrollDuration: 400});
+    const phrases = ["An array", "of strings", "to pass the component"]; // Required
+    const interval = 3000; // The time to wait before rendering the next string
+    const typistProps = {} // Props that are passed to the react-typist component
     return (
 
 
@@ -40,6 +44,8 @@ class Home extends Component {
                                 <li>✓   Hemleverans av läkemedel</li>
                                 <li>✓   Snabb diagnos eller remiss</li>
                             </ul>
+                                    <TextCarousel phrases={phrases} interval={interval} typistProps={typistProps} />
+
 
                             <img src={appstore} className="img-appstore" alt= "ladda ner vetly från appstore" />
                             <img src={computerimg} className="img-computer" alt= "kör vetly från datorn" />

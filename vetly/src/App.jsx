@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
-import ScrollableAnchor from 'react-scrollable-anchor'
-import { configureAnchors } from 'react-scrollable-anchor'
+import ScrollableAnchor from 'react-scrollable-anchor';
+import { configureAnchors } from 'react-scrollable-anchor';
 import account from './account.jpg';
 import startimg from './start_img.png';
 import doc from './doc.png';
@@ -26,11 +26,14 @@ import Home from './home.js';
 class App extends Component {
 
   render() {
+    
+ 
     configureAnchors({offset: -70, scrollDuration: 400});
     return (
       <div>
       <Router>
         <div>
+
         
             <nav>
             <a href='#start'><Link to='/'><img src={logo} className="vetly_logo" alt= "vetly.se" /></Link></a>
