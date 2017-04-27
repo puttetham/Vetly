@@ -22,7 +22,7 @@ class Home extends Component {
 
   render() {
     configureAnchors({offset: -70, scrollDuration: 400});
-    const phrases = ["hältutredningar", "ledbehandlingar", "tandundersökningar", " tandbehandlingar", "besiktningar", "röntgen", "endoskopi", "endoskopi", "och mer därtill.."]; // Required
+    const phrases = ["hältutredningar", "ledbehandlingar", "tandundersökningar", " tandbehandlingar", "besiktningar", "röntgen", "endoskopi", "och mer därtill.."]; // Required
     const interval = 2600; // The time to wait before rendering the next string
     const typistProps = {} // Props that are passed to the react-typist component
     return (
