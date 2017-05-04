@@ -549,7 +549,7 @@ form button {
 
 .vets{
     width:100vw;
-    height:80vh;
+    height:76vh;
     color:#fff;
     background: -webkit-linear-gradient(right, #57c2d4, #4674a6);
   }
@@ -559,7 +559,7 @@ form button {
 }
 
 .vettext {
-  width: 90%;
+  width: 100%;
   float: left;
   font-size: 1.2em;
 }

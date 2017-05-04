@@ -45,8 +45,8 @@ class App extends Component {
                 </label>
                 
                 <ul className="menu">
-                    <a href='#services'><li>Våra tjänster</li></a>
-                    <a href='#vets'><li>Våra veterinärer</li></a>
+                    <a href='#services'><li>Funktion</li></a>
+                    <a href='#vets'><li>Veterinärer</li></a>
                     <li><Link to="/Form">Skapa konto</Link></li>
                     <li><Link to="/Form">Logga in</Link></li>
                 </ul>

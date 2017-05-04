@@ -145,16 +145,14 @@ class Home extends Component {
                             <h2>Registrering</h2>
                             <i className="fa fa-user fa-4x" aria-hidden="true"></i>
                             <p>För att kunna boka ditt första veterinärmöte måste du först skapa ett konto. Endast ett fåtal personuppgifter
-                                - så som namn och emailaddress - krävs för att kunna registrera en ny användare, och efter bara någon minut kan
-                                 du börja använda alla tjänstens funktioner</p>
+                                - så som namn och emailaddress.</p>
                         </div>
                         <div className="col-md-4">
                             <h2>Bokning</h2>
                             <i className="fa fa-calendar fa-4x" aria-hidden="true"></i>
                             <p>
                             Börja med att fylla i information om den häst som ärendet gäller och beskriv sedan ditt ärende. Försök att ge en så
-                             detaljerad och utförlig beskrivning som möjligt för att göra det lättare för veterinären att snabbt kunna göra en
-                              korrekt bedömning.
+                             detaljerad och utförlig beskrivning som möjligt.
                             </p>
                         </div>
                         <div className="col-md-4">
@@ -162,8 +160,7 @@ class Home extends Component {
                             <i className="fa fa-video-camera fa-4x" aria-hidden="true"></i>
                             <p>När det har blivit dags för ditt möte så ringer veterinären upp dig genom appen.
                                  Mötet genomförs via video och du får 10 minuters samtalstid med din veterinär.
-                                  Du kan när som helst gå till din historik och se dina videomöten.
-                                  Om det visar sig att ditt ärende kräver vidare vård kan du få en remiss till en fysisk klinik nära dig.</p>
+                                  </p>
 
                         </div>
 
@@ -176,7 +173,7 @@ class Home extends Component {
                   <div className="buttoncontainer">
                     <center>
                       <p className="booktext">Vi kan hjälpa dig med <p className="textcar"><TextCarousel phrases={phrases} interval={interval} typistProps={typistProps} /></p></p>
-                      <button className="bookbutton" type="button">BOKA NU</button>
+                      <button className="bookbutton" type="button">REGISTRERA</button>
                     </center>
                   </div>
                 </div>
@@ -187,12 +184,12 @@ class Home extends Component {
                 <ScrollableAnchor id={'vets'}>
                 <div className="vets">
                     <div className="row">
-                        <center>
-                        <h2>Våra veterinärer</h2>
+                        
+                        <center><h2>Våra veterinärer</h2></center>
                         <p className="vettext">Vetly har många legitimerade vetrinärer som har specialkompetens inom hästens sjukdomar och några har specialiserat sig
                           inom egna intresseområden. Vill du vet mer om en veterinärs specialområde kan du klicka på deras bild neden.
-                          Alla vetrinärer har tränats för att på bästa möjliga sätt kunna tillgodose dina behov via videomöte.</p>
-                        </center>
+                          Alla vetrinärer har tränats för att på bästa möjliga sätt kunna tillgodose dina behov.</p>
+                        
                         <div className="col-md-3">
                             <img src={doctor} className="doc" alt= "doc" />
                             <h2>Pierre Massamiri</h2>
@@ -220,7 +217,7 @@ class Home extends Component {
                   <div className="buttoncontainer">
                     <center>
                       <p className="booktext">Kom igång direkt, och boka ditt första veterinärmöte.</p>
-                      <button className="bookbutton" type="button">REGISTRERA DIG</button>
+                      <button className="bookbutton" type="button">BOKA NU</button>
                     </center>
                   </div>
                 </div>
@@ -240,10 +237,7 @@ class Home extends Component {
 
                 <div className="footer-center">
 
-                  <div>
-                    <i className="fa fa-map-marker"></i>
-                    <p><span>21 Odenplan</span> Stockholm , Sweden</p>
-                  </div>
+                  
 
                   <div>
                     <i className="fa fa-phone"></i>
