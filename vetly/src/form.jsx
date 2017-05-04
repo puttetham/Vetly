@@ -110,6 +110,7 @@ function ocultarLoginSignUp() {
  <input type="email" placeholder="Email" />
 <input type="password" placeholder="Lösenord" />
 <button className="btn_login" onClick={cambiarLogin}>Logga In</button>
+<center><a href="#" className="passwordLink">Jag har glömt mitt lösenord</a></center>
   </div>
 
    <div className="cont_form_sign_up">
@@ -150,6 +151,9 @@ function ocultarLoginSignUp() {
   <button className="formButton">Logga In</button>
   </div>
 </div>
+
+<a href="#" className="passwordLink">Jag har glömt mitt lösenord</a>
+
 <button id="toggleButton" onClick={clickToggle}>Toggla här</button>
 </div>
 
@@ -158,3 +162,6 @@ function ocultarLoginSignUp() {
   }
 }
 export default Form;
+
+
+
