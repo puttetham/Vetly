@@ -266,6 +266,7 @@ input[type=checkbox]:checked ~ label span:nth-child(3) {
 
     .start {
       margin-top:10% !important;
+
     }
 
     .start ul  {
@@ -322,20 +323,14 @@ input[type=checkbox]:checked ~ label span:nth-child(3) {
 @media (max-width: 480px) {
 
     .start-text {
-      text-align: left !important;
-      float:none !important;
-      margin-top: 10% !important;
-      margin-left:0px !important;
-    }
-
-    .start img {
-      width:60%;
-      margin-bottom:12%;
+      
+      margin-top: -22% !important;
+      
     }
 
     .start h1 {
-      font-size:1.9em;
-      margin: 20% 0 0%;
+      font-size:2.5em;
+      
     }
 
     .vetly_logo {
@@ -361,26 +356,79 @@ input[type=checkbox]:checked ~ label span:nth-child(3) {
 
 /****************************/
 
-.start{
-    width:100vw;
-    height:95vh;
-    margin-top:3%;
-    background: -webkit-linear-gradient(left, #57c2d4, #4674a6);
-    padding:10%;
 
+.button {
+    background-color: #57c2d4; 
+    border: none;
+    color: white;
+    padding: 6px 90px;
+    border-radius:5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 2.5em;
+}
+
+a:hover {
+    opacity:0.9;
+}
+
+a.button {
+    
+
+    text-decoration: none;
+    color: #fff;
+}
+
+.button-box {
+    width:100%;
+    margin:80px 0px 80px;
+}
+
+.start{
+    position:relative;
+    width:100vw;
+    height:100vh;
+    top:180px;
+}
+
+.start:after{
+    width:100vw;
+    height:100vh;
+    background-image: url("horsebg.jpeg");
+    background-size: 100% 100%;
+    /*background: -webkit-linear-gradient(left, #57c2d4, #4674a6);*/
+    padding:10%;
+    opacity:0.8;
+    content : "";
+    position: absolute;
+    z-index:-1;
+    top: -180px;
+    left: 0;
+}
+
+.start-infotext {
+  color:#fdfdfd;
+  font-size:1.5em;
+  margin-top:30px;
+  text-shadow: 1px 1px #222222;
 }
 
 .start-text {
-    float:left;
-    margin-top:-3%;
-    margin-left:0%;
+    text-align:center;
+    margin:0 auto;
+    width:100%;
 }
 
 .heading-start {
-    color:#fff;
-    font-size:3em;
-    font-family: 'Montserrat', sans-serif !important;
-
+    color: #fdfdfd;
+    font-family: "Montserrat",sans-serif !important;
+    font-size: 3.6em;
+    text-transform: uppercase;
+    font-weight:700;
+    text-shadow: 1px 1px #222222;
+    
 }
 
 .start-list {

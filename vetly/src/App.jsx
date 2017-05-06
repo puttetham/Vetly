@@ -16,7 +16,7 @@ import logo from './vetly_logo.png';
 import footerlogo from './vetly_logo_white.png';
 import computerimg from './btn_computer.png';
 import star from './star.png';
-import Form from './Form.jsx';
+import Form from './form.jsx';
 import { BrowserRouter as Router, Route, Link} from 'react-router-dom';
 import Home from './home.js';
 

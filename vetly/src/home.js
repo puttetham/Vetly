@@ -17,6 +17,7 @@ import logo from './vetly_logo.png';
 import footerlogo from './vetly_logo_white.png';
 import computerimg from './btn_computer.png';
 import star from './star.png';
+import horsebg from './horsebg.jpeg';
 
 class Home extends Component {
 
@@ -33,29 +34,35 @@ class Home extends Component {
             {/*All code except the fixed nav goes here!*/}
             <ScrollableAnchor id={'start'}>
             <div className="start">
-            <div className="col-md-6">
+        
 
-                    <div className="start-text">
+                <div className="start-text">
                         <h1 className="heading-start">Träffa veterinär online</h1>
-                            <ul className="start-list">
-                                <li>✓   Träffa veterinär via videomöte</li>
-                                <li>✓   Få råd, recept eller remiss</li>
-                                <li>✓   Legitimerade veterinärer & specialister</li>
-                                <li>✓   Hemleverans av läkemedel</li>
-                                <li>✓   Snabb diagnos eller remiss</li>
-                            </ul>
 
+                        
+                        <p className="start-infotext">Få experthjälp snabbt och enkelt vart än du befinner dig till<br /> 
+                        en tredjedel av kostnaden av ett traditionellt veterinärbesök</p>
+                            
+                            <div className="button-box">
+                            
+                            <a href="#" className="button">Boka tid</a>
+
+                            </div>
 
 
                             <img src={appstore} className="img-appstore" alt= "ladda ner vetly från appstore" />
                             <img src={computerimg} className="img-computer" alt= "kör vetly från datorn" />
+                    
 
 
+                   
                     </div>
-                    </div>
+
+
+                    
 
                         <div className="col-md-6">
-                        <img src={startimg} className="img-veterinary" alt="veterinär" />
+                        
 
 
 
