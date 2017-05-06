@@ -186,29 +186,29 @@ class Home extends Component {
                     <div className="row">
                         
                         <center><h2>Våra veterinärer</h2></center>
-                        <p className="vettext">Vetly har många legitimerade vetrinärer som har specialkompetens inom hästens sjukdomar och några har specialiserat sig
-                          inom egna intresseområden. Vill du vet mer om en veterinärs specialområde kan du klicka på deras bild neden.
-                          Alla vetrinärer har tränats för att på bästa möjliga sätt kunna tillgodose dina behov.</p>
+                        <p className="vettext">Vetly har många legitimerade veterinärer som har specialkompetens inom hästens sjukdomar och några har specialiserat sig
+                          inom egna intresseområden. Vill du vet mer om en veterinärs specialområde kan du klicka på deras bild.
+                          Alla veterinärer har tränats för att på bästa möjliga sätt kunna tillgodose dina behov.</p>
                         
                         <div className="col-md-3">
                             <img src={doctor} className="doc" alt= "doc" />
                             <h2>Pierre Massamiri</h2>
-                            <p className="vettext2">Leg. Vetrinär</p>
+                            <p className="vettext2">Leg. Veterinär</p>
                         </div>
                         <div className="col-md-3">
                             <img src={doctor} className="doc" alt= "doc" />
                             <h2>Joseph Prasant</h2>
-                            <p className="vettext2">Leg. Vetrinär</p>
+                            <p className="vettext2">Leg. Veterinär</p>
                         </div>
                         <div className="col-md-3">
                             <img src={doctor} className="doc" alt= "doc" />
                             <h2>WARMACHINE</h2>
-                            <p className="vettext2">Leg. Vetrinär</p>
+                            <p className="vettext2">Leg. Veterinär</p>
                         </div>
                         <div className="col-md-3">
                             <img src={doctor} className="doc" alt= "doc" />
                             <h2>Fgt doktor</h2>
-                            <p className="vettext2">Leg. Vetrinär</p>
+                            <p className="vettext2">Leg. Veterinär</p>
                         </div>
                     </div>
                 </div>{/*VET DOCTORS*/}
