@@ -76,7 +76,7 @@ class Home extends Component {
 
                     <div className="row">
 
-                    <center><h2 className="vetlyheading">Vetly fungerar på följande sätt</h2></center>
+                    <center><h2 className="vetlyheading">Vetly fungerar på följande sätt:</h2></center>
                         <div className="col-md-4">
                             <h2>Registrering</h2>
                             <i className="fa fa-user fa-4x iconz" aria-hidden="true"></i>
@@ -207,9 +207,8 @@ class Home extends Component {
                     <div className="row">
 
                         <center><h2>Våra veterinärer</h2></center>
-                        <p className="vettext">Vetly har många legitimerade veterinärer som har specialkompetens inom hästens sjukdomar och några har specialiserat sig
-                          inom egna intresseområden. Vill du vet mer om en veterinärs specialområde kan du klicka på deras bild.
-                          Alla veterinärer har tränats för att på bästa möjliga sätt kunna tillgodose dina behov.</p>
+                        <p className="vettext">Vetly har legitimerade veterinärer med specialkompetens inom hästar. Vill du läsa mer om deras specialområden kan du klicka på tillhörande bild.
+                          Veterinärerna är utbildade för att tillgodose dina behov på bästa möjliga sätt.</p>
 
                         <div className="col-md-3">
                             <img src={doctor} className="doc" alt= "doc" />
@@ -237,7 +236,7 @@ class Home extends Component {
                 <div className="buttondiv">
                   <div className="buttoncontainer2">
                     <center>
-                      <p className="booktext">Kom igång direkt, och boka ditt första veterinärmöte.</p>
+                      <p className="booktext">Kom igång direkt och boka ditt första veterinärmöte.</p>
                       <button className="bookbutton" type="button">BOKA NU</button>
                     </center>
                   </div>
