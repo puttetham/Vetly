@@ -4,7 +4,7 @@ html, body {
     margin: 0 auto;
     padding: 0;
     height: 100%;
-    /*font-family: 'Lato', sans-serif;*/
+    font-family: 'Lato', sans-serif;
 }
 
 a {
@@ -20,10 +20,10 @@ a:active {
   text-decoration:none;
 }
 
-/*
+
 h2,h3,h1{
-  font-family: 'Montserrat', sans-serif !important;
-}*/
+  font-family: 'Lato', sans-serif;
+}
 
 h2 {
   margin-top: 4%;
@@ -91,7 +91,7 @@ nav h2 {
   cursor: pointer;
   /*font-family: 'Raleway', sans-serif;*/
   font-size: 1.1em;
-  font-family: 'Maven Pro', sans-serif;
+  font-family: 'Lato', sans-serif;
 }
 
 .menu li::before {
@@ -274,7 +274,7 @@ input[type=checkbox]:checked ~ label span:nth-child(3) {
       list-style: outside none none;
       margin: 16% 0;
       padding: 0;
-      /*font-family: 'Roboto', sans-serif;*/
+      font-family: 'Lato', sans-serif;
     }
 
     .img-veterinary {
@@ -423,31 +423,27 @@ a.button {
 
 .heading-start {
     color: #fdfdfd;
-    /*font-family: "Montserrat",sans-serif !important;*/
     font-size: 3.6em;
     text-transform: uppercase;
     font-weight:700;
     text-shadow: 1px 1px #222222;
 
 }
-.checkparent {
-  width:100vw;
-  height:55vh;
-  background-color: #437C90;
-  padding-top: 15px;
-}
+
 
 .check {
     margin: 0 auto;
-    width:55vw;
+    width:45vw;
     height:40vh;
-    background-color: #FFF;
-    border-radius: 5px;
+    background-color: #F24236;
+    border-radius: 15px;
+    margin-top: 7%;
+    margin-bottom: 5%;
 }
 
 .check-heading {
-    color: #777;
-    /*font-family: 'Montserrat';*/
+    color: #FFF;
+    font-family: 'Lato', sans-serif;
     padding-top: 50px;
 }
 
@@ -458,9 +454,9 @@ a.button {
 
 .check-list li {
     font-size: 1.3em;
-    /*font-family: 'Open Sans', sans-serif;*/
+    font-family: 'Lato', sans-serif;
     font-weight: 400;
-    color: #777;
+    color: #FFF;
     line-height:2.0;
     margin-top:10px;
 }
@@ -482,7 +478,7 @@ li:before {
   height:1.3em;
   margin-right: 0.3em;
   text-align: center;
-  color: #2E86AB;
+  color: #FFF;
 }
 
 
@@ -553,9 +549,9 @@ form button {
 
 
 .about p{
-  font-size:1.2em;
+  font-size:1.4em;
   font-style: italic;
-  /*font-family: 'Raleway', sans-serif;*/
+  font-family: 'Lato', sans-serif;
 }
 
 .customers {
@@ -572,7 +568,7 @@ form button {
 }
 
 .services h2 {
-  /*font-family: 'Raleway', sans-serif !important;*/
+  font-family: 'Lato', sans-serif;
   color: #48392A;
 }
 
@@ -581,10 +577,14 @@ form button {
 }
 
 .regitext {
-  /*font-family: 'Raleway', sans-serif;*/
+  font-family: 'Lato', sans-serif;
   font-size: 1.9em !important;
   line-height: 1.4em;
   font-weight: 500;
+}
+
+.qoutetext {
+  font-size: 100px;
 }
 
 .buttondiv {
@@ -594,11 +594,22 @@ form button {
 
 .buttoncontainer {
   padding: 12vh 0;
-  background-color: #FFE0B5;
+  background-color: #8FCB9B;
+}
+
+.bookingtext {
+  font-size: 1.3em;
+  line-height: 1.6;
+
+}
+
+.buttoncontainer2 {
+  padding: 12vh 0;
+  background-color: #488286;
 }
 
 .booktext {
-  /*font-family: 'Raleway', sans-serif;*/
+  font-family: 'Lato', sans-serif;
   font-size: 1.7em;
   margin-top: -3vh;
 }
@@ -611,8 +622,8 @@ form button {
 
 .bookbutton {
   margin-left: 20px;
-  background-color: #FFF;
-  color: #231F20;
+  background-color: #ED7D3A;
+  color: #FFF;
   border: none;
   padding: 10px 30px;
   text-align: center;
@@ -620,13 +631,13 @@ form button {
   display: inline-block;
   font-size: 1.3em;
   font-weight: bold;
-  /*font-family: 'Raleway', sans-serif;*/
+  font-family: 'Lato', sans-serif;
   transition-duration: 0.4s;
 }
 
 .bookbutton:hover{
-  background-color: #FE9920;
-  color: #FFF;
+  background-color: #F2D492;
+  color: #000;
   transition-duration: 0.6s;
 }
 

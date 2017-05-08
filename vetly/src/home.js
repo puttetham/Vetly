@@ -50,7 +50,7 @@ class Home extends Component {
                             <a href="#" className="button">Boka tid</a>
 
 
-                            <a href="#" className="button"><i className="fa fa-video-camera" aria-hidden="true"></i>Boka tid</a>
+                            {/* <a href="#" className="button"><i className="fa fa-video-camera" aria-hidden="true"></i>Boka tid</a> */}
 
 
                             </div>
@@ -80,13 +80,13 @@ class Home extends Component {
                         <div className="col-md-4">
                             <h2>Registrering</h2>
                             <i className="fa fa-user fa-4x iconz" aria-hidden="true"></i>
-                            <p>För att kunna boka ditt första veterinärmöte måste du först skapa ett konto. Endast ett fåtal personuppgifter
+                            <p className="bookingtext">För att kunna boka ditt första veterinärmöte måste du först skapa ett konto. Endast ett fåtal personuppgifter
                                 - så som namn och emailaddress.</p>
                         </div>
                         <div className="col-md-4">
                             <h2>Bokning</h2>
                             <i className="fa fa-calendar fa-4x iconz" aria-hidden="true"></i>
-                            <p>
+                            <p className="bookingtext">
                             Börja med att fylla i information om den häst som ärendet gäller och beskriv sedan ditt ärende. Försök att ge en så
                              detaljerad och utförlig beskrivning som möjligt.
                             </p>
@@ -94,7 +94,7 @@ class Home extends Component {
                         <div className="col-md-4">
                             <h2>Videosamtal</h2>
                             <i className="fa fa-video-camera fa-4x iconz" aria-hidden="true"></i>
-                            <p>När det har blivit dags för ditt möte så ringer veterinären upp dig genom appen.
+                            <p className="bookingtext">När det har blivit dags för ditt möte så ringer veterinären upp dig genom appen.
                                  Mötet genomförs via video och du får 10 minuters samtalstid med din veterinär.
                                   </p>
 
@@ -106,7 +106,7 @@ class Home extends Component {
                 </ScrollableAnchor>
 
                 <center>
-                <div className="checkparent">
+
                 <div className="check">
                 <h2 className="check-heading">Upptäck fördelen med digital veterinärvård</h2>
 
@@ -116,7 +116,7 @@ class Home extends Component {
                         <li>Legitimerade veterinärer & specialister</li>
                       </ul>
                   </div>
-                </div>
+
                   </center>
 
 
@@ -162,13 +162,13 @@ class Home extends Component {
                       <hr></hr>
                    </div>
                      <div className="col-md-4 quotes">
-                       <p><i className="fa fa-quote-right 4x" aria-hidden="true"></i> Kanonbra. Hjälpsamma och trevliga. Jag är supernöjd.</p>
+                       <p className="qoutetext"><i className="fa fa-quote-right 4x" aria-hidden="true"></i> Kanonbra. Hjälpsamma och trevliga. Jag är supernöjd.</p>
                      </div>
                      <div className="col-md-4 quotes">
-                       <p><i className="fa fa-quote-right 4x" aria-hidden="true"></i> Mitt absolut bästa veterinärbesök någonsin. Och så skönt att slippa åka iväg.</p>
+                       <p className="qoutetext"><i className="fa fa-quote-right 4x" aria-hidden="true"></i> Mitt absolut bästa veterinärbesök någonsin. Och så skönt att slippa åka iväg.</p>
                     </div>
                     <div className="col-md-4 fix">
-                       <p><i className="fa fa-quote-right 4x" aria-hidden="true"></i> Riktigt bra! Bokar in ett nytt möte så fort som möjligt.</p>
+                       <p className="qoutetext"><i className="fa fa-quote-right 4x" aria-hidden="true"></i> Riktigt bra! Bokar in ett nytt möte så fort som möjligt.</p>
 
 
 
@@ -237,7 +237,7 @@ class Home extends Component {
                 </div>{/*VET DOCTORS*/}
                 </ScrollableAnchor>
                 <div className="buttondiv">
-                  <div className="buttoncontainer">
+                  <div className="buttoncontainer2">
                     <center>
                       <p className="booktext">Kom igång direkt, och boka ditt första veterinärmöte.</p>
                       <button className="bookbutton" type="button">BOKA NU</button>
