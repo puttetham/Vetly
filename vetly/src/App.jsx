@@ -22,6 +22,7 @@ import Home from './home.js';
 
 
 
+
 {/*asdadasda*/}
 class App extends Component {
 
@@ -45,14 +46,15 @@ class App extends Component {
                 </label>
                 
                 <ul className="menu">
-                    <a href='#services'><li>Funktion</li></a>
-                    <a href='#vets'><li>Veterinärer</li></a>
+                    <li><a href='/#services'>Funktion</a></li>
+                    <li><a href='/#vets'>Veterinärer</a></li>
                     <li><Link to="/Form">Skapa konto</Link></li>
                     <li><Link to="/Form">Logga in</Link></li>
                 </ul>
             </nav>
             <Route exact={true} path="/" component={Home} />
             <Route path="/Form" component={Form} />
+            
           </div>
             </Router>
 
