@@ -29,12 +29,13 @@ class Home extends Component {
     return (
 
 
-
+            <ScrollableAnchor id={'start'}>
             <div>
             {/*All code except the fixed nav goes here!*/}
-            <ScrollableAnchor id={'start'}>
+            
             <div className="start">
         
+
 
                 <div className="start-text">
                         <h1 className="heading-start">Träffa veterinär online</h1>
@@ -58,24 +59,12 @@ class Home extends Component {
                    
                     </div>
 
-
-                    
-
-                        <div className="col-md-6">
-                        
-
-
-
-                        </div>
-
-
                         {/*<img src={startimg} className="img-veterinary" alt= "veterinär" />
                         <img src={startimg2} className="img-horse" alt= "häst" />*/}
-
-
-
+                
                 </div>{/*start*/}
-                </ScrollableAnchor>
+                
+                
 
                 <ScrollableAnchor id={'services'}>
                 <div className="services">
@@ -111,9 +100,6 @@ class Home extends Component {
                 </div>{/*HOW IT WORKS SECTION*/}
                 </ScrollableAnchor>
 
-
-                
-
                 <center>
                 <div className="check">
                 <h2 className="check-heading">Upptäck fördelarn med digital veterinärvård</h2>
@@ -130,13 +116,6 @@ class Home extends Component {
                       </ul>
                   </div>
                   </center>
-
-                      
-
-                    
-
-
-
 
 
                 {/*Login / Registration !*/}
@@ -319,6 +298,7 @@ class Home extends Component {
 
                </footer>
             </div>
+            </ScrollableAnchor>
 
 
 

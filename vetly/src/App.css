@@ -433,7 +433,7 @@ a.button {
 
 .start:after{
     width:100vw;
-    height:97.2vh;
+    height:100vh;
     background-image: url("horsebg.jpeg");
     background-size: 100% 100%;
     /*background: -webkit-linear-gradient(left, #57c2d4, #4674a6);*/
