@@ -32,20 +32,20 @@ class Home extends Component {
             <ScrollableAnchor id={'start'}>
             <div>
             {/*All code except the fixed nav goes here!*/}
-            
+
             <div className="start">
-        
+
 
 
                 <div className="start-text">
                         <h1 className="heading-start">Träffa veterinär online</h1>
 
-                        
-                        <p className="start-infotext">Få experthjälp snabbt och enkelt vart än du befinner dig till<br /> 
+
+                        <p className="start-infotext">Få experthjälp snabbt och enkelt vart än du befinner dig till<br />
                         en tredjedel av kostnaden av ett traditionellt veterinärbesök</p>
-                            
+
                             <div className="button-box">
-                            
+
                             <a href="#" className="button">Boka tid</a>
 
                             </div>
@@ -53,34 +53,34 @@ class Home extends Component {
 
                             <img src={appstore} className="img-appstore" alt= "ladda ner vetly från appstore" />
                             <img src={computerimg} className="img-computer" alt= "kör vetly från datorn" />
-                    
 
 
-                   
+
+
                     </div>
 
                         {/*<img src={startimg} className="img-veterinary" alt= "veterinär" />
                         <img src={startimg2} className="img-horse" alt= "häst" />*/}
-                
+
                 </div>{/*start*/}
-                
-                
+
+
 
                 <ScrollableAnchor id={'services'}>
                 <div className="services">
 
                     <div className="row">
 
-                    <center><h2>Vetly fungerar på följande sätt</h2></center>
+                    <center><h2 className="vetlyheading">Vetly fungerar på följande sätt</h2></center>
                         <div className="col-md-4">
                             <h2>Registrering</h2>
-                            <i className="fa fa-user fa-4x" aria-hidden="true"></i>
+                            <i className="fa fa-user fa-4x iconz" aria-hidden="true"></i>
                             <p>För att kunna boka ditt första veterinärmöte måste du först skapa ett konto. Endast ett fåtal personuppgifter
                                 - så som namn och emailaddress.</p>
                         </div>
                         <div className="col-md-4">
                             <h2>Bokning</h2>
-                            <i className="fa fa-calendar fa-4x" aria-hidden="true"></i>
+                            <i className="fa fa-calendar fa-4x iconz" aria-hidden="true"></i>
                             <p>
                             Börja med att fylla i information om den häst som ärendet gäller och beskriv sedan ditt ärende. Försök att ge en så
                              detaljerad och utförlig beskrivning som möjligt.
@@ -88,7 +88,7 @@ class Home extends Component {
                         </div>
                         <div className="col-md-4">
                             <h2>Videosamtal</h2>
-                            <i className="fa fa-video-camera fa-4x" aria-hidden="true"></i>
+                            <i className="fa fa-video-camera fa-4x iconz" aria-hidden="true"></i>
                             <p>När det har blivit dags för ditt möte så ringer veterinären upp dig genom appen.
                                  Mötet genomförs via video och du får 10 minuters samtalstid med din veterinär.
                                   </p>
@@ -101,20 +101,17 @@ class Home extends Component {
                 </ScrollableAnchor>
 
                 <center>
+                <div className="checkparent">
                 <div className="check">
-                <h2 className="check-heading">Upptäck fördelarn med digital veterinärvård</h2>
-
-  
-
+                <h2 className="check-heading">Upptäck fördelen med digital veterinärvård</h2>
 
                       <ul className="check-list">
                         <li>Träffa veterinär via videomöte</li>
                         <li>Få råd, recept eller remiss</li>
                         <li>Legitimerade veterinärer & specialister</li>
-                        <li>Hemleverans av läkemedel</li>
-                        <li>Snabb diagnos eller remiss</li>
                       </ul>
                   </div>
+                </div>
                   </center>
 
 
@@ -178,13 +175,13 @@ class Home extends Component {
 
 
                 </ScrollableAnchor>
-               
 
 
-               
 
 
-                            
+
+
+
 
 
 
@@ -205,12 +202,12 @@ class Home extends Component {
                 <ScrollableAnchor id={'vets'}>
                 <div className="vets">
                     <div className="row">
-                        
+
                         <center><h2>Våra veterinärer</h2></center>
                         <p className="vettext">Vetly har många legitimerade veterinärer som har specialkompetens inom hästens sjukdomar och några har specialiserat sig
                           inom egna intresseområden. Vill du vet mer om en veterinärs specialområde kan du klicka på deras bild.
                           Alla veterinärer har tränats för att på bästa möjliga sätt kunna tillgodose dina behov.</p>
-                        
+
                         <div className="col-md-3">
                             <img src={doctor} className="doc" alt= "doc" />
                             <h2>Pierre Massamiri</h2>
@@ -258,7 +255,7 @@ class Home extends Component {
 
                 <div className="footer-center">
 
-                  
+
 
                   <div>
                     <i className="fa fa-phone"></i>
