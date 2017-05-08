@@ -36,17 +36,23 @@ function cambiarSignUp(at) {
 
 }
 
+
 function clickToggle() {
+
     var x = document.getElementById('signup');
     var y = document.getElementById('login');
-    if (y.style.display === 'block' && x.style.display === 'none') {
-        y.style.display = 'none';
-        x.style.display = 'block';
+    if (x.classList.contains('visible')) {
+        x.classList.toggle('visible');
+        y.classList.toggle('visible');
+        document.getElementById('toggleButton').textContent = "Vill du registrera ett nytt konto?";
     } else {
-        x.style.display = 'none';
-        y.style.display = 'block';
+       y.classList.toggle('visible');
+        x.classList.toggle('visible');
+        document.getElementById('toggleButton').textContent = "Har du redan ett konto?";
     }
 }
+
+
 
 function ocultarLoginSignUp() {
 
@@ -137,7 +143,7 @@ function ocultarLoginSignUp() {
 
  <div className="form-div">
  
-  <div id="signup">
+  <div id="signup" className="formContainer">
   <h3 className="formh3">Kom Igång</h3> 
   <input type="email" placeholder="Email" />
   <input type="password" placeholder="Lösenord" />
@@ -145,7 +151,7 @@ function ocultarLoginSignUp() {
   <button className="formButton">Skapa Konto</button>
   </div>
 
-  <div id="login">
+  <div id="login" className="formContainer visible">
   <h3 className="formh3">Logga In</h3> 
   <input type="email" placeholder="Email" />
   <input type="password" placeholder="Lösenord" />
@@ -155,7 +161,7 @@ function ocultarLoginSignUp() {
 
 <a href="#" className="passwordLink">Jag har glömt mitt lösenord</a>
 
-<button id="toggleButton" onClick={clickToggle}>Toggla här</button>
+<button id="toggleButton" onClick={clickToggle}>Vill du registrera ett nytt konto?</button>
 </div>
 
 

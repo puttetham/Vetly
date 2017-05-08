@@ -433,18 +433,25 @@ margin-left: 30px;
 #signup {
 width: 100%!important;
 height: 100%!important;
-display: none;
 margin-bottom: 2%;
-display: none;
+
 }
 
 #login {
 width: 100%!important;
 height: 100%!important;
-display: block;
+
 margin-bottom: 2%;
 }
 
+.formContainer {
+  display: none;
+
+}
+
+.formContainer.visible {
+  display: block;
+}
 .formButton {
   width: 95%;
   margin-left: 2.5%;
