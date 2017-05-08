@@ -46,7 +46,7 @@ class Home extends Component {
                             
                             <div className="button-box">
                             
-                            <a href="#" className="button">Boka tid</a>
+                            <a href="#" className="button"><i className="fa fa-video-camera" aria-hidden="true"></i>Boka tid</a>
 
                             </div>
 
