@@ -77,6 +77,63 @@ class Home extends Component {
                 </div>{/*start*/}
                 </ScrollableAnchor>
 
+                <ScrollableAnchor id={'services'}>
+                <div className="services">
+
+                    <div className="row">
+
+                    <center><h2>Vetly fungerar på följande sätt</h2></center>
+                        <div className="col-md-4">
+                            <h2>Registrering</h2>
+                            <i className="fa fa-user fa-4x" aria-hidden="true"></i>
+                            <p>För att kunna boka ditt första veterinärmöte måste du först skapa ett konto. Endast ett fåtal personuppgifter
+                                - så som namn och emailaddress.</p>
+                        </div>
+                        <div className="col-md-4">
+                            <h2>Bokning</h2>
+                            <i className="fa fa-calendar fa-4x" aria-hidden="true"></i>
+                            <p>
+                            Börja med att fylla i information om den häst som ärendet gäller och beskriv sedan ditt ärende. Försök att ge en så
+                             detaljerad och utförlig beskrivning som möjligt.
+                            </p>
+                        </div>
+                        <div className="col-md-4">
+                            <h2>Videosamtal</h2>
+                            <i className="fa fa-video-camera fa-4x" aria-hidden="true"></i>
+                            <p>När det har blivit dags för ditt möte så ringer veterinären upp dig genom appen.
+                                 Mötet genomförs via video och du får 10 minuters samtalstid med din veterinär.
+                                  </p>
+
+                        </div>
+
+
+                    </div>
+                </div>{/*HOW IT WORKS SECTION*/}
+                </ScrollableAnchor>
+
+
+                
+
+                <center>
+                <div className="check">
+                <h2 className="check-heading">Upptäck fördelarn med digital veterinärvård</h2>
+
+  
+
+
+                      <ul className="check-list">
+                        <li>Träffa veterinär via videomöte</li>
+                        <li>Få råd, recept eller remiss</li>
+                        <li>Legitimerade veterinärer & specialister</li>
+                        <li>Hemleverans av läkemedel</li>
+                        <li>Snabb diagnos eller remiss</li>
+                      </ul>
+                  </div>
+                  </center>
+
+                      
+
+                    
 
 
 
@@ -142,39 +199,17 @@ class Home extends Component {
 
 
                 </ScrollableAnchor>
-                <ScrollableAnchor id={'services'}>
-                <div className="services">
-
-                    <div className="row">
-
-                    <center><h2>Vetly fungerar på följande sätt</h2></center>
-                        <div className="col-md-4">
-                            <h2>Registrering</h2>
-                            <i className="fa fa-user fa-4x" aria-hidden="true"></i>
-                            <p>För att kunna boka ditt första veterinärmöte måste du först skapa ett konto. Endast ett fåtal personuppgifter
-                                - så som namn och emailaddress.</p>
-                        </div>
-                        <div className="col-md-4">
-                            <h2>Bokning</h2>
-                            <i className="fa fa-calendar fa-4x" aria-hidden="true"></i>
-                            <p>
-                            Börja med att fylla i information om den häst som ärendet gäller och beskriv sedan ditt ärende. Försök att ge en så
-                             detaljerad och utförlig beskrivning som möjligt.
-                            </p>
-                        </div>
-                        <div className="col-md-4">
-                            <h2>Videosamtal</h2>
-                            <i className="fa fa-video-camera fa-4x" aria-hidden="true"></i>
-                            <p>När det har blivit dags för ditt möte så ringer veterinären upp dig genom appen.
-                                 Mötet genomförs via video och du får 10 minuters samtalstid med din veterinär.
-                                  </p>
-
-                        </div>
+               
 
 
-                    </div>
-                </div>{/*HOW IT WORKS SECTION*/}
-                </ScrollableAnchor>
+               
+
+
+                            
+
+
+
+
 
                 <div className="buttondiv">
                   <div className="buttoncontainer">

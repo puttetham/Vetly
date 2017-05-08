@@ -159,7 +159,7 @@ input[type=checkbox]:checked ~ label span:nth-child(3) {
   transform: translateY(-8px) rotate(-45deg);
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1200px) {
   .vetly_logo {
   width:140px;
   margin-left: 31%;
@@ -315,8 +315,30 @@ input[type=checkbox]:checked ~ label span:nth-child(3) {
       top: 5%;
     }
 
+    .check {
+      height:59vh !important;
+      margin-top:0% !important;
+      padding:1.2% !important;
+    }
 
+    .check-list {
+      margin-left:37% !important;
+      margin-top:3% !important;
+    }
 
+    .check-heading {
+      color: #000;
+      margin-top:3%;
+    }
+
+}
+
+@media (max-width: 1200px) {
+
+    .check-list {
+      margin-left:33% !important;
+      margin-top:6% !important;
+    }
 
 }
 
@@ -346,6 +368,22 @@ input[type=checkbox]:checked ~ label span:nth-child(3) {
       font-size: 1.3em !important;
       width: 80%;
       margin: 0 auto;
+    }
+
+    .check {
+      height:60vh !important;
+      margin-top:0% !important;
+      padding:1.2% !important;
+    }
+
+    .check-list {
+      margin-left:6% !important;
+      margin-top:3% !important;
+    }
+
+    .check-heading {
+      color: #000;
+      margin-top:12%;
     }
 
 
@@ -431,28 +469,54 @@ a.button {
     
 }
 
-.start-list {
-    list-style: outside none none;
-    margin: 16% 0;
-    padding: 0;
-    font-family: 'Raleway', sans-serif;
+.check {
+    margin: 0 auto;
+    width:100vw;
+    height:60vh;
+    background:#f0f0f0;
+    margin-top:-4%;
+    padding:1.2%;
 }
 
-.start-list li {
+.check-heading {
+    color: #000;
+}
+
+.check-list {
+    list-style: outside none none;
     text-align:left;
+    margin-left:39%;
+    margin-top:3%;
+}
+
+.check-list li {
     font-size: 1.4em;
     font-weight: 400;
-    margin: 20px 0;
-    color:#fff;
+    color:#000;
+    line-height:2.0;
+    margin-top:10px;
 }
 
-.start-list li .icon {
+.check-list li .icon {
     height: 18px;
     width: 18px;
     color:#fff;
     margin-top:6%;
 
 }
+
+li:before {
+  content:'\2713';
+  display:inline-block;
+  vertical-align: middle;
+  line-height: 1em;
+  width: 1em;
+  height:1.3em;
+  margin-right: 0.3em;
+  text-align: center;
+  color: #57c2d4;
+}
+
 
 .img-appstore {
     width:147px;
