@@ -80,22 +80,20 @@ class Home extends Component {
                         <div className="col-md-4">
                             <h2>Registrering</h2>
                             <i className="fa fa-user fa-4x iconz" aria-hidden="true"></i>
-                            <p className="bookingtext">För att kunna boka ditt första veterinärmöte måste du först skapa ett konto. Endast ett fåtal personuppgifter
-                                - så som namn och emailaddress.</p>
+                            <p className="bookingtext">Skapa ett konto för att boka ditt första veterinärmöte.</p>
                         </div>
                         <div className="col-md-4">
                             <h2>Bokning</h2>
                             <i className="fa fa-calendar fa-4x iconz" aria-hidden="true"></i>
                             <p className="bookingtext">
-                            Börja med att fylla i information om den häst som ärendet gäller och beskriv sedan ditt ärende. Försök att ge en så
-                             detaljerad och utförlig beskrivning som möjligt.
+                            Fyll i information om din häst och beskriv ditt ärende när du bokar ditt videosamtal.
                             </p>
                         </div>
                         <div className="col-md-4">
                             <h2>Videosamtal</h2>
                             <i className="fa fa-video-camera fa-4x iconz" aria-hidden="true"></i>
                             <p className="bookingtext">När det har blivit dags för ditt möte så ringer veterinären upp dig genom appen.
-                                 Mötet genomförs via video och du får 10 minuters samtalstid med din veterinär.
+                                 
                                   </p>
 
                         </div>
