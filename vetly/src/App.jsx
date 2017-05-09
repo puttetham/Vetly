@@ -19,7 +19,7 @@ import star from './star.png';
 import Form from './form.jsx';
 import { BrowserRouter as Router, Route, Link} from 'react-router-dom';
 import Home from './home.js';
-
+import Headroom from'react-headroom';
 
 
 
@@ -35,7 +35,7 @@ class App extends Component {
       <Router>
         <div>
 
-        
+            <Headroom>
             <nav>
             <a href='#start'><Link to='/'><img src={logo} className="vetly_logo" alt= "vetly.se" /></Link></a>
                 <input id="nav" type="checkbox" />
@@ -52,6 +52,7 @@ class App extends Component {
                     <li><Link to="/Form">Logga in</Link></li>
                 </ul>
             </nav>
+            </Headroom>
             <Route exact={true} path="/" component={Home} />
             <Route path="/Form" component={Form} />
             
