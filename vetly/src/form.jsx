@@ -74,7 +74,7 @@ function ocultarLoginSignUp() {
 
     return (
 
-      <div>
+      <div className="wrapper">
       <div className="cotn_principal">
 <div className="cont_centrar">
 
@@ -143,6 +143,13 @@ function ocultarLoginSignUp() {
 
  <div className="form-div">
  
+  <div id="login" className="formContainer visible">
+  <h3 className="formh3">Logga In</h3> 
+  <input type="email" placeholder="Email" />
+  <input type="password" placeholder="Lösenord" />
+  <button className="formButton">Logga In</button>
+  </div>
+
   <div id="signup" className="formContainer">
   <h3 className="formh3">Kom Igång</h3> 
   <input type="email" placeholder="Email" />
@@ -150,18 +157,12 @@ function ocultarLoginSignUp() {
   <input type="password" placeholder="Bekräfta Lösenord" />
   <button className="formButton">Skapa Konto</button>
   </div>
-
-  <div id="login" className="formContainer visible">
-  <h3 className="formh3">Logga In</h3> 
-  <input type="email" placeholder="Email" />
-  <input type="password" placeholder="Lösenord" />
-  <button className="formButton">Logga In</button>
-  </div>
-</div>
-
 <a href="#" className="passwordLink">Jag har glömt mitt lösenord</a>
 
 <button id="toggleButton" onClick={clickToggle}>Vill du registrera ett nytt konto?</button>
+</div>
+
+
 </div>
 
 
