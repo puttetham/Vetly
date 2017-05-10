@@ -469,8 +469,7 @@ a.button {
   line-height: 25px;
   font-family: 'Lato', sans-serif;
   color: #FFF;
-  border-bottom: 1px solid #ecf0f1;
-  width: 495px;
+  text-decoration: underline;
   padding-top: 40px;
 }
 
@@ -602,7 +601,8 @@ form button {
   font-weight: bold;
   letter-spacing: 1px;
   width: 270px;
-  border-bottom: 1px solid #8FCB9B;
+  text-decoration: underline;
+  text-decoration-color: #8FCB9B;
 }
 
 .qoutetext {
@@ -617,8 +617,8 @@ form button {
 .vetlyheading {
   font-weight: bold;
   letter-spacing: 1px;
-  width: 440px;
-  border-bottom: 1px solid #795548;
+  text-decoration: underline;
+  text-decoration-color: #795548;
 }
 
 .vetlytext {
@@ -697,8 +697,8 @@ form button {
 .vetheading {
   font-weight: bold;
   letter-spacing: 1px;
-  width: 270px;
-  border-bottom: 1px solid goldenrod;
+  text-decoration: underline;
+  text-decoration-color: goldenrod;
 }
 
 .vettext {
