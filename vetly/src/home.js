@@ -145,7 +145,9 @@ class Home extends Component {
              <div className="about">
                 <div className="row">
                     <div className="col-md-12 customers">
-                      <h2>98% Nöjda kunder!</h2>
+                      <center>
+                      <h2 className="aboutheading">98% Nöjda kunder!</h2>
+                      </center>
                       {/* <br></br>
                       Kvalitativ djurvård behöver inte vara kostsam eller tidskrävande. Med Vetly kan du snabbt och enkelt träffa en veterinär
                       via din mobil eller dator, oavsett vart du befinner dig.

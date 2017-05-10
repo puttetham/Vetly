@@ -551,13 +551,6 @@ form button {
   height:50vh;
 }
 
-
-.about p{
-  font-size:1.4em;
-  font-style: italic;
-  font-family: 'Lato', sans-serif;
-}
-
 .customers {
   margin-bottom: -40px;
 }
@@ -587,8 +580,20 @@ form button {
   font-weight: 500;
 }
 
+.aboutheading {
+  font-weight: bold;
+  letter-spacing: 1px;
+  width: 270px;
+  border-bottom: 1px solid #8FCB9B;
+}
+
 .qoutetext {
-  font-size: 100px;
+  letter-spacing: 1px;
+  font-size: 1.3em;
+  line-height: 25px;
+  font-style: italic;
+  font-family: 'Lato', sans-serif;
+  color: #525259;
 }
 
 .buttondiv {
