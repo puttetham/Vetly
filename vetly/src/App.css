@@ -718,6 +718,12 @@ form button {
   color: #525259;
 }
 
+.doctorname {
+  color: #525259;
+  font-size: 1.2em !important;
+  letter-spacing: 1px;
+}
+
 .join{
   width:100vw;
   height:27vh;

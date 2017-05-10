@@ -213,22 +213,22 @@ class Home extends Component {
                         </center>
                         <div className="col-md-3">
                             <img src={doctor} className="doc" alt= "doc" />
-                            <h2>Pierre Massamiri</h2>
+                            <h2 className="doctorname">Pierre Massamiri</h2>
                             <p className="vettext2">Leg. Veterinär</p>
                         </div>
                         <div className="col-md-3">
                             <img src={doctor} className="doc" alt= "doc" />
-                            <h2>Joseph Prasant</h2>
+                            <h2 className="doctorname">Joseph Prasant</h2>
                             <p className="vettext2">Leg. Veterinär</p>
                         </div>
                         <div className="col-md-3">
                             <img src={doctor} className="doc" alt= "doc" />
-                            <h2>WARMACHINE</h2>
+                            <h2 className="doctorname">WARMACHINE</h2>
                             <p className="vettext2">Leg. Veterinär</p>
                         </div>
                         <div className="col-md-3">
                             <img src={doctor} className="doc" alt= "doc" />
-                            <h2>Fgt doktor</h2>
+                            <h2 className="doctorname">Fgt doktor</h2>
                             <p className="vettext2">Leg. Veterinär</p>
                         </div>
                     </div>
