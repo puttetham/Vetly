@@ -63,11 +63,7 @@ nav h2 {
 
 .vetly_logo {
   width:140px;
-
   margin-left:9%;
-
-
-
 }
 
 .v {
@@ -159,7 +155,7 @@ input[type=checkbox]:checked ~ label span:nth-child(3) {
   transform: translateY(-8px) rotate(-45deg);
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1024px) {
   .vetly_logo {
   width:140px;
   margin-left: 31%;
@@ -188,7 +184,6 @@ input[type=checkbox]:checked ~ label span:nth-child(3) {
       margin-top:0% !important;
       width:100% !important;
       height:100% !important;
-      background: -webkit-linear-gradient(left, #ffff99, #ffff4d);
      }
      .col-md-6:nth-child(2){
       display:none !important;
@@ -322,14 +317,11 @@ input[type=checkbox]:checked ~ label span:nth-child(3) {
 @media (max-width: 480px) {
 
     .start-text {
-
       margin-top: -22% !important;
-
     }
 
     .start h1 {
       font-size:2.5em;
-
     }
 
     .vetly_logo {
@@ -346,6 +338,19 @@ input[type=checkbox]:checked ~ label span:nth-child(3) {
       width: 80%;
       margin: 0 auto;
     }
+
+    .check {
+      width:100vw !important;
+      height:50vh !important;
+      border-radius: 0px !important;
+    }
+
+    .vettext {
+      margin: 0 auto !important;
+      width: 90% !important;
+    }
+
+
 
 
 
@@ -434,7 +439,7 @@ a.button {
     margin: 0 auto;
     width:45vw;
     height:40vh;
-    background-color: #F24236;
+    background-color: #C06E52;
     border-radius: 15px;
     margin-top: 7%;
     margin-bottom: 5%;
@@ -562,9 +567,9 @@ form button {
     height:65vh;
 }
 
-.iconz {
-  /*color: #C06E52;*/
-}
+/*.iconz {
+  color: #C06E52;
+}*/
 
 .services h2 {
   font-family: 'Lato', sans-serif;
@@ -652,16 +657,29 @@ form button {
       border-radius:50%;
 }
 
+.vetheading {
+  font-weight: bold;
+  letter-spacing: 1px;
+  width: 270px;
+  border-bottom: 1px solid goldenrod;
+}
+
 .vettext {
-  width: 100%;
-  float: left;
-  font-size: 1.2em;
+  margin: 0 auto;
+  padding-top: 10px;
+  letter-spacing: 1px;
+  display: inline-block;
+  width: 60%;
+  font-size: 1.3em;
+  line-height: 25px;
+  color: #525259;
 }
 
 .vettext2 {
   padding-bottom: -5px 0 50px 0;
   font-size: 0.8em;
   font-style: italic;
+  color: #525259;
 }
 
 .join{

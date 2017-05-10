@@ -93,7 +93,7 @@ class Home extends Component {
                             <h2>Videosamtal</h2>
                             <i className="fa fa-video-camera fa-4x iconz" aria-hidden="true"></i>
                             <p className="bookingtext">När det har blivit dags för ditt möte så ringer veterinären upp dig genom appen.
-                                 
+
                                   </p>
 
                         </div>
@@ -105,9 +105,8 @@ class Home extends Component {
 
                 <center>
 
-                <div className="check">
-                <h2 className="check-heading">Upptäck fördelen med digital veterinärvård</h2>
-
+                  <div className="check">
+                    <h2 className="check-heading">Upptäck fördelen med digital veterinärvård</h2>
                       <ul className="check-list">
                         <li>Träffa veterinär via videomöte</li>
                         <li>Få råd, recept eller remiss</li>
@@ -206,10 +205,10 @@ class Home extends Component {
                 <div className="vets">
                     <div className="row">
 
-                        <center><h2>Våra veterinärer</h2></center>
+                        <center><h2 className="vetheading">Vetlys veterinärer</h2>
                         <p className="vettext">Vetly har legitimerade veterinärer med specialkompetens inom hästar. Vill du läsa mer om deras specialområden kan du klicka på tillhörande bild.
                           Veterinärerna är utbildade för att tillgodose dina behov på bästa möjliga sätt.</p>
-
+                        </center>
                         <div className="col-md-3">
                             <img src={doctor} className="doc" alt= "doc" />
                             <h2>Pierre Massamiri</h2>
