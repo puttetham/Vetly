@@ -80,19 +80,19 @@ class Home extends Component {
                         <div className="col-md-4">
                             <h2>Registrering</h2>
                             <i className="fa fa-user fa-4x iconz" aria-hidden="true"></i>
-                            <p className="bookingtext">Skapa ett konto för att boka ditt första veterinärmöte.</p>
+                            <p className="vetlytext">Skapa ett konto för att boka ditt första veterinärmöte.</p>
                         </div>
                         <div className="col-md-4">
                             <h2>Bokning</h2>
                             <i className="fa fa-calendar fa-4x iconz" aria-hidden="true"></i>
-                            <p className="bookingtext">
+                            <p className="vetlytext">
                             Fyll i information om din häst och beskriv ditt ärende när du bokar ditt videosamtal.
                             </p>
                         </div>
                         <div className="col-md-4">
                             <h2>Videosamtal</h2>
                             <i className="fa fa-video-camera fa-4x iconz" aria-hidden="true"></i>
-                            <p className="bookingtext">När det har blivit dags för ditt möte så ringer veterinären upp dig genom appen.
+                            <p className="vetlytext">När det har blivit dags för ditt möte så ringer veterinären upp dig genom appen.
 
                                   </p>
 
@@ -108,9 +108,9 @@ class Home extends Component {
                   <div className="check">
                     <h2 className="check-heading">Upptäck fördelen med digital veterinärvård</h2>
                       <ul className="check-list">
-                        <li>Träffa veterinär via videomöte</li>
-                        <li>Få råd, recept eller remiss</li>
-                        <li>Legitimerade veterinärer & specialister</li>
+                        <li>Träffa en legitimerad veterinär vart du än befinner dig</li>
+                        <li>Slipp långa väntetider och få hjälp även kvälllar och helger</li>
+                        <li>Boka tid snabbt och enkelt via din mobiltelefon</li>
                       </ul>
                   </div>
 

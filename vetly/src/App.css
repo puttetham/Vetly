@@ -310,6 +310,11 @@ input[type=checkbox]:checked ~ label span:nth-child(3) {
       top: 5%;
     }
 
+    .check {
+      width:65vw !important;
+      height:35vh !important;
+    }
+
 
 }
 
@@ -348,6 +353,19 @@ input[type=checkbox]:checked ~ label span:nth-child(3) {
     .vettext {
       margin: 0 auto !important;
       width: 90% !important;
+    }
+
+    .check-heading {
+      border-bottom: none !important;
+      width: 100% !important;
+    }
+
+    .check-list li {
+      padding:0 10px;
+    }
+
+    .check {
+      padding:0 15px;
     }
 
 
@@ -436,20 +454,25 @@ a.button {
 
 
 .check {
-    margin: 0 auto;
     width:45vw;
     height:40vh;
-    background-color: #C06E52;
+    background-color: #F2C45A;
     border-radius: 15px;
-    margin-top: 7%;
+    margin-top: 5%;
     margin-bottom: 5%;
 }
 
 .check-heading {
-    color: #FFF;
-    font-family: 'Lato', sans-serif;
-    padding-top: 50px;
+  letter-spacing: 1px;
+  font-size: 1.7em;
+  line-height: 25px;
+  font-family: 'Lato', sans-serif;
+  color: #FFF;
+  border-bottom: 1px solid #ecf0f1;
+  width: 495px;
+  padding-top: 40px;
 }
+
 
 .check-list {
     list-style: none;
@@ -457,12 +480,13 @@ a.button {
 }
 
 .check-list li {
-    font-size: 1.3em;
+    font-size: 1.2em;
     font-family: 'Lato', sans-serif;
-    font-weight: 400;
+    font-weight: 500;
     color: #FFF;
-    line-height:2.0;
+    line-height:25px;
     margin-top:10px;
+    letter-spacing: 1px;
 }
 
 .check-list li .icon {
@@ -573,13 +597,6 @@ form button {
   margin-bottom: 5%;
 }
 
-.regitext {
-  font-family: 'Lato', sans-serif;
-  font-size: 1.9em !important;
-  line-height: 1.4em;
-  font-weight: 500;
-}
-
 .aboutheading {
   font-weight: bold;
   letter-spacing: 1px;
@@ -593,6 +610,20 @@ form button {
   line-height: 25px;
   font-style: italic;
   font-family: 'Lato', sans-serif;
+  color: #525259;
+}
+
+.vetlyheading {
+  font-weight: bold;
+  letter-spacing: 1px;
+  width: 440px;
+  border-bottom: 1px solid #795548;
+}
+
+.vetlytext {
+  letter-spacing: 1px;
+  font-size: 1.3em;
+  line-height: 25px;
   color: #525259;
 }
 
