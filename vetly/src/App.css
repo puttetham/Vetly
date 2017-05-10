@@ -422,7 +422,7 @@ a.button {
     background-size: 100% 100%;
     /*background: -webkit-linear-gradient(left, #57c2d4, #4674a6);*/
     padding:10%;
-    opacity:0.8;
+    opacity:1;
     content : "";
     position: absolute;
     z-index:-1;
@@ -460,6 +460,7 @@ a.button {
     border-radius: 15px;
     margin-top: 5%;
     margin-bottom: 5%;
+    padding-top:18px;
 }
 
 .check-heading {
