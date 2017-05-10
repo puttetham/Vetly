@@ -38,16 +38,18 @@ function cambiarSignUp(at) {
 
 
 function clickToggle() {
-
+    var z = document.getElementById("toggleButton");
     var x = document.getElementById('signup');
     var y = document.getElementById('login');
     if (x.classList.contains('visible')) {
         x.classList.toggle('visible');
         y.classList.toggle('visible');
+        z.style.marginTop = "58%";
         document.getElementById('toggleButton').textContent = "Vill du registrera ett nytt konto?";
     } else {
        y.classList.toggle('visible');
         x.classList.toggle('visible');
+        z.style.marginTop = "43.4%";
         document.getElementById('toggleButton').textContent = "Har du redan ett konto?";
     }
 }
