@@ -592,7 +592,18 @@ form button {
 }
 
 .fa-4x {
-  margin-bottom: 5%;
+  margin: -1% -4% 0 0;
+  color:#57c2d4;
+}
+
+.arrow {
+  float:right;
+  margin-top:18px;
+}
+
+.fa-angle-right {
+  float:right;
+  color:#8fcb9b;
 }
 
 .aboutheading {
