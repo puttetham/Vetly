@@ -246,7 +246,7 @@ class Home extends Component {
                         </div>
                         <div className="col-md-3">
                             <img src={doctor} className="doc" alt= "doc" />
-                            <h2 className="doctorname">Fgt doktor</h2>
+                            <h2 className="doctorname">Cena</h2>
                             <p className="vettext2">Leg. Veterinär</p>
                         </div>
                     </div>
