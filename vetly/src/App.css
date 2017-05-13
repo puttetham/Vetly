@@ -42,6 +42,7 @@ h3 {
 /* MENU */
 
 nav {
+  position:fixed;
   top: 0;
   padding: 20px;
   z-index:2;
