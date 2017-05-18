@@ -369,6 +369,11 @@ input[type=checkbox]:checked ~ label span:nth-child(3) {
       padding:0 15px;
     }
 
+    .doc {
+      width: 100% !important;
+      height: auto !important;
+    }
+
 
 
 
@@ -397,8 +402,6 @@ a:hover {
 }
 
 a.button {
-
-
     text-decoration: none;
     color: #fff;
 }
