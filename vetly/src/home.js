@@ -82,7 +82,7 @@ class Home extends Component {
                         <div className="col-md-4">
                             <h2>Registrering</h2>
                             <i className="fa fa-user fa-4x iconz" aria-hidden="true"></i>
-                            <i className="fa fa-angle-right fa-3x" aria-hidden="true"></i>
+                            
 
 
                             <p className="vetlytext">Skapa ett konto för att boka ditt första veterinärmöte.</p>
@@ -96,7 +96,7 @@ class Home extends Component {
                         <div className="col-md-4">
                             <h2>Bokning</h2>
                             <i className="fa fa-calendar fa-4x iconz" aria-hidden="true"></i>
-                            <i className="fa fa-angle-right fa-3x" aria-hidden="true"></i>
+                            
 
 
                             <p className="vetlytext">

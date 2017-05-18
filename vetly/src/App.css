@@ -157,12 +157,13 @@ input[type=checkbox]:checked ~ label span:nth-child(3) {
 }
 
 @media (max-width: 1024px) {
-  .vetly_logo {
-  width:140px;
-  margin-left: 31%;
+  
+      .vetly_logo {
+          width:140px;
+          margin-left: 31%;
+    }
 
-
-}
+    
 
     .menu {
         position: absolute;
@@ -321,6 +322,8 @@ input[type=checkbox]:checked ~ label span:nth-child(3) {
 
 
 @media (max-width: 480px) {
+
+  
 
     .start-text {
       margin-top: -22% !important;
@@ -596,18 +599,12 @@ form button {
 }
 
 .fa-4x {
-  margin: -1% -4% 0 0;
   color:#57c2d4;
 }
 
 .arrow {
   float:right;
   margin-top:18px;
-}
-
-.fa-angle-right {
-  float:right;
-  color:#8fcb9b;
 }
 
 .aboutheading {
@@ -786,7 +783,7 @@ form button {
 
 }
 .col-md-4 p{
-    text-align:left !important;
+    text-align:center !important;
     margin-top: 5%;
 }
 .col-md-4 h2{
