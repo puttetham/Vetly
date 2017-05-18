@@ -84,29 +84,29 @@ class Home extends Component {
                             <i className="fa fa-user fa-4x iconz" aria-hidden="true"></i>
                             <i className="fa fa-angle-right fa-3x" aria-hidden="true"></i>
 
-                            
+
                             <p className="vetlytext">Skapa ett konto för att boka ditt första veterinärmöte.</p>
                         </div>
 
-              
-                        
-                        
 
-                        
+
+
+
+
                         <div className="col-md-4">
                             <h2>Bokning</h2>
                             <i className="fa fa-calendar fa-4x iconz" aria-hidden="true"></i>
                             <i className="fa fa-angle-right fa-3x" aria-hidden="true"></i>
 
-                            
+
                             <p className="vetlytext">
                             Fyll i information om din häst och beskriv ditt ärende när du bokar ditt videosamtal.
                             </p>
                         </div>
 
-                        
-                        
-                    
+
+
+
 
 
                         <div className="col-md-4">
@@ -226,7 +226,6 @@ class Home extends Component {
                 <ScrollableAnchor id={'vets'}>
                 <div className="vets">
                     <div className="row">
-
                         <center><h2 className="vetheading">Vetlys veterinärer</h2>
                         <p className="vettext">Vetly har legitimerade veterinärer med specialkompetens inom hästar. Vill du läsa mer om deras specialområden kan du klicka på tillhörande bild.
                           Veterinärerna är utbildade för att tillgodose dina behov på bästa möjliga sätt.</p>

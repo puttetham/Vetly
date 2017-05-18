@@ -363,6 +363,7 @@ input[type=checkbox]:checked ~ label span:nth-child(3) {
 
     .check-list li {
       padding:0 10px;
+      align-items: flex-end;
     }
 
     .check {
@@ -373,7 +374,6 @@ input[type=checkbox]:checked ~ label span:nth-child(3) {
       width: 100% !important;
       height: auto !important;
     }
-
 
 
 
@@ -714,14 +714,15 @@ form button {
 }
 
 .vettext {
-  margin: 0 auto;
+
   padding-top: 10px;
   letter-spacing: 1px;
   display: inline-block;
-  width: 60%;
+  width: 65%;
   font-size: 1.3em;
   line-height: 25px;
   color: #525259;
+  text-align: left;
 }
 
 .vettext2 {
