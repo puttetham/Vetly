@@ -12,7 +12,7 @@ import cal from './img/cal.jpg';
 import convo from './img/convo.jpg';
 import map from './img/map.jpg';
 import vetlylogo from './img/VETLYLOGO.png';
-import logo from './img/vetly_logo.png';
+import logo from './vetly_logo.png';
 import footerlogo from './img/vetly_logo_white.png';
 import computerimg from './img/btn_computer.png';
 import star from './img/star.png';

@@ -21,6 +21,8 @@ import horsebg from './img/horsebg.jpeg';
 
 
 
+
+
 class Home extends Component {
 
   render() {
