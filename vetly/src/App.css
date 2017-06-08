@@ -323,8 +323,8 @@ input[type=checkbox]:checked ~ label span:nth-child(3) {
 
 @media (max-width: 480px) {
 
-  
 
+    
     .start-text {
       margin-top: -22% !important;
     }
@@ -337,9 +337,11 @@ input[type=checkbox]:checked ~ label span:nth-child(3) {
       margin-left:-10px;
     }
 
-    nav label {
-      right: 5%;
-      top: 5%;
+ 
+
+    .services {
+      padding-left:30px;
+      padding-right:30px;
     }
 
     .about p {
@@ -352,6 +354,11 @@ input[type=checkbox]:checked ~ label span:nth-child(3) {
       width:100vw !important;
       height:50vh !important;
       border-radius: 0px !important;
+    }
+
+    .check-list {
+      padding-left:30px;
+      padding-right:30px;
     }
 
     .vettext {
@@ -378,6 +385,28 @@ input[type=checkbox]:checked ~ label span:nth-child(3) {
       height: auto !important;
     }
 
+    .start:after {
+      background: #e5e5ff !important;
+      height: 90vh !important;
+    }
+
+    .heading-start {
+      color:#525259 !important;
+      box-shadow:none;
+    }
+
+    .start-infotext {
+      color:#525259 !important;
+      width: 90%;
+      margin: auto;
+      margin-bottom: -40px;
+    }
+
+
+
+
+
+
 
 
 
@@ -388,7 +417,7 @@ input[type=checkbox]:checked ~ label span:nth-child(3) {
 
 
 .button {
-    background-color: #57c2d4;
+    background-color: #3b5998;
     border: none;
     color: white;
     padding: 6px 90px;
@@ -441,7 +470,6 @@ a.button {
   color:#fdfdfd;
   font-size:1.5em;
   margin-top:30px;
-  text-shadow: 1px 1px #222222;
 }
 
 .start-text {
@@ -455,7 +483,6 @@ a.button {
     font-size: 3.6em;
     text-transform: uppercase;
     font-weight:700;
-    text-shadow: 1px 1px #222222;
 
 }
 
@@ -463,9 +490,7 @@ a.button {
 .check {
     width:100vw;
     height:36vh;
-    background-color: #F2C45A;
-    /*border-radius: 15px;*/
-    margin-bottom: 4%;
+    background-color: #3b5998;
 }
 
 .check-heading {
@@ -474,14 +499,15 @@ a.button {
   line-height: 25px;
   font-family: 'Lato', sans-serif;
   color: #FFF;
-  padding-top: 50px;
+  padding-top: 65px;
   margin-bottom:30px;
 }
 
 
 .check-list {
+    width: 35%;
     list-style: none;
-    margin: 0;
+    margin: 0 auto;
 }
 
 .check-list li {
@@ -490,8 +516,9 @@ a.button {
     font-weight: 500;
     color: #FFF;
     line-height:25px;
-    margin-top:10px;
+    margin-bottom: 10px;
     letter-spacing: 1px;
+    text-align: justify;
 }
 
 .check-list li .icon {
@@ -586,7 +613,8 @@ form button {
 
 .services{
     width:100vw;
-    height:65vh;
+    height:60vh;
+    padding-top: 4%;
 }
 
 /*.iconz {
@@ -599,7 +627,7 @@ form button {
 }
 
 .fa-4x {
-  color:#57c2d4;
+  color:#3b5998;
 }
 
 .arrow {
@@ -610,8 +638,6 @@ form button {
 .aboutheading {
   font-weight: bold;
   letter-spacing: 1px;
-  text-decoration: underline;
-  text-decoration-color: #8FCB9B;
 }
 
 .qoutetext {
@@ -626,8 +652,6 @@ form button {
 .vetlyheading {
   font-weight: bold;
   letter-spacing: 1px;
-  text-decoration: underline;
-  text-decoration-color: #F2C45A;
 }
 
 .vetlytext {
@@ -644,7 +668,7 @@ form button {
 
 .buttoncontainer {
   padding: 12vh 0;
-  background-color: #8FCB9B;
+  background-color: #3b5998;
 }
 
 .bookingtext {
@@ -655,13 +679,14 @@ form button {
 
 .buttoncontainer2 {
   padding: 12vh 0;
-  background-color: #488286;
+  background-color: #3b5998;
 }
 
 .booktext {
   font-family: 'Lato', sans-serif;
   font-size: 1.7em;
   margin-top: -3vh;
+  color: #FFF;
 }
 
 .textcar {
@@ -706,8 +731,6 @@ form button {
 .vetheading {
   font-weight: bold;
   letter-spacing: 1px;
-  text-decoration: underline;
-  text-decoration-color: #488286;
 }
 
 .vettext {
@@ -719,7 +742,7 @@ form button {
   font-size: 1.3em;
   line-height: 25px;
   color: #525259;
-  text-align: left;
+  text-align: center;
 }
 
 .vettext2 {
