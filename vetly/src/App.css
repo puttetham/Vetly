@@ -458,7 +458,7 @@ a.button {
     background-size: 100% 100%;
     /*background: -webkit-linear-gradient(left, #57c2d4, #4674a6);*/
     padding:10%;
-    opacity:1;
+    opacity:0.8;
     content : "";
     position: absolute;
     z-index:-1;
@@ -480,8 +480,7 @@ a.button {
 
 .heading-start {
     color: #fdfdfd;
-    font-size: 3.6em;
-    text-transform: uppercase;
+    font-size: 5em;
     font-weight:700;
 
 }

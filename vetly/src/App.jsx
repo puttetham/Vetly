@@ -13,7 +13,7 @@ import convo from './img/convo.jpg';
 import map from './img/map.jpg';
 import vetlylogo from './img/VETLYLOGO.png';
 import logo from './vetly_logo.png';
-import footerlogo from './img/vetly_logo_white.png';
+import footerlogo from './vetly_logo_white.png';
 import computerimg from './img/btn_computer.png';
 import star from './img/star.png';
 import Form from './form.jsx';
