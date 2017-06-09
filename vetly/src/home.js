@@ -129,11 +129,13 @@ class Home extends Component {
 
                   <div className="check">
                     <h2 className="check-heading">Upptäck fördelen med digital veterinärvård</h2>
+              
                       <ul className="check-list">
-                        <li>Träffa en legitimerad veterinär vart du än befinner dig</li>
-                        <li>Slipp långa väntetider och få hjälp även kvälllar och helger</li>
-                        <li>Boka tid snabbt och enkelt via din mobiltelefon</li>
+                        <li><p>Träffa en legitimerad veterinär vart du än befinner dig</p></li>
+                        <li><p>Slipp långa väntetider och få hjälp även kvälllar och helger</p></li>
+                        <li><p>Boka tid snabbt och enkelt via din mobiltelefon</p></li>
                       </ul>
+                    
                   </div>
 
                   </center>

@@ -490,6 +490,7 @@ a.button {
     width:100vw;
     height:36vh;
     background-color: #3b5998;
+    text-align: center;
 }
 
 .check-heading {
@@ -504,9 +505,9 @@ a.button {
 
 
 .check-list {
-    width: 35%;
     list-style: none;
-    margin: 0 auto;
+    margin: 0;
+    padding: 0;
 }
 
 .check-list li {
@@ -517,7 +518,12 @@ a.button {
     line-height:25px;
     margin-bottom: 10px;
     letter-spacing: 1px;
-    text-align: justify;
+}
+
+.check-list p {
+  display: inline-block;
+  margin: 0 auto;
+  text-align: center;
 }
 
 .check-list li .icon {
