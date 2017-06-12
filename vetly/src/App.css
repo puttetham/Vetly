@@ -346,7 +346,7 @@ input[type=checkbox]:checked ~ label span:nth-child(3) {
 
     .check {
       width:100vw !important;
-      height:50vh !important;
+      height:60vh !important;
       border-radius: 0px !important;
     }
 
@@ -394,6 +394,10 @@ input[type=checkbox]:checked ~ label span:nth-child(3) {
       width: 90%;
       margin: auto;
       margin-bottom: -40px;
+    }
+
+    .customers {
+      padding-top:5% !important;
     }
 
 }
